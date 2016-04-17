@@ -1,4 +1,4 @@
-Data transformation process:
+Конвейер трансформации данных:
 
     +--------+    +---------+    +---------+
     | Order  |--->| Fetch   |--->| Parse   |--->
@@ -12,14 +12,17 @@ Data transformation process:
     | Read   |--->| Build   |--->| Render  |
     +--------+    +---------+    +---------+    
 
-* 001 - Order - construct URLs, may need seed page
-* 002 - Fetch - get the page with data
-* 003 - Parse - extract data from the page
 
-* 004 - Map   - extract meaningful data fields
-* 005 - Norm  - normalize fields into common format
-* 006 - Export - save in target format
+* 001 - Order - подготовка списка ссылок
+* 002 - Fetch - получение страничек
+* 003 - Parse - извлечение данных из содержимого
 
-* 007 - Read  - read open data set
-* 008 - Build - process the data
-* 009 - Render - make it beautiful
+
+* 004 - Map   - привязка данных к полям
+* 005 - Norm  - приведений к нормальному виду
+* 006 - Export - экспорт в нужный формат датасета
+
+
+* 007 - Read  - чтение машиночитабельного датасета
+* 008 - Build - обработка датасета
+* 009 - Render - визуализация
