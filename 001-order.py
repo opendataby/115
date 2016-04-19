@@ -26,6 +26,9 @@ def get_cur_month(content):
   remonth = re.compile('name="month-filter" value="(\d\d\d\d-\d\d-\d\d)" checked="checked"')
   return remonth.findall(content)[0]
 
+def get_token(content):
+  return re.findall('_token"\s+value="(\w+)"', content)[0]
+
 
 if __name__ == '__main__':
     # http://115.бел/map
@@ -40,3 +43,12 @@ if __name__ == '__main__':
     print('current month: ' + curmon)
     print('all months: ' + ', '.join(months))
     print('all months: ' + ', '.join(months))
+
+    token = get_token(content)
+
+    apiurl = 'http://115.xn--90ais/api/problem/getlist'
+    params = 'date={}&_token={}'.format(curmon, token)
+    data = urllib.urlopen(apiurl, 'date='+curmon).read()
+    with open(curmon, 'wb') as fw:
+        fw.write(data)
+
