@@ -16,18 +16,28 @@ import urllib
 # http://115.бел/map
 URL = 'http://115.xn--90ais/map'
 
-def get_page_contents(url, cachefile, force=False):
+
+def rewrite(filename, content):
+    with open(filename, 'wb') as fd:
+        fd.write(content)
+        print('saved %s' % fd.name)
+
+def get_page(url, cachefile, force=False):
     """
-    Fetch page from URL if local cachefile does not exist
+    Fetch page and cookie from URL if local cachefile does not exist
     """
     if os.path.exists(cachefile) and not force:
-        return open(cachefile, 'rb').read()
+        with open(cachefile, 'rb') as fc:
+            cookie = fc.readline().strip()
+            return fc.read(), cookie
     else:
         req = urllib.urlopen(url)
+        for line in str(req.headers).splitlines():
+            if line.startswith('Set-Cookie'):
+                cookie = line.split(': ', 1)[1]
         output = req.read()
-        with open(cachefile, 'wb') as fw:
-            fw.write(output)
-        return output
+        rewrite(cachefile, cookie+'\n'+output)
+        return output, cookie
 
 def escape2unicode(string):
     """
@@ -49,22 +59,24 @@ def get_token(content):
 
 
 if __name__ == '__main__':
-    content = get_page_contents(URL, '001-in-seed.txt')
+    content, cookie = get_page(URL, '001-in-seed.txt')
 
     months = get_months(content)
     curmon = get_cur_month(content)
     rest = list(months)
     rest.remove(curmon)
 
-    with open('001-out-months.txt', 'wb') as fm:
-        fm.write('\n'.join(months))
-        print('saved %s' % fm.name)
-
+    # next step is fetch, which needs token, laravel_session cookie
+    # and list of months
     token = get_token(content)
+    rewrite('002-in-creds.txt', cookie+'\n'+token+'\n'+'\n'.join(months))
 
     apiurl = 'http://115.xn--90ais/api/problem/getlist'
     params = 'date={}&_token={}'.format(curmon, token)
-    stream = urllib.urlopen(apiurl, params)
+    opener = urllib.FancyURLopener()
+    opener.addheader('Cookie', cookie)
+    stream = opener.open(apiurl, params)
+    
     data = stream.read()
     with open(curmon, 'wb') as fw:
         fw.write(escape2unicode(data))
