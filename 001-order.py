@@ -1,9 +1,20 @@
 # -*- coding: utf-8 -*-
+"""
+Инструментарий по скрейпингу/парсингу на примере 115.бел
+на чистом Python. 115.бел не open source, PHP + Laravel.
+
+Для городской панели и не только
+https://github.com/opendataby/city-dashboard/issues/53
+
+"""
 
 import os
 import re
 import urllib
 
+
+# http://115.бел/map
+URL = 'http://115.xn--90ais/map'
 
 def get_page_contents(url, cachefile, force=False):
     """
@@ -12,7 +23,8 @@ def get_page_contents(url, cachefile, force=False):
     if os.path.exists(cachefile) and not force:
         return open(cachefile, 'rb').read()
     else:
-        output = urllib.urlopen(url).read()
+        req = urllib.urlopen(url)
+        output = req.read()
         with open(cachefile, 'wb') as fw:
             fw.write(output)
         return output
@@ -31,9 +43,7 @@ def get_token(content):
 
 
 if __name__ == '__main__':
-    # http://115.бел/map
-    url = 'http://115.xn--90ais/map'
-    content = get_page_contents(url, '001-seed.txt')
+    content = get_page_contents(URL, '001-seed.txt')
 
     months = get_months(content)
     curmon = get_cur_month(content)
@@ -42,13 +52,12 @@ if __name__ == '__main__':
 
     print('current month: ' + curmon)
     print('all months: ' + ', '.join(months))
-    print('all months: ' + ', '.join(months))
 
     token = get_token(content)
 
     apiurl = 'http://115.xn--90ais/api/problem/getlist'
     params = 'date={}&_token={}'.format(curmon, token)
-    data = urllib.urlopen(apiurl, 'date='+curmon).read()
+    stream = urllib.urlopen(apiurl, params)
+    data = stream.read()
     with open(curmon, 'wb') as fw:
         fw.write(data)
-

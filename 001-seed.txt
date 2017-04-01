@@ -3,11 +3,11 @@
   <head>
     
 
-    <meta charset="utf-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>115.бел</title>
-    <link rel="shortcut icon"  href="/favicon.ico"/>
-    <link rel="stylesheet"  href="/assets/css/common.css"/>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/assets/css/common.css">
     
 
   </head>
@@ -15,12 +15,12 @@
     
 
     <div class="b-modal">
-      <input type="hidden" name="_token"  value="rlf6ROy1tJtsnfo7miY07gYeTi17MKADfNNWnc8U"/>
+      <input type="hidden" name="_token"  value="Txx0eWrv4D3dVTUV4WlrgBVoCUL09g6e58rze1aE">
       
 
       
 <div data-box="login" class="b-popUp-login _popUp">
-        <div class="b-popUp-preloader"><img  src="/assets/img/preloader.gif" class="b-popUp-preloader__i"/></div>
+        <div class="b-popUp-preloader"><img src="/assets/img/preloader.gif" class="b-popUp-preloader__i"/></div>
         <div class="b-popUp-head">
           <p class="b-popUp-head__title"><strong>С возвращением!</strong></p>
           <div class="b-popUp-head__close b-svg-ico">
@@ -30,19 +30,19 @@
           </div>
         </div>
         <div class="b-popUp-login__main">
-          <form  action="/api/user/login">
+          <form action="/api/user/login">
             <div class="b-input-box">
               <div class="b-input-box__error _hidden"><span>Поле должно быть заполнено</span></div>
               <div class="b-input">
                 <div class="b-input__desc">E-mail</div>
                 <div class="b-input__itm _login">
-                  <input required="" type="text" name="email" maxlength="255" class="l-input _email"/>
+                  <input required="" type="text" name="email" maxlength="255" class="l-input _email">
                 </div>
               </div>
               <div class="b-input">
                 <div class="b-input__desc">Пароль</div>
                 <div class="b-input__itm _login">
-                  <input required="" type="password" name="password" maxlength="250" class="l-input _password"/>
+                  <input required="" type="password" name="password" maxlength="250" class="l-input _password">
                 </div>
               </div>
             </div>
@@ -61,6 +61,8 @@
         </div>
       </div>
       
+      
+
       
 <div data-box="froce-login" class="b-popUp-froce-login _popUp">
         <div class="b-popUp-preloader"><img  src="/assets/img/preloader.gif" class="b-popUp-preloader__i"/></div>
@@ -106,8 +108,10 @@
       </div>
       
       
+
+      
 <div data-box="registr" class="b-popUp-registr _popUp">
-        <div class="b-popUp-preloader"><img  src="/assets/img/preloader.gif" class="b-popUp-preloader__i"/></div>
+        <div class="b-popUp-preloader"><img src="/assets/img/preloader.gif" class="b-popUp-preloader__i"/></div>
         <div class="b-popUp-head _registr">
           <p class="b-popUp-head__title _registr"><strong>Регистрация</strong> на портале</p>
           <div class="b-popUp-head__close b-svg-ico">
@@ -121,7 +125,7 @@
             <div class="b-input">
               <div class="b-input__desc">E-mail</div>
               <div class="b-input__itm b-input-box">
-                <input required="" type="text" name="email" maxlength="255" class="l-input _email"/>
+                <input required="" type="text" name="email" maxlength="255" class="l-input _email">
                 <div class="b-input__itm__error _right _hidden"><span>Поле не заполнено</span></div>
               </div>
               <div class="b-input__required">Сюда будет отправлено письмо с кодом активации аккаунта</div>
@@ -129,7 +133,7 @@
             <div class="b-input">
               <div class="b-input__desc">Пароль</div>
               <div class="b-input__itm b-input-box">
-                <input required="" type="password" name="password" maxlength="250" class="l-input _password"/>
+                <input required="" type="password" name="password" maxlength="250" class="l-input _password">
                 <div class="b-input__itm__error _right _hidden"><span>Введенные пароли не совпадают, а должны...</span></div>
               </div>
               <div class="b-input__required">Не менее 6 символов</div>
@@ -137,7 +141,7 @@
             <div class="b-input _gap">
               <div class="b-input__desc">Повторите</div>
               <div class="b-input__itm b-input-box">
-                <input required="" type="password" name="password-rep" maxlength="250" class="l-input _password"/>
+                <input required="" type="password" name="password-rep" maxlength="250" class="l-input _password">
                 <div class="b-input__itm__error _right _hidden"><span>Поле не заполнено</span></div>
               </div>
               <div class="b-input__required"></div>
@@ -145,7 +149,7 @@
             <div class="b-input">
               <div class="b-input__desc">Фамилия</div>
               <div class="b-input__itm b-input-box">
-                <input required="" type="text" name="last_name" maxlength="250" class="l-input _last-name"/>
+                <input required="" type="text" name="last_name" maxlength="250" class="l-input _last-name">
                 <div class="b-input__itm__error _right _hidden"><span>Поле не заполнено</span></div>
               </div>
               <div class="b-input__required"></div>
@@ -153,7 +157,7 @@
             <div class="b-input">
               <div class="b-input__desc">Имя</div>
               <div class="b-input__itm b-input-box">
-                <input required="" type="text" name="name" maxlength="250" class="l-input _name"/>
+                <input required="" type="text" name="name" maxlength="250" class="l-input _name">
                 <div class="b-input__itm__error _right _hidden"><span>Поле не заполнено</span></div>
               </div>
               <div class="b-input__required"></div>
@@ -161,7 +165,7 @@
             <div class="b-input">
               <div class="b-input__desc">Отчество</div>
               <div class="b-input__itm b-input-box">
-                <input type="text" name="middle_name" maxlength="250" class="l-input _name"/>
+                <input type="text" name="middle_name" maxlength="250" class="l-input _name">
                 <div class="b-input__itm__error _right _hidden"><span>Поле не заполнено</span></div>
               </div>
               <div class="b-input__required">Необязательно</div>
@@ -169,7 +173,7 @@
             <div class="b-input">
               <div class="b-input__desc">Телефон</div>
               <div class="b-input__itm b-input-box">
-                <input type="tel" name="tel" class="l-input _phone"/>
+                <input type="tel" name="tel" class="l-input _phone">
                 <div class="b-input__itm__error _right _hidden"><span>Поле не заполнено</span></div>
               </div>
               <div class="b-input__required">Необязательно. Используется для связи с Вами</div>
@@ -192,16 +196,16 @@
                 <label class="download-file">
                   <div class="b-input__itm__avatar b-download">
                     <div class="b-input__itm__avatar__pic b-download-pic">
-                      <div class="b-download-pic__remove"><img  src="/assets/img/remove.png" class="b-download-pic__remove__ico"/><span class="b-download-pic__remove__text">Удалить</span></div>
+                      <div class="b-download-pic__remove"><img  src="/assets/img/remove.png" class="b-download-pic__remove__ico"><span class="b-download-pic__remove__text">Удалить</span></div>
                     </div>
                   </div>
                   <div class="b-input__itm__avatar__link">
                     <div class="b-input__itm__error _right _hidden"><span>Поле не заполнено</span></div><span class="b-input__itm__avatar__link__desc">Загрузите аватар</span>
                   </div>
-                  <input type="file" name="avatar" class="l-input _avatar"/>
+                  <input type="file" name="avatar" class="l-input _avatar">
                 </label>
               </div>
-              <div class="b-input__required">JPG, PNG и не более 2 Mb<br/>Необязательно</div>
+              <div class="b-input__required">JPG, PNG и не более 2 Mb<br>Необязательно</div>
             </div>
             <div class="b-input _manage">
               <div class="l-checkbox _agree _agreement">
@@ -225,8 +229,10 @@
       </div>
       
       
+
+      
 <div data-box="recover" class="b-popUp-recover _popUp">
-        <div class="b-popUp-preloader"><img  src="/assets/img/preloader.gif" class="b-popUp-preloader__i"/></div>
+        <div class="b-popUp-preloader"><img src="/assets/img/preloader.gif" class="b-popUp-preloader__i"/></div>
         <div class="b-popUp-head">
           <p class="b-popUp-head__title"><strong>Восстановление</strong> пароля</p>
           <div class="b-popUp-head__close b-svg-ico">
@@ -236,11 +242,11 @@
           </div>
         </div>
         <div class="b-popUp-recover__main">
-          <form  action="/api/user/recover_pass/send_mail">
+          <form action="/api/user/recover_pass/send_mail">
             <div class="b-input b-input-box">
               <div class="b-input__desc">E-mail</div>
               <div class="b-input__itm">
-                <input required="" type="text" name="email" maxlength="255" class="l-input _email"/>
+                <input required="" type="text" name="email" maxlength="255" class="l-input _email">
                 <div class="b-input__itm__error _top _hidden"><span>Поле не заполнено.</span></div>
               </div>
               <div class="b-input__required">Введите e-mail, который вы указали при регистрации.</div>
@@ -253,6 +259,8 @@
       </div>
       
       
+
+      
 <div data-box="recover-finish" class="b-popUp-recover-finish _popUp">
         <div class="b-popUp-head__close"></div>
         <div class="b-popUp-recover-finish__main">
@@ -262,8 +270,10 @@
       </div>
       
       
+
+      
 <div data-box="change-pass" class="b-popUp-change-pass _popUp">
-        <div class="b-popUp-preloader"><img  src="/assets/img/preloader.gif" class="b-popUp-preloader__i"/></div>
+        <div class="b-popUp-preloader"><img src="/assets/img/preloader.gif" class="b-popUp-preloader__i"/></div>
         <div class="b-popUp-head">
           <p class="b-popUp-head__title"><strong>Пароль</strong> Изменен</p>
           <div class="b-popUp-head__close b-svg-ico">
@@ -279,8 +289,10 @@
       </div>
       
       
+
+      
 <div data-box="registr-finish" class="b-popUp-registr-finish _popUp">
-        <div class="b-popUp-preloader"><img  src="/assets/img/preloader.gif" class="b-popUp-preloader__i"/></div>
+        <div class="b-popUp-preloader"><img src="/assets/img/preloader.gif" class="b-popUp-preloader__i"/></div>
         <div class="b-popUp-head">
           <p class="b-popUp-head__title"><strong>Еще чуть-чуть</strong></p>
           <div class="b-popUp-head__close b-svg-ico">
@@ -290,14 +302,16 @@
           </div>
         </div>
         <div class="b-popUp-registr-finish__main">
-          <p class="b-popUp-registr-finish__main__text"><span>На указанный вами e-mail</span> было отправлено письмо с уникальной ссылкой. Перейдите по ней и вы завершите регистрацию.</p>
+          <p class="b-popUp-registr-finish__main__text"><span>На указанный вами e-mail</span>&nbsp;было отправлено письмо с уникальной ссылкой. Перейдите по ней и вы завершите регистрацию.</p>
           <button data-event="" class="l-button _small _green _fine">Я понял(а)</button>
         </div>
       </div>
       
       
+
+      
 <div data-box="problem-finish" class="b-popUp-problem-finish _popUp">
-        <div class="b-popUp-preloader"><img  src="/assets/img/preloader.gif" class="b-popUp-preloader__i"/></div>
+        <div class="b-popUp-preloader"><img src="/assets/img/preloader.gif" class="b-popUp-preloader__i"/></div>
         <div class="b-popUp-head">
           <p class="b-popUp-head__title"><strong>спасибо</strong> За сообщение</p>
           <div class="b-popUp-head__close b-svg-ico">
@@ -307,14 +321,19 @@
           </div>
         </div>
         <div class="b-popUp-problem-finish__main">
-          <p class="b-popUp-problem-finish__main__text">Ваше сообщение отправлено на модерацию.<br/>Это займет не более 24 часов</p>
+          <p class="b-popUp-problem-finish__main__text">
+            
+            Ваше сообщение отправлено на модерацию.<br>Это займет не более 24 часов
+          </p>
           <button data-event="" class="l-button _small _green _fine">Хорошо</button>
         </div>
       </div>
       
       
+
+      
 <div data-box="problem" class="b-popUp-problem _popUp">
-        <div class="b-popUp-preloader"><img  src="/assets/img/preloader.gif" class="b-popUp-preloader__i"/></div>
+        <div class="b-popUp-preloader"><img src="/assets/img/preloader.gif" class="b-popUp-preloader__i"/></div>
         <div class="b-popUp-head _problem">
           <p class="b-popUp-head__title _problem"><strong>Сообщить</strong> о проблеме</p>
           <div class="b-popUp-head__close b-svg-ico">
@@ -325,7 +344,7 @@
         </div>
         <div class="b-popUp-problem__main">
           <div class="b-problem-inp">
-            <input placeholder="Сформулируйте суть проблемы" maxlength="100" class="b-problem-inp__itm"/>
+            <input placeholder="Сформулируйте суть проблемы" autocomplete="off" maxlength="100" class="b-problem-inp__itm">
             <div class="b-problem-inp__output">
               <div class="scroll-pane"></div>
             </div>
@@ -340,170 +359,54 @@
               
 
               <div class="b-problem">
-                <div class="b-problem__itm">
-                  
-<span class="b-problem__itm__text" data-icon="6" data-id="6"><span class="b-problem__itm__text__ico b-svg-ico"><svg version="1.1" viewBox="0 0 25 25"><g id="Layer_2"><g><path d="M17.2,4.6l4.3,18.5h2.1L18.5,2.8H6.9L1.4,23.1h2.1L7.8,4.6h1v13.9H6v2.8h13v-2.8h-2.8V4.6H17.2z M14.4,18.5h-3.7V4.6h3.7 V18.5z"/></g></g></svg></span>Дворовые территории | Благоустройство территории</span>
-
-                  
-
-                </div>
+                <div class="b-problem__itm"><span data-icon="6" data-id="6" class="b-problem__itm__text"><span class="b-problem__itm__text__ico b-svg-ico"><svg version="1.1" viewBox="0 0 25 25"><g id="Layer_2"><g><path d="M17.2,4.6l4.3,18.5h2.1L18.5,2.8H6.9L1.4,23.1h2.1L7.8,4.6h1v13.9H6v2.8h13v-2.8h-2.8V4.6H17.2z M14.4,18.5h-3.7V4.6h3.7 V18.5z"/></g></g></svg></span>Дворовые территории | Благоустройство территории</span></div>
                 <div class="b-problem__desc">
                   <ul class="b-problem__desc__list">
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="25" data-icon="6" data-parent="6">Брошенные автомобили</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="25" data-icon="6" data-parent="6" class="b-problem__desc__list__itm__link">Брошенные автомобили</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="26" data-icon="6" data-parent="6">Наличие выбоин и ям на проезжей части двора</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="371" data-icon="6" data-parent="6" class="b-problem__desc__list__itm__link">Отсутствие дворового освещения</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="27" data-icon="6" data-parent="6">Требуется подрезка деревьев (кустарников)</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="26" data-icon="6" data-parent="6" class="b-problem__desc__list__itm__link">Наличие выбоин и ям на проезжей части двора</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="28" data-icon="6" data-parent="6">Требуется ремонт оборудования и площадок для выгула домашних животных</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="27" data-icon="6" data-parent="6" class="b-problem__desc__list__itm__link">Обрезка, посадка, и снос деревьев и кустарников</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="29" data-icon="6" data-parent="6">Требуется ремонт оборудования детской игровой, спортивной или хозяйственной площадки</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="28" data-icon="6" data-parent="6" class="b-problem__desc__list__itm__link">Состояние площадок для выгула домашних животных</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="30" data-icon="6" data-parent="6">Требуется ремонт малых архитектурных форм (скамеек, урн, цветочниц, беседок и др.)</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="29" data-icon="6" data-parent="6" class="b-problem__desc__list__itm__link">Содержание и техническое состояние оборудования детской площадки</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="31" data-icon="6" data-parent="6">Отсутствие урн в положенных местах</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="30" data-icon="6" data-parent="6" class="b-problem__desc__list__itm__link">Наличие и техническое состояние скамеек, урн, цветочниц, беседок и др.</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="32" data-icon="6" data-parent="6">Наличие просадки грунта</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="33" data-icon="6" data-parent="6" class="b-problem__desc__list__itm__link">Техническое состояние контейнеров для сбора отходов</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="33" data-icon="6" data-parent="6">Требуется ремонт (замена) контейнеров для сбора отходов</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="34" data-icon="6" data-parent="6" class="b-problem__desc__list__itm__link">состояние ограждения контейнерной площадки</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="34" data-icon="6" data-parent="6">Требуется ремонт (замена) ограждения контейнерной площадки</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="36" data-icon="6" data-parent="6" class="b-problem__desc__list__itm__link">Содержание пешеходных лестниц</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="35" data-icon="6" data-parent="6">Требуется снос дерева</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="37" data-icon="6" data-parent="6" class="b-problem__desc__list__itm__link">Техническое  состояние покрытий пешеходных дорожек, парковок</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="36" data-icon="6" data-parent="6">Требуется ремонт наружной лестницы</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="38" data-icon="6" data-parent="6" class="b-problem__desc__list__itm__link">Содержание песочниц и наличие в них песка</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="37" data-icon="6" data-parent="6">Требуется ремонт покрытия пешеходной дорожки, площадки, парковки</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="324" data-icon="6" data-parent="6" class="b-problem__desc__list__itm__link">Требуется ремонт (установка) ограждения</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="38" data-icon="6" data-parent="6">Требуется завоз (замена) песка в песочницу</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="370" data-icon="6" data-parent="6" class="b-problem__desc__list__itm__link">Наличие просадки грунта вокруг технических колодцев</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="324" data-icon="6" data-parent="6">Требуется ремонт (установка) ограждения</a>
-
-                      
-
-                    </li>
-                    
-
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="370" data-icon="6" data-parent="6">Наличие просадки усовершенствованных покрытий (в т.ч. вокруг канализационных  колодцев)</a>
-
-                      
-
-                    </li>
-                    
-
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="325" data-icon="6" data-parent="6">Иное</a>
-
-                      
-
-                    </li>
-                    
-
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="325" data-icon="6" data-parent="6" class="b-problem__desc__list__itm__link">Иное</a></li>
                     
 
                   </ul>
@@ -516,98 +419,36 @@
               
 
               <div class="b-problem">
-                <div class="b-problem__itm">
-                  
-<span class="b-problem__itm__text" data-icon="7" data-id="7"><span class="b-problem__itm__text__ico b-svg-ico"><svg version="1.1" viewBox="0 0 50 50"><g><g><path d="M33.3,17.1c-4,0-7.5,3.2-9.4,6.7c1,0.2,18.3,5.3,18.4,5.3c0.2-0.7,0-1.9,0-2.6C42.2,20.4,39.2,17.1,33.3,17.1z M47.1,2.2 c-0.4-0.8-1.1-1.4-1.9-1.7l-0.5-0.2c-0.4-0.1-0.7-0.2-1.1-0.2c-1.5,0-2.8,0.9-3.3,2.3l-5.9,10.5c0,0.1,0,0.2,0,0.2 c0,0.1,0.1,0.1,0.2,0.1l0.2,0c2.3,0.1,4.8,1,6.3,2.6c0.1,0.1,0.1,0.1,0.2,0c0.1,0,0.1-0.1,0.2-0.1l5.8-10.9 C47.6,3.9,47.5,3,47.1,2.2z M21.2,26.4C17.4,32,8.7,43.4,2.9,49.6c-0.1,0.1-0.1,0.2,0,0.3C2.9,49.9,2.9,50,3,50c0,0,4.9-0.1,5,0 l13.1-10.5c0,0-7.8,10.4-7.9,10.5c0-0.1,5.3,0,5.3,0c0,0.1,7.6-7.6,7.9-7.9c-0.1,0.1-0.4,0.6,0,0c0,0-2.7,7.9-2.6,7.9h5.3 c0.1-0.1,7.9-10.5,7.9-10.5S34.3,50.1,34.3,50c0.2,0,5.2,0,5.2,0c0.3,0,2.8-18.5,2.7-18.4C42.3,31.6,21.2,26.4,21.2,26.4z"/></g></g></svg></span>Дворовые территории | Санитарное состояние</span>
-
-                  
-
-                </div>
+                <div class="b-problem__itm"><span data-icon="7" data-id="7" class="b-problem__itm__text"><span class="b-problem__itm__text__ico b-svg-ico"><svg version="1.1" viewBox="0 0 50 50"><g><g><path d="M33.3,17.1c-4,0-7.5,3.2-9.4,6.7c1,0.2,18.3,5.3,18.4,5.3c0.2-0.7,0-1.9,0-2.6C42.2,20.4,39.2,17.1,33.3,17.1z M47.1,2.2 c-0.4-0.8-1.1-1.4-1.9-1.7l-0.5-0.2c-0.4-0.1-0.7-0.2-1.1-0.2c-1.5,0-2.8,0.9-3.3,2.3l-5.9,10.5c0,0.1,0,0.2,0,0.2 c0,0.1,0.1,0.1,0.2,0.1l0.2,0c2.3,0.1,4.8,1,6.3,2.6c0.1,0.1,0.1,0.1,0.2,0c0.1,0,0.1-0.1,0.2-0.1l5.8-10.9 C47.6,3.9,47.5,3,47.1,2.2z M21.2,26.4C17.4,32,8.7,43.4,2.9,49.6c-0.1,0.1-0.1,0.2,0,0.3C2.9,49.9,2.9,50,3,50c0,0,4.9-0.1,5,0 l13.1-10.5c0,0-7.8,10.4-7.9,10.5c0-0.1,5.3,0,5.3,0c0,0.1,7.6-7.6,7.9-7.9c-0.1,0.1-0.4,0.6,0,0c0,0-2.7,7.9-2.6,7.9h5.3 c0.1-0.1,7.9-10.5,7.9-10.5S34.3,50.1,34.3,50c0.2,0,5.2,0,5.2,0c0.3,0,2.8-18.5,2.7-18.4C42.3,31.6,21.2,26.4,21.2,26.4z"/></g></g></svg></span>Дворовые территории | Санитарное состояние</span></div>
                 <div class="b-problem__desc">
                   <ul class="b-problem__desc__list">
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="40" data-icon="7" data-parent="7">Не убрана дворовая территория</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="40" data-icon="7" data-parent="7" class="b-problem__desc__list__itm__link">Не убрана дворовая территория</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="41" data-icon="7" data-parent="7">Не вывезены контейнеры с твердыми коммунальными отходами (вторичными материальными ресурсами)</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="41" data-icon="7" data-parent="7" class="b-problem__desc__list__itm__link">Не вывезены контейнеры с твердыми коммунальными отходами</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="42" data-icon="7" data-parent="7">Не убрана контейнерная площадка</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="42" data-icon="7" data-parent="7" class="b-problem__desc__list__itm__link">Не убрана контейнерная площадка</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="43" data-icon="7" data-parent="7">Не выполнена противогололедная обработка</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="43" data-icon="7" data-parent="7" class="b-problem__desc__list__itm__link">Не выполнена противогололедная обработка</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="44" data-icon="7" data-parent="7">Наличие безнадзорных животных на территории</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="44" data-icon="7" data-parent="7" class="b-problem__desc__list__itm__link">Наличие безнадзорных животных на территории</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="45" data-icon="7" data-parent="7">Не вывезен крупногабаритный мусор</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="45" data-icon="7" data-parent="7" class="b-problem__desc__list__itm__link">Не вывезен крупногабаритный мусор</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="46" data-icon="7" data-parent="7">Не скошен газон</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="46" data-icon="7" data-parent="7" class="b-problem__desc__list__itm__link">Не скошен газон</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="47" data-icon="7" data-parent="7">Не очищены урны</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="47" data-icon="7" data-parent="7" class="b-problem__desc__list__itm__link">Не очищены урны</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="48" data-icon="7" data-parent="7">Иное</a>
-
-                      
-
-                    </li>
-                    
-
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="48" data-icon="7" data-parent="7" class="b-problem__desc__list__itm__link">Иное</a></li>
                     
 
                   </ul>
@@ -620,71 +461,30 @@
               
 
               <div class="b-problem">
-                <div class="b-problem__itm">
-                  
-<span class="b-problem__itm__text" data-icon="9" data-id="9"><span class="b-problem__itm__text__ico b-svg-ico"><svg version="1.1" viewBox="0 0 25 25"><g id="Layer_1_1_"><path d="M21.9,0h1.8v25h-1.8V0z"/><path d="M11.6,0v25h9.3V0H11.6z M14.4,23.1h-1.9v-1.9h1.9V23.1z M14.4,20.4h-1.9v-1.9h1.9V20.4z M14.4,17.6h-1.9v-1.9h1.9V17.6z M14.4,14.8h-1.9V13h1.9V14.8z M14.4,12h-1.9v-1.9h1.9V12z M14.4,9.3h-1.9V7.4h1.9V9.3z M14.4,6.5h-1.9V4.6h1.9V6.5z M14.4,3.7 h-1.9V1.9h1.9V3.7z M17.1,23.1h-1.9v-1.9h1.9V23.1z M17.1,20.4h-1.9v-1.9h1.9V20.4z M17.1,17.6h-1.9v-1.9h1.9V17.6z M17.1,14.8 h-1.9V13h1.9V14.8z M17.1,12h-1.9v-1.9h1.9V12z M17.1,9.3h-1.9V7.4h1.9V9.3z M17.1,6.5h-1.9V4.6h1.9V6.5z M17.1,3.7h-1.9V1.9h1.9 V3.7z M19.9,23.1h-1.9v-1.9h1.9V23.1z M19.9,20.4h-1.9v-1.9h1.9V20.4z M19.9,17.6h-1.9v-1.9h1.9V17.6z M19.9,14.8h-1.9V13h1.9V14.8 z M19.9,12h-1.9v-1.9h1.9V12z M19.9,9.3h-1.9V7.4h1.9V9.3z M18.1,4.6h1.9v1.9h-1.9V4.6z M19.9,3.7h-1.9V1.9h1.9V3.7z"/><path display="none" d="M9,10.7h1.2v1.2H9V10.7z"/><line fill="none" x1="12.5" y1="13.9" x2="14.4" y2="13.9"/><path d="M1.4,13v12h9.3V5.6L1.4,13z M4.2,23.1H2.3v-1.9h1.9V23.1z M4.2,20.4H2.3v-1.9h1.9V20.4z M4.2,17.6H2.3v-1.9h1.9V17.6z M6.9,23.1H5.1v-1.9h1.9V23.1z M6.9,20.4H5.1v-1.9h1.9V20.4z M6.9,17.6H5.1v-1.9h1.9V17.6z M6.9,14.8H5.1V13h1.9V14.8z M9.7,23.1 H7.9v-1.9h1.9V23.1z M9.7,20.4H7.9v-1.9h1.9V20.4z M9.7,17.6H7.9v-1.9h1.9V17.6z M9.7,14.8H7.9V13h1.9V14.8z M9.7,12H7.9v-1.9h1.9 V12z"/></g></svg></span>Многоквартирные дома | Общие проблемы, неисправности, повреждения</span>
-
-                  
-
-                </div>
+                <div class="b-problem__itm"><span data-icon="9" data-id="9" class="b-problem__itm__text"><span class="b-problem__itm__text__ico b-svg-ico"><svg version="1.1" viewBox="0 0 25 25"><g id="Layer_1_1_"><path d="M21.9,0h1.8v25h-1.8V0z"/><path d="M11.6,0v25h9.3V0H11.6z M14.4,23.1h-1.9v-1.9h1.9V23.1z M14.4,20.4h-1.9v-1.9h1.9V20.4z M14.4,17.6h-1.9v-1.9h1.9V17.6z M14.4,14.8h-1.9V13h1.9V14.8z M14.4,12h-1.9v-1.9h1.9V12z M14.4,9.3h-1.9V7.4h1.9V9.3z M14.4,6.5h-1.9V4.6h1.9V6.5z M14.4,3.7 h-1.9V1.9h1.9V3.7z M17.1,23.1h-1.9v-1.9h1.9V23.1z M17.1,20.4h-1.9v-1.9h1.9V20.4z M17.1,17.6h-1.9v-1.9h1.9V17.6z M17.1,14.8 h-1.9V13h1.9V14.8z M17.1,12h-1.9v-1.9h1.9V12z M17.1,9.3h-1.9V7.4h1.9V9.3z M17.1,6.5h-1.9V4.6h1.9V6.5z M17.1,3.7h-1.9V1.9h1.9 V3.7z M19.9,23.1h-1.9v-1.9h1.9V23.1z M19.9,20.4h-1.9v-1.9h1.9V20.4z M19.9,17.6h-1.9v-1.9h1.9V17.6z M19.9,14.8h-1.9V13h1.9V14.8 z M19.9,12h-1.9v-1.9h1.9V12z M19.9,9.3h-1.9V7.4h1.9V9.3z M18.1,4.6h1.9v1.9h-1.9V4.6z M19.9,3.7h-1.9V1.9h1.9V3.7z"/><path display="none" d="M9,10.7h1.2v1.2H9V10.7z"/><line fill="none" x1="12.5" y1="13.9" x2="14.4" y2="13.9"/><path d="M1.4,13v12h9.3V5.6L1.4,13z M4.2,23.1H2.3v-1.9h1.9V23.1z M4.2,20.4H2.3v-1.9h1.9V20.4z M4.2,17.6H2.3v-1.9h1.9V17.6z M6.9,23.1H5.1v-1.9h1.9V23.1z M6.9,20.4H5.1v-1.9h1.9V20.4z M6.9,17.6H5.1v-1.9h1.9V17.6z M6.9,14.8H5.1V13h1.9V14.8z M9.7,23.1 H7.9v-1.9h1.9V23.1z M9.7,20.4H7.9v-1.9h1.9V20.4z M9.7,17.6H7.9v-1.9h1.9V17.6z M9.7,14.8H7.9V13h1.9V14.8z M9.7,12H7.9v-1.9h1.9 V12z"/></g></svg></span>Многоквартирные дома | Общие проблемы, неисправности, повреждения</span></div>
                 <div class="b-problem__desc">
                   <ul class="b-problem__desc__list">
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="52" data-icon="9" data-parent="9">Несанкционированные объявления, надписи и рисунки на фасадах</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="52" data-icon="9" data-parent="9" class="b-problem__desc__list__itm__link">Несанкционированные объявления, надписи и рисунки на фасадах</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="53" data-icon="9" data-parent="9">Отсутствие/повреждение указателей с наименованием улицы и номером дома</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="53" data-icon="9" data-parent="9" class="b-problem__desc__list__itm__link">Отсутствие/повреждение указателей с наименованием улицы и номером дома</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="54" data-icon="9" data-parent="9">Произвести откачку нечистот</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="54" data-icon="9" data-parent="9" class="b-problem__desc__list__itm__link">Протечка канализационных стоков на дворовую территорию, во вспомогательные помещения</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="55" data-icon="9" data-parent="9">Произвести откачку воды</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="55" data-icon="9" data-parent="9" class="b-problem__desc__list__itm__link">Протечка воды на дворовую территорию, во вспомогательные помещения</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="56" data-icon="9" data-parent="9">Мусор на козырьке над подъездом</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="56" data-icon="9" data-parent="9" class="b-problem__desc__list__itm__link">Мусор на козырьке над входом в подъезд</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="57" data-icon="9" data-parent="9">Иное</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="57" data-icon="9" data-parent="9" class="b-problem__desc__list__itm__link">Иное</a></li>
                     
 
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="58" data-icon="9" data-parent="9" class="b-problem__desc__list__itm__link">Необходимость вывоза крупной и среднегабаритной бытовой техники</a></li>
                     
 
                   </ul>
@@ -697,71 +497,30 @@
               
 
               <div class="b-problem">
-                <div class="b-problem__itm">
-                  
-<span class="b-problem__itm__text" data-icon="10" data-id="10"><span class="b-problem__itm__text__ico b-svg-ico"><svg version="1.1" viewBox="0 0 25 25"><g id="Layer_10"><g><path d="M18,25c-2.1,0-3.9,0.1-5.3-1c-1-0.7-0.7-2.4-0.7-5c-0.1-0.3,0-1,0-1c-2.7-0.5-4-3.1-4-6v-1l-1-1V6h2V1c0-1.1,0.9-1,1-1 c0,0,1-0.2,1,1v5h4V1c0-1.2,0.9-1,1-1c0,0,1-0.2,1,1v5h2v4l-1,1v1c0,2.6-1.9,5.2-4,6c0,0,0,0.7,0,1c0,0.5,0,1.3,0,2 c0,0.8,0.6,1.7,1,2c0.4,0.3,1.9,0.5,3,0C17.9,23.1,18,24.9,18,25z"/></g></g></svg></span>Многоквартирные дома | Электроработы</span>
-
-                  
-
-                </div>
+                <div class="b-problem__itm"><span data-icon="10" data-id="10" class="b-problem__itm__text"><span class="b-problem__itm__text__ico b-svg-ico"><svg version="1.1" viewBox="0 0 25 25"><g id="Layer_10"><g><path d="M18,25c-2.1,0-3.9,0.1-5.3-1c-1-0.7-0.7-2.4-0.7-5c-0.1-0.3,0-1,0-1c-2.7-0.5-4-3.1-4-6v-1l-1-1V6h2V1c0-1.1,0.9-1,1-1 c0,0,1-0.2,1,1v5h4V1c0-1.2,0.9-1,1-1c0,0,1-0.2,1,1v5h2v4l-1,1v1c0,2.6-1.9,5.2-4,6c0,0,0,0.7,0,1c0,0.5,0,1.3,0,2 c0,0.8,0.6,1.7,1,2c0.4,0.3,1.9,0.5,3,0C17.9,23.1,18,24.9,18,25z"/></g></g></svg></span>Многоквартирные дома | Электроработы</span></div>
                 <div class="b-problem__desc">
                   <ul class="b-problem__desc__list">
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="61" data-icon="10" data-parent="10">Не закреплена электропроводка на лестничной клетке</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="61" data-icon="10" data-parent="10" class="b-problem__desc__list__itm__link">Не закреплена электропроводка на лестничной клетке</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="62" data-icon="10" data-parent="10">Открыт электрощиток</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="62" data-icon="10" data-parent="10" class="b-problem__desc__list__itm__link">Открыт электрощиток</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="63" data-icon="10" data-parent="10">Отсутствие фасадного освещения</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="63" data-icon="10" data-parent="10" class="b-problem__desc__list__itm__link">Отсутствие фасадного освещения</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="64" data-icon="10" data-parent="10">Постоянно горит свет в подъезде</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="64" data-icon="10" data-parent="10" class="b-problem__desc__list__itm__link">Постоянно горит свет в подъезде</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="65" data-icon="10" data-parent="10">Закрепление электропроводки в подвале</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="65" data-icon="10" data-parent="10" class="b-problem__desc__list__itm__link">Закрепление электропроводки в подвале</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="66" data-icon="10" data-parent="10">Иное</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="66" data-icon="10" data-parent="10" class="b-problem__desc__list__itm__link">Иное</a></li>
                     
 
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="67" data-icon="10" data-parent="10" class="b-problem__desc__list__itm__link">Отсутствие освещения в подъезде</a></li>
                     
 
                   </ul>
@@ -774,170 +533,51 @@
               
 
               <div class="b-problem">
-                <div class="b-problem__itm">
-                  
-<span class="b-problem__itm__text" data-icon="11" data-id="11"><span class="b-problem__itm__text__ico b-svg-ico"><svg version="1.1" viewBox="0 0 25 25" enable-background="new 0 0 25 25" xml:space="preserve"><g id="Layer_11"><g><path d="M23.4,15.6c-0.1-0.1-0.2-0.3-0.4-0.4c-0.4-0.3-0.8-0.5-1.2-0.6c0.3-4.3-2.3-8.2-6.3-9.6v4.8c-0.1,0.3-0.2,0.9-0.9,0.9 s-0.8-0.5-0.9-0.9V5.4c0-1.1-2.7-1.3-2.7,0v4.4c-0.1,0.3-0.3,0.9-0.9,0.9c-0.6,0-0.8-0.5-0.9-0.9V5c-4,1.4-6.6,5.4-6.3,9.6 C2.4,14.8,2,15,1.7,15.3c-0.1,0.1-0.3,0.2-0.4,0.4c0.2,0.1,0.1,0.2,0.1,0.4c0,0.1,0,0.3,0.1,0.4s0.2,0.3,0.3,0.4 C2,17,2.4,17.2,2.9,17.4c1.3,0.5,2.7,0.8,4.1,1c1.9,0.3,3.8,0.4,5.6,0.4s3.8-0.1,5.6-0.4c1.4-0.2,2.8-0.5,4.1-1 c0.4-0.2,0.7-0.4,1.1-0.6c0.1-0.1,0.2-0.2,0.3-0.4c0.1-0.1,0.1-0.2,0.1-0.4C23.6,15.8,23.5,15.7,23.4,15.6z"/></g></g></svg></span>Многоквартирные дома | Общестроительные работы</span>
-
-                  
-
-                </div>
+                <div class="b-problem__itm"><span data-icon="11" data-id="11" class="b-problem__itm__text"><span class="b-problem__itm__text__ico b-svg-ico"><svg version="1.1" viewBox="0 0 25 25" enable-background="new 0 0 25 25" xml:space="preserve"><g id="Layer_11"><g><path d="M23.4,15.6c-0.1-0.1-0.2-0.3-0.4-0.4c-0.4-0.3-0.8-0.5-1.2-0.6c0.3-4.3-2.3-8.2-6.3-9.6v4.8c-0.1,0.3-0.2,0.9-0.9,0.9 s-0.8-0.5-0.9-0.9V5.4c0-1.1-2.7-1.3-2.7,0v4.4c-0.1,0.3-0.3,0.9-0.9,0.9c-0.6,0-0.8-0.5-0.9-0.9V5c-4,1.4-6.6,5.4-6.3,9.6 C2.4,14.8,2,15,1.7,15.3c-0.1,0.1-0.3,0.2-0.4,0.4c0.2,0.1,0.1,0.2,0.1,0.4c0,0.1,0,0.3,0.1,0.4s0.2,0.3,0.3,0.4 C2,17,2.4,17.2,2.9,17.4c1.3,0.5,2.7,0.8,4.1,1c1.9,0.3,3.8,0.4,5.6,0.4s3.8-0.1,5.6-0.4c1.4-0.2,2.8-0.5,4.1-1 c0.4-0.2,0.7-0.4,1.1-0.6c0.1-0.1,0.2-0.2,0.3-0.4c0.1-0.1,0.1-0.2,0.1-0.4C23.6,15.8,23.5,15.7,23.4,15.6z"/></g></g></svg></span>Многоквартирные дома | Общестроительные работы</span></div>
                 <div class="b-problem__desc">
                   <ul class="b-problem__desc__list">
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="94" data-icon="11" data-parent="11">Течь кровли</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="94" data-icon="11" data-parent="11" class="b-problem__desc__list__itm__link">Течь кровли</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="95" data-icon="11" data-parent="11">Открыт выход на кровлю / крышу</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="95" data-icon="11" data-parent="11" class="b-problem__desc__list__itm__link">Открыт выход на кровлю / крышу</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="96" data-icon="11" data-parent="11">Открыто слуховое окно / люк</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="96" data-icon="11" data-parent="11" class="b-problem__desc__list__itm__link">Открыто слуховое окно / люк</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="97" data-icon="11" data-parent="11">Оборваны водосточные трубы</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="97" data-icon="11" data-parent="11" class="b-problem__desc__list__itm__link">Оборваны или не закреплены водосточные трубы</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="98" data-icon="11" data-parent="11">Требуется ремонт отмостки</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="98" data-icon="11" data-parent="11" class="b-problem__desc__list__itm__link">Требуется ремонт отмостки</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="99" data-icon="11" data-parent="11">Поврежденные лестницы</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="99" data-icon="11" data-parent="11" class="b-problem__desc__list__itm__link">Повреждения лестницных ступеней</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="100" data-icon="11" data-parent="11">Повреждена входная дверь</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="100" data-icon="11" data-parent="11" class="b-problem__desc__list__itm__link">Повреждения входной двери в подъезд, подвал</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="101" data-icon="11" data-parent="11">Промерзание стеновых панелей</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="101" data-icon="11" data-parent="11" class="b-problem__desc__list__itm__link">Течь стыков, промерзание стыков, промерзание стеновых панелей</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="102" data-icon="11" data-parent="11">Выветривание швов кирпичной кладки</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="102" data-icon="11" data-parent="11" class="b-problem__desc__list__itm__link">Выветривание швов кирпичной кладки</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="103" data-icon="11" data-parent="11">Отслоение облицовочной плитки на фасаде дома</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="103" data-icon="11" data-parent="11" class="b-problem__desc__list__itm__link">Отслоение облицовочной плитки на фасаде дома</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="104" data-icon="11" data-parent="11">Наличие трещин на стене</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="104" data-icon="11" data-parent="11" class="b-problem__desc__list__itm__link">Наличие трещин на стене</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="105" data-icon="11" data-parent="11">Отсутствует решетка на крыльце</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="105" data-icon="11" data-parent="11" class="b-problem__desc__list__itm__link">Отсутствует решетка для очистки обуви на крыльце</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="106" data-icon="11" data-parent="11">Очистка желобов и свесов от наледи и сосулек</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="106" data-icon="11" data-parent="11" class="b-problem__desc__list__itm__link">Очистка желобов и свесов от грязи, растительности, наледи и сосулек</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="107" data-icon="11" data-parent="11">Течь стыков</a>
-
-                      
-
-                    </li>
-                    
-
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="108" data-icon="11" data-parent="11">Промерзание стыков</a>
-
-                      
-
-                    </li>
-                    
-
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="368" data-icon="11" data-parent="11">Залитие квартиры через стыки</a>
-
-                      
-
-                    </li>
-                    
-
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="369" data-icon="11" data-parent="11">Иное</a>
-
-                      
-
-                    </li>
-                    
-
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="369" data-icon="11" data-parent="11" class="b-problem__desc__list__itm__link">Иное</a></li>
                     
 
                   </ul>
@@ -950,116 +590,33 @@
               
 
               <div class="b-problem">
-                <div class="b-problem__itm">
-                  
-<span class="b-problem__itm__text" data-icon="12" data-id="12"><span class="b-problem__itm__text__ico b-svg-ico"><svg version="1.1" viewBox="0 0 25 25"><g id="Layer_1_1_"><path d="M21.9,0h1.8v25h-1.8V0z"/><path d="M11.6,0v25h9.3V0H11.6z M14.4,23.1h-1.9v-1.9h1.9V23.1z M14.4,20.4h-1.9v-1.9h1.9V20.4z M14.4,17.6h-1.9v-1.9h1.9V17.6z M14.4,14.8h-1.9V13h1.9V14.8z M14.4,12h-1.9v-1.9h1.9V12z M14.4,9.3h-1.9V7.4h1.9V9.3z M14.4,6.5h-1.9V4.6h1.9V6.5z M14.4,3.7 h-1.9V1.9h1.9V3.7z M17.1,23.1h-1.9v-1.9h1.9V23.1z M17.1,20.4h-1.9v-1.9h1.9V20.4z M17.1,17.6h-1.9v-1.9h1.9V17.6z M17.1,14.8 h-1.9V13h1.9V14.8z M17.1,12h-1.9v-1.9h1.9V12z M17.1,9.3h-1.9V7.4h1.9V9.3z M17.1,6.5h-1.9V4.6h1.9V6.5z M17.1,3.7h-1.9V1.9h1.9 V3.7z M19.9,23.1h-1.9v-1.9h1.9V23.1z M19.9,20.4h-1.9v-1.9h1.9V20.4z M19.9,17.6h-1.9v-1.9h1.9V17.6z M19.9,14.8h-1.9V13h1.9V14.8 z M19.9,12h-1.9v-1.9h1.9V12z M19.9,9.3h-1.9V7.4h1.9V9.3z M18.1,4.6h1.9v1.9h-1.9V4.6z M19.9,3.7h-1.9V1.9h1.9V3.7z"/><path display="none" d="M9,10.7h1.2v1.2H9V10.7z"/><line fill="none" x1="12.5" y1="13.9" x2="14.4" y2="13.9"/><path d="M1.4,13v12h9.3V5.6L1.4,13z M4.2,23.1H2.3v-1.9h1.9V23.1z M4.2,20.4H2.3v-1.9h1.9V20.4z M4.2,17.6H2.3v-1.9h1.9V17.6z M6.9,23.1H5.1v-1.9h1.9V23.1z M6.9,20.4H5.1v-1.9h1.9V20.4z M6.9,17.6H5.1v-1.9h1.9V17.6z M6.9,14.8H5.1V13h1.9V14.8z M9.7,23.1 H7.9v-1.9h1.9V23.1z M9.7,20.4H7.9v-1.9h1.9V20.4z M9.7,17.6H7.9v-1.9h1.9V17.6z M9.7,14.8H7.9V13h1.9V14.8z M9.7,12H7.9v-1.9h1.9 V12z"/></g></svg></span>Многоквартирные дома | Текущий ремонт жилфонда за счет средств плательщиков</span>
-
-                  
-
-                </div>
+                <div class="b-problem__itm"><span data-icon="12" data-id="12" class="b-problem__itm__text"><span class="b-problem__itm__text__ico b-svg-ico"><svg version="1.1" viewBox="0 0 25 25"><g id="Layer_1_1_"><path d="M21.9,0h1.8v25h-1.8V0z"/><path d="M11.6,0v25h9.3V0H11.6z M14.4,23.1h-1.9v-1.9h1.9V23.1z M14.4,20.4h-1.9v-1.9h1.9V20.4z M14.4,17.6h-1.9v-1.9h1.9V17.6z M14.4,14.8h-1.9V13h1.9V14.8z M14.4,12h-1.9v-1.9h1.9V12z M14.4,9.3h-1.9V7.4h1.9V9.3z M14.4,6.5h-1.9V4.6h1.9V6.5z M14.4,3.7 h-1.9V1.9h1.9V3.7z M17.1,23.1h-1.9v-1.9h1.9V23.1z M17.1,20.4h-1.9v-1.9h1.9V20.4z M17.1,17.6h-1.9v-1.9h1.9V17.6z M17.1,14.8 h-1.9V13h1.9V14.8z M17.1,12h-1.9v-1.9h1.9V12z M17.1,9.3h-1.9V7.4h1.9V9.3z M17.1,6.5h-1.9V4.6h1.9V6.5z M17.1,3.7h-1.9V1.9h1.9 V3.7z M19.9,23.1h-1.9v-1.9h1.9V23.1z M19.9,20.4h-1.9v-1.9h1.9V20.4z M19.9,17.6h-1.9v-1.9h1.9V17.6z M19.9,14.8h-1.9V13h1.9V14.8 z M19.9,12h-1.9v-1.9h1.9V12z M19.9,9.3h-1.9V7.4h1.9V9.3z M18.1,4.6h1.9v1.9h-1.9V4.6z M19.9,3.7h-1.9V1.9h1.9V3.7z"/><path display="none" d="M9,10.7h1.2v1.2H9V10.7z"/><line fill="none" x1="12.5" y1="13.9" x2="14.4" y2="13.9"/><path d="M1.4,13v12h9.3V5.6L1.4,13z M4.2,23.1H2.3v-1.9h1.9V23.1z M4.2,20.4H2.3v-1.9h1.9V20.4z M4.2,17.6H2.3v-1.9h1.9V17.6z M6.9,23.1H5.1v-1.9h1.9V23.1z M6.9,20.4H5.1v-1.9h1.9V20.4z M6.9,17.6H5.1v-1.9h1.9V17.6z M6.9,14.8H5.1V13h1.9V14.8z M9.7,23.1 H7.9v-1.9h1.9V23.1z M9.7,20.4H7.9v-1.9h1.9V20.4z M9.7,17.6H7.9v-1.9h1.9V17.6z M9.7,14.8H7.9V13h1.9V14.8z M9.7,12H7.9v-1.9h1.9 V12z"/></g></svg></span>Многоквартирные дома | Текущий ремонт жилфонда за счет средств плательщиков</span></div>
                 <div class="b-problem__desc">
                   <ul class="b-problem__desc__list">
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="110" data-icon="12" data-parent="12">Расшивка швов, заделка выбоин, трещин, отдельных участков стен подъездов.</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="111" data-icon="12" data-parent="12" class="b-problem__desc__list__itm__link">Требуется восстановление штукатурки и облицовки стен, потолков</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="111" data-icon="12" data-parent="12">Восстановление штукатурки и облицовки стен подъездов и потолков подъездов.</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="112" data-icon="12" data-parent="12" class="b-problem__desc__list__itm__link">Выбоины, неровности , трещины стен и потолка</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="112" data-icon="12" data-parent="12">Выравнивание стен и потолков подъездов.</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="113" data-icon="12" data-parent="12" class="b-problem__desc__list__itm__link">Повреждения лепных декоративных деталей подъездов.</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="113" data-icon="12" data-parent="12">Ремонт лепных декоративных деталей подъездов.</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="114" data-icon="12" data-parent="12" class="b-problem__desc__list__itm__link">Выбоины, трещины в полах</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="114" data-icon="12" data-parent="12">Заделка выбоин, трещин в цементных, бетонных полах подъездов.</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="115" data-icon="12" data-parent="12" class="b-problem__desc__list__itm__link">Состояние покрытий полов</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="115" data-icon="12" data-parent="12">Ремонт, замена покрытий полов подъездов.</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="116" data-icon="12" data-parent="12" class="b-problem__desc__list__itm__link">Состояние элементов мусоропроводов</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="116" data-icon="12" data-parent="12">Ремонт, замена элементов мусоропроводов.</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="117" data-icon="12" data-parent="12" class="b-problem__desc__list__itm__link">Требуется окраска стен, потолков, трубопроводов</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="117" data-icon="12" data-parent="12">Малярные работы (в том числе окраска стен, потолков, трубопроводов)</a>
-
-                      
-
-                    </li>
-                    
-
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="119" data-icon="12" data-parent="12">Устройство дополнительных парковочных мест</a>
-
-                      
-
-                    </li>
-                    
-
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="120" data-icon="12" data-parent="12">Установка дополнительных единиц детского, игрового и спортивного оборудования</a>
-
-                      
-
-                    </li>
-                    
-
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="118" data-icon="12" data-parent="12">Иное</a>
-
-                      
-
-                    </li>
-                    
-
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="118" data-icon="12" data-parent="12" class="b-problem__desc__list__itm__link">Иное</a></li>
                     
 
                   </ul>
@@ -1072,35 +629,30 @@
               
 
               <div class="b-problem">
-                <div class="b-problem__itm">
-                  
-<span class="b-problem__itm__text" data-icon="13" data-id="13"><span class="b-problem__itm__text__ico b-svg-ico"><svg version="1.1" viewBox="0 0 25 25"><g id="Layer_4"><path d="M18.3,2.6H6.5C5,2.6,3.8,3.8,3.8,5.2v17.1c0,1.5,1.2,2.6,2.7,2.6h11.9c1.5,0,2.7-1.2,2.7-2.6v-17 C20.9,3.8,19.8,2.6,18.3,2.6z M18.3,22.4H6.5V5.3h11.9V22.4z"/><path d="M11.8,5.3h1.3v17.1h-1.3V5.3z"/><path d="M9.1,0h6.6v1.3H9.1V0z"/><path d="M1.4,22.2h22.2V25H1.4V22.2z"/><path d="M22.3,10.6h1.3v2.6h-1.3V10.6z"/><path d="M22.3,14.4h1.3V17h-1.3V14.4z"/></g></svg></span>Многоквартирные дома | Неисправность лифта</span>
-
-                  
-
-                </div>
+                <div class="b-problem__itm"><span data-icon="13" data-id="13" class="b-problem__itm__text"><span class="b-problem__itm__text__ico b-svg-ico"><svg version="1.1" viewBox="0 0 25 25"><g id="Layer_4"><path d="M18.3,2.6H6.5C5,2.6,3.8,3.8,3.8,5.2v17.1c0,1.5,1.2,2.6,2.7,2.6h11.9c1.5,0,2.7-1.2,2.7-2.6v-17 C20.9,3.8,19.8,2.6,18.3,2.6z M18.3,22.4H6.5V5.3h11.9V22.4z"/><path d="M11.8,5.3h1.3v17.1h-1.3V5.3z"/><path d="M9.1,0h6.6v1.3H9.1V0z"/><path d="M1.4,22.2h22.2V25H1.4V22.2z"/><path d="M22.3,10.6h1.3v2.6h-1.3V10.6z"/><path d="M22.3,14.4h1.3V17h-1.3V14.4z"/></g></svg></span>Многоквартирные дома | Неисправность лифта</span></div>
                 <div class="b-problem__desc">
                   <ul class="b-problem__desc__list">
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="109" data-icon="13" data-parent="13">Поврежден корпус кабины лифта</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="109" data-icon="13" data-parent="13" class="b-problem__desc__list__itm__link">Поврежден корпус кабины лифта</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="137" data-icon="13" data-parent="13">Иное</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="137" data-icon="13" data-parent="13" class="b-problem__desc__list__itm__link">Иное</a></li>
                     
 
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="138" data-icon="13" data-parent="13" class="b-problem__desc__list__itm__link">Не работают кнопки управления лифтом</a></li>
+                    
+
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="139" data-icon="13" data-parent="13" class="b-problem__desc__list__itm__link">Отсутствует  (повреждена) кнопка вызова лифта</a></li>
+                    
+
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="140" data-icon="13" data-parent="13" class="b-problem__desc__list__itm__link">Отсутствует (недостаточное) освещение кабины лифта</a></li>
+                    
+
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="141" data-icon="13" data-parent="13" class="b-problem__desc__list__itm__link">Не освещена посадочная площадка</a></li>
+                    
+
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="142" data-icon="13" data-parent="13" class="b-problem__desc__list__itm__link">Лифт не работает</a></li>
                     
 
                   </ul>
@@ -1113,98 +665,30 @@
               
 
               <div class="b-problem">
-                <div class="b-problem__itm">
-                  
-<span class="b-problem__itm__text" data-icon="14" data-id="14"><span class="b-problem__itm__text__ico b-svg-ico"><svg version="1.1" viewBox="0 0 25 25"><g id="Layer_13"><g><path d="M21.7,3.6h-4.7V1.2c0-0.5-0.7-1.2-1.2-1.2h-6C9.4,0,8.6,0.7,8.6,1.2v2.4H3.8c-0.4,0-1.2,0.7-1.2,1.2v2.4 c0,0.7,1.2,1.1,1.2,1.1v15.5C3.8,24.6,4.4,25,5,25h15.5c0.8,0,1.2-0.4,1.2-1.2V8.3c0,0,1.2-0.4,1.2-1.2V4 C22.9,3.6,22,3.6,21.7,3.6z M9.7,1.2h5.9v2.4H9.7V1.2z M5,5.9h15.5v1.2H5V5.9z M19.3,22.6H6.2V8.3h2.4v9.5c0,1.5,1.2,1.5,1.2,0 V8.3h2.4v9.5c0,1.4,1.2,1.4,1.2,0V8.3h2.4v9.5c0,1.2,1.2,1.2,1.2,0V8.3h2.4v14.3H19.3z"/></g></g></svg></span>Многоквартирные дома | Санитарное состояние</span>
-
-                  
-
-                </div>
+                <div class="b-problem__itm"><span data-icon="14" data-id="14" class="b-problem__itm__text"><span class="b-problem__itm__text__ico b-svg-ico"><svg version="1.1" viewBox="0 0 25 25"><g id="Layer_13"><g><path d="M21.7,3.6h-4.7V1.2c0-0.5-0.7-1.2-1.2-1.2h-6C9.4,0,8.6,0.7,8.6,1.2v2.4H3.8c-0.4,0-1.2,0.7-1.2,1.2v2.4 c0,0.7,1.2,1.1,1.2,1.1v15.5C3.8,24.6,4.4,25,5,25h15.5c0.8,0,1.2-0.4,1.2-1.2V8.3c0,0,1.2-0.4,1.2-1.2V4 C22.9,3.6,22,3.6,21.7,3.6z M9.7,1.2h5.9v2.4H9.7V1.2z M5,5.9h15.5v1.2H5V5.9z M19.3,22.6H6.2V8.3h2.4v9.5c0,1.5,1.2,1.5,1.2,0 V8.3h2.4v9.5c0,1.4,1.2,1.4,1.2,0V8.3h2.4v9.5c0,1.2,1.2,1.2,1.2,0V8.3h2.4v14.3H19.3z"/></g></g></svg></span>Многоквартирные дома | Санитарное состояние</span></div>
                 <div class="b-problem__desc">
                   <ul class="b-problem__desc__list">
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="151" data-icon="14" data-parent="14">Не убраны от мусора места общего пользования</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="151" data-icon="14" data-parent="14" class="b-problem__desc__list__itm__link">Не убраны от мусора вспомогательные помещения</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="152" data-icon="14" data-parent="14">Загромождение мест общего пользовавния</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="152" data-icon="14" data-parent="14" class="b-problem__desc__list__itm__link">Загромождение вспомогательных помещений</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="153" data-icon="14" data-parent="14">Требуется уничтожение грызунов или насекомых</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="153" data-icon="14" data-parent="14" class="b-problem__desc__list__itm__link">Наличие грызунов или насекомых</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="154" data-icon="14" data-parent="14">Не вымыты окна в подъезде</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="154" data-icon="14" data-parent="14" class="b-problem__desc__list__itm__link">Не вымыты окна в подъезде</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="155" data-icon="14" data-parent="14">Требуется уборка подвала, чердака</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="156" data-icon="14" data-parent="14" class="b-problem__desc__list__itm__link">Иное</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="156" data-icon="14" data-parent="14">Иное</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="158" data-icon="14" data-parent="14" class="b-problem__desc__list__itm__link">Прочистка засоров ствола мусоропровода</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="157" data-icon="14" data-parent="14">Уборка подвала и вспомогательных помещений</a>
-
-                      
-
-                    </li>
-                    
-
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="158" data-icon="14" data-parent="14">Прочистка засоров ствола мусоропровода</a>
-
-                      
-
-                    </li>
-                    
-
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="159" data-icon="14" data-parent="14">Мойка ствола мусоропровода</a>
-
-                      
-
-                    </li>
-                    
-
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="159" data-icon="14" data-parent="14" class="b-problem__desc__list__itm__link">Мойка ствола и клапанов мусоропровода</a></li>
                     
 
                   </ul>
@@ -1217,188 +701,66 @@
               
 
               <div class="b-problem">
-                <div class="b-problem__itm">
-                  
-<span class="b-problem__itm__text" data-icon="20" data-id="20"><span class="b-problem__itm__text__ico b-svg-ico"><svg version="1.1" viewBox="0 0 25 25"><g id="Layer_6"><g><path d="M13.7,3.1l0.3,4h-2.9l0.3-4H13.7z M14.1,9.5l0.3,4.7h-3.7l0.3-4.7C10.9,9.5,14.1,9.5,14.1,9.5z M14.1,16.9l1,5.3H9.8 l1-5.3H14.1z M19.4,3.1H5.6L1.4,22.2h22.2L19.4,3.1z"/></g></g></svg></span>Инфраструктура города | Дороги,  тротуары</span>
-
-                  
-
-                </div>
+                <div class="b-problem__itm"><span data-icon="20" data-id="20" class="b-problem__itm__text"><span class="b-problem__itm__text__ico b-svg-ico"><svg version="1.1" viewBox="0 0 25 25"><g id="Layer_6"><g><path d="M13.7,3.1l0.3,4h-2.9l0.3-4H13.7z M14.1,9.5l0.3,4.7h-3.7l0.3-4.7C10.9,9.5,14.1,9.5,14.1,9.5z M14.1,16.9l1,5.3H9.8 l1-5.3H14.1z M19.4,3.1H5.6L1.4,22.2h22.2L19.4,3.1z"/></g></g></svg></span>Инфраструктура города | Дороги,  тротуары</span></div>
                 <div class="b-problem__desc">
                   <ul class="b-problem__desc__list">
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="280" data-icon="20" data-parent="20">Брошенный автомобиль на проезжей части</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="280" data-icon="20" data-parent="20" class="b-problem__desc__list__itm__link">Брошенный автомобиль на проезжей части</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="281" data-icon="20" data-parent="20">Неисправное освещение на проезжей части</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="281" data-icon="20" data-parent="20" class="b-problem__desc__list__itm__link">Неисправное освещение на проезжей части</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="282" data-icon="20" data-parent="20">Неисправный светофор</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="282" data-icon="20" data-parent="20" class="b-problem__desc__list__itm__link">Неисправный светофор</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="283" data-icon="20" data-parent="20">Некачественная укладка плитки на тротуаре</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="283" data-icon="20" data-parent="20" class="b-problem__desc__list__itm__link">Некачественная укладка плитки на тротуаре</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="284" data-icon="20" data-parent="20">Некачественное содержание велодорожек</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="284" data-icon="20" data-parent="20" class="b-problem__desc__list__itm__link">Некачественное содержание велодорожек</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="285" data-icon="20" data-parent="20">Неубранная проезжая часть/тротуар</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="285" data-icon="20" data-parent="20" class="b-problem__desc__list__itm__link">Неубранная проезжая часть/тротуар</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="286" data-icon="20" data-parent="20">Повреждение уличной лестницы</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="286" data-icon="20" data-parent="20" class="b-problem__desc__list__itm__link">Повреждение уличной лестницы</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="287" data-icon="20" data-parent="20">Нечитаемые/поврежденные/неправильно установленные дорожные знаки</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="287" data-icon="20" data-parent="20" class="b-problem__desc__list__itm__link">Нечитаемые/поврежденные/неправильно установленные дорожные знаки</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="288" data-icon="20" data-parent="20">Поврежденные дорожные ограждения</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="288" data-icon="20" data-parent="20" class="b-problem__desc__list__itm__link">Поврежденные дорожные ограждения</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="289" data-icon="20" data-parent="20">Поврежденные искусственные дорожные неровности</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="289" data-icon="20" data-parent="20" class="b-problem__desc__list__itm__link">Поврежденные искусственные дорожные неровности</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="290" data-icon="20" data-parent="20">Подтопление проезжей части</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="290" data-icon="20" data-parent="20" class="b-problem__desc__list__itm__link">Подтопление проезжей части</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="291" data-icon="20" data-parent="20">Просадка люка/Незакрытый люк</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="291" data-icon="20" data-parent="20" class="b-problem__desc__list__itm__link">Просадка люка/Незакрытый люк</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="292" data-icon="20" data-parent="20">Стертая дорожная разметка</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="292" data-icon="20" data-parent="20" class="b-problem__desc__list__itm__link">Отсутсвует или повреждена дорожная разметка</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="293" data-icon="20" data-parent="20">Ямы/выступы на проезжей части/тротуаре</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="293" data-icon="20" data-parent="20" class="b-problem__desc__list__itm__link">Ямы/выступы на проезжей части/тротуаре</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="294" data-icon="20" data-parent="20">Неисправность/недоступность инфраструктуры для маломобильных граждан</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="294" data-icon="20" data-parent="20" class="b-problem__desc__list__itm__link">Неисправность/недоступность инфраструктуры для маломобильных граждан</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="295" data-icon="20" data-parent="20">Некачественное содержание подземных и надземных пешеходных переходов</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="295" data-icon="20" data-parent="20" class="b-problem__desc__list__itm__link">Некачественное содержание подземных и надземных пешеходных переходов</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="296" data-icon="20" data-parent="20">Благоустройство улиц</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="296" data-icon="20" data-parent="20" class="b-problem__desc__list__itm__link">Благоустройство улиц</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="297" data-icon="20" data-parent="20">Проблемы с гаражами / автостоянками / парковками</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="297" data-icon="20" data-parent="20" class="b-problem__desc__list__itm__link">Проблемы с гаражами / автостоянками / парковками</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="364" data-icon="20" data-parent="20">Иное</a>
-
-                      
-
-                    </li>
-                    
-
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="364" data-icon="20" data-parent="20" class="b-problem__desc__list__itm__link">Иное</a></li>
                     
 
                   </ul>
@@ -1411,53 +773,27 @@
               
 
               <div class="b-problem">
-                <div class="b-problem__itm">
-                  
-<span class="b-problem__itm__text" data-icon="21" data-id="21"><span class="b-problem__itm__text__ico b-svg-ico"><svg version="1.1" viewBox="0 0 25 25"><g id="Layer_14"><g><path d="M18.6,10.9c0.6-0.6,1.1-1.2,1.1-3.2c0-2.2-2.2-3.2-4.4-3.2c0-2.2-1.1-4.4-3.2-4.4c-2.2,0-3.3,2.1-3.3,4.4 c-2.1,0-4.4,1.1-4.4,3.2c0,1.9,0.6,2.6,1.1,3.2c-1.9,0.3-3.2,1.9-3.2,3.9c0,2.7,1.7,4.7,4.4,4.7H11V25h2.1v-5.5h4.4 c2.7,0,4.4-2,4.4-4.7C21.9,12.9,20.6,11.3,18.6,10.9z"/><path d="M8.8,22.9h6.5V25H8.8V22.9z"/></g></g></svg></span>Инфраструктура города | Парки, скверы</span>
-
-                  
-
-                </div>
+                <div class="b-problem__itm"><span data-icon="21" data-id="21" class="b-problem__itm__text"><span class="b-problem__itm__text__ico b-svg-ico"><svg version="1.1" viewBox="0 0 25 25"><g id="Layer_14"><g><path d="M18.6,10.9c0.6-0.6,1.1-1.2,1.1-3.2c0-2.2-2.2-3.2-4.4-3.2c0-2.2-1.1-4.4-3.2-4.4c-2.2,0-3.3,2.1-3.3,4.4 c-2.1,0-4.4,1.1-4.4,3.2c0,1.9,0.6,2.6,1.1,3.2c-1.9,0.3-3.2,1.9-3.2,3.9c0,2.7,1.7,4.7,4.4,4.7H11V25h2.1v-5.5h4.4 c2.7,0,4.4-2,4.4-4.7C21.9,12.9,20.6,11.3,18.6,10.9z"/><path d="M8.8,22.9h6.5V25H8.8V22.9z"/></g></g></svg></span>Инфраструктура города | Парки, скверы</span></div>
                 <div class="b-problem__desc">
                   <ul class="b-problem__desc__list">
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="299" data-icon="21" data-parent="21">Неисправность освещения</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="299" data-icon="21" data-parent="21" class="b-problem__desc__list__itm__link">Неисправность освещения</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="300" data-icon="21" data-parent="21">Некачественное содержание велодорожек</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="300" data-icon="21" data-parent="21" class="b-problem__desc__list__itm__link">Некачественное содержание велодорожек</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="301" data-icon="21" data-parent="21">Некачественное содержание инфраструктуры в парках / скверах</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="301" data-icon="21" data-parent="21" class="b-problem__desc__list__itm__link">Некачественное содержание инфраструктуры в парках / скверах</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="302" data-icon="21" data-parent="21">Иное</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="302" data-icon="21" data-parent="21" class="b-problem__desc__list__itm__link">Иное</a></li>
                     
 
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="303" data-icon="21" data-parent="21" class="b-problem__desc__list__itm__link">Требуется посадка деревьев, кустарников</a></li>
+                    
+
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="304" data-icon="21" data-parent="21" class="b-problem__desc__list__itm__link">Необходим снос сухих и аварийных деревьев</a></li>
                     
 
                   </ul>
@@ -1470,35 +806,15 @@
               
 
               <div class="b-problem">
-                <div class="b-problem__itm">
-                  
-<span class="b-problem__itm__text" data-icon="22" data-id="22"><span class="b-problem__itm__text__ico b-svg-ico"><svg version="1.1" viewBox="0 0 25 25"><g id="Layer_7"><g><path d="M23.6,15.5H1.4V2.8h22.2V15.5z M3.5,13.3h18V4.9h-18V13.3z"/><path d="M16.2,25H8.8v-2.1h2.1v-8.4h3.1v8.4h2.1V25z"/><path d="M15.2,3.9h1V6h-1V3.9z"/><path d="M8.8,3.9h1V6h-1V3.9z"/><path d="M7.7,5.9h3.1v2.1H7.8L7.7,5.9z"/><path d="M14.1,5.9h3.1v2.1h-3.1L14.1,5.9z"/></g></g></svg></span>Инфраструктура города | Рекламные и информационные конструкции</span>
-
-                  
-
-                </div>
+                <div class="b-problem__itm"><span data-icon="22" data-id="22" class="b-problem__itm__text"><span class="b-problem__itm__text__ico b-svg-ico"><svg version="1.1" viewBox="0 0 25 25"><g id="Layer_7"><g><path d="M23.6,15.5H1.4V2.8h22.2V15.5z M3.5,13.3h18V4.9h-18V13.3z"/><path d="M16.2,25H8.8v-2.1h2.1v-8.4h3.1v8.4h2.1V25z"/><path d="M15.2,3.9h1V6h-1V3.9z"/><path d="M8.8,3.9h1V6h-1V3.9z"/><path d="M7.7,5.9h3.1v2.1H7.8L7.7,5.9z"/><path d="M14.1,5.9h3.1v2.1h-3.1L14.1,5.9z"/></g></g></svg></span>Инфраструктура города | Рекламные и информационные конструкции</span></div>
                 <div class="b-problem__desc">
                   <ul class="b-problem__desc__list">
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="306" data-icon="22" data-parent="22">Ненадлежащее состояние рекламной конструкции</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="306" data-icon="22" data-parent="22" class="b-problem__desc__list__itm__link">Ненадлежащее состояние рекламной конструкции</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="307" data-icon="22" data-parent="22">Иное</a>
-
-                      
-
-                    </li>
-                    
-
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="307" data-icon="22" data-parent="22" class="b-problem__desc__list__itm__link">Иное</a></li>
                     
 
                   </ul>
@@ -1511,87 +827,35 @@
               
 
               <div class="b-problem">
-                <div class="b-problem__itm">
-                  
-<span class="b-problem__itm__text" data-icon="23" data-id="23"><span class="b-problem__itm__text__ico b-svg-ico"><svg version="1.1" viewBox="0 0 24 27"><g><path d="M22.8,7.6h-1.2V5.2c0-0.8-0.1-2-0.8-2.3c0,0-2.6-1.3-8.8-1.3c-6.2,0-8.8,1.3-8.8,1.3C2.5,3.2,2.4,4.4,2.4,5.2v2.4H1.2 C0.4,7.6,0,8,0,8.8V10c0,0.8,0.4,1.2,1.2,1.2h1.2V22c0,0.6,0.6,1,1.2,1.2l0,0c0,3.2,3.6,3.3,3.6,0l0,0h9.6l0,0c0,3.2,3.6,3.1,3.6,0 l0,0c0.6-0.2,1.2-0.6,1.2-1.2V11.2h1.2c0.8,0,1.2-0.4,1.2-1.2V8.8C24,8,23.6,7.6,22.8,7.6z M7.2,4.6C7.2,4.3,7.4,4,7.7,4h8.6 c0.3,0,0.5,0.3,0.5,0.6v1.2c0,0.3-0.2,0.6-0.5,0.6H7.7c-0.3,0-0.5-0.3-0.5-0.6V4.6z M4.8,20.8c-0.7,0-1.2-0.5-1.2-1.2 c0-0.7,0.5-1.2,1.2-1.2c0.7,0,1.2,0.5,1.2,1.2C6,20.3,5.5,20.8,4.8,20.8z M19.2,20.8c-0.7,0-1.2-0.5-1.2-1.2c0-0.7,0.5-1.2,1.2-1.2 s1.2,0.5,1.2,1.2C20.4,20.3,19.8,20.8,19.2,20.8z M20.4,14.8c0,0.9-0.2,1.2-1.2,1.2H4.8c-0.9,0-1.2-0.3-1.2-1.2v-6 c0-0.9,0.2-1.2,1.2-1.2h14.4c1,0,1.2,0.1,1.2,1.2V14.8z"/></g></svg></span>Инфраструктура города | Общественный транспорт, остановки общественного транспорта</span>
-
-                  
-
-                </div>
+                <div class="b-problem__itm"><span data-icon="23" data-id="23" class="b-problem__itm__text"><span class="b-problem__itm__text__ico b-svg-ico"><svg version="1.1" viewBox="0 0 24 27"><g><path d="M22.8,7.6h-1.2V5.2c0-0.8-0.1-2-0.8-2.3c0,0-2.6-1.3-8.8-1.3c-6.2,0-8.8,1.3-8.8,1.3C2.5,3.2,2.4,4.4,2.4,5.2v2.4H1.2 C0.4,7.6,0,8,0,8.8V10c0,0.8,0.4,1.2,1.2,1.2h1.2V22c0,0.6,0.6,1,1.2,1.2l0,0c0,3.2,3.6,3.3,3.6,0l0,0h9.6l0,0c0,3.2,3.6,3.1,3.6,0 l0,0c0.6-0.2,1.2-0.6,1.2-1.2V11.2h1.2c0.8,0,1.2-0.4,1.2-1.2V8.8C24,8,23.6,7.6,22.8,7.6z M7.2,4.6C7.2,4.3,7.4,4,7.7,4h8.6 c0.3,0,0.5,0.3,0.5,0.6v1.2c0,0.3-0.2,0.6-0.5,0.6H7.7c-0.3,0-0.5-0.3-0.5-0.6V4.6z M4.8,20.8c-0.7,0-1.2-0.5-1.2-1.2 c0-0.7,0.5-1.2,1.2-1.2c0.7,0,1.2,0.5,1.2,1.2C6,20.3,5.5,20.8,4.8,20.8z M19.2,20.8c-0.7,0-1.2-0.5-1.2-1.2c0-0.7,0.5-1.2,1.2-1.2 s1.2,0.5,1.2,1.2C20.4,20.3,19.8,20.8,19.2,20.8z M20.4,14.8c0,0.9-0.2,1.2-1.2,1.2H4.8c-0.9,0-1.2-0.3-1.2-1.2v-6 c0-0.9,0.2-1.2,1.2-1.2h14.4c1,0,1.2,0.1,1.2,1.2V14.8z"/></g></svg></span>Инфраструктура города | Общественный транспорт, остановки общественного транспорта</span></div>
                 <div class="b-problem__desc">
                   <ul class="b-problem__desc__list">
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="310" data-icon="23" data-parent="23">Грязь/мусор на остановках общественного транспорта</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="310" data-icon="23" data-parent="23" class="b-problem__desc__list__itm__link">Грязь/мусор на остановках общественного транспорта</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="311" data-icon="23" data-parent="23">Несанкционированные  надписи, изображения на остановках общественного транспорта</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="311" data-icon="23" data-parent="23" class="b-problem__desc__list__itm__link">Несанкционированные  надписи, изображения на остановках общественного транспорта</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="312" data-icon="23" data-parent="23">Отсутствие остановочных указателей маршрутов</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="312" data-icon="23" data-parent="23" class="b-problem__desc__list__itm__link">Отсутствие остановочных указателей маршрутов</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="313" data-icon="23" data-parent="23">Отсутствие урны</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="313" data-icon="23" data-parent="23" class="b-problem__desc__list__itm__link">Отсутствие урны</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="314" data-icon="23" data-parent="23">Повреждение остановки общественного транспорта</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="314" data-icon="23" data-parent="23" class="b-problem__desc__list__itm__link">Повреждение остановки общественного транспорта</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="315" data-icon="23" data-parent="23">Повреждение остановочных указателей маршрутов</a>
-
-                      
-
-                    </li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="315" data-icon="23" data-parent="23" class="b-problem__desc__list__itm__link">Повреждение остановочных указателей маршрутов</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm">
-                      
-<a href="#" class="b-problem__desc__list__itm__link" data-id="367" data-icon="23" data-parent="23">Иное</a>
-
-                      
-
-                    </li>
-                    
-
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="367" data-icon="23" data-parent="23" class="b-problem__desc__list__itm__link">Иное</a></li>
                     
 
                   </ul>
                 </div>
               </div>
-              
-
               
 
               
@@ -1602,7 +866,7 @@
           </div>
         </div>
         <div class="b-popUp-problem__desc">
-          <form  action="/api/problem/add" class="b-desc">
+          <form action="/api/problem/add" class="b-desc">
             <div class="b-desc__head">
               <p class="b-desc__head__title"><span class="b-desc__head__title__ico b-svg-ico"></span>Дворовые территории</p>
               <div class="b-desc__head__change">Изменить</div>
@@ -1611,11 +875,11 @@
               <p class="b-desc__address__title">Укажите адрес проблемы</p>
               <div class="b-desc__address__box">
                 <div class="b-desc__address__box__address">
-                  <div class="b-desc__address__box__address__main"><img  src="/assets/img/delete-address.png" class="b-desc__address__box__address__main__remove"/><span class="b-desc__address__box__address__main__itm"></span></div>
+                  <div class="b-desc__address__box__address__main"><img src="/assets/img/delete-address.png" class="b-desc__address__box__address__main__remove"><span class="b-desc__address__box__address__main__itm"></span></div>
                 </div>
                 <div class="b-desc__address__box__action _hidden"><span>вручную</span></div>
                 <div class="b-desc__address__box__itm b-input-box">
-                  <input name="address" required="required" maxlength="100" data-href="/api/address/search" class="b-desc__address__box__itm__inp"/>
+                  <input name="address" autocomplete="off" required maxlength="100" data-href="/api/address/search" class="b-desc__address__box__itm__inp">
                   <div class="b-input__itm__error _top _hidden"><span>Пожалуйста, укажите адрес.</span></div>
                   <ul class="b-desc__address__box__itm__list"></ul>
                 </div>
@@ -1646,26 +910,14 @@
                     </svg></span></a>
               </div>
               <div class="b-desc__problem__inp b-input-box">
-                <textarea name="description" maxlength="200" required="required" class="b-desc__problem__textarea"></textarea>
+                <textarea name="description" maxlength="200" required class="b-desc__problem__textarea"></textarea>
                 <div class="b-input__itm__error _top _hidden"><span>Пожалуйста, опишите проблему.</span></div>
               </div><span class="b-desc__problem__sum">Осталось символов:&nbsp;<span class="b-desc__problem__sum__lit">200</span></span>
             </div>
             <div class="b-desc__photo">
-              <!--.b-desc__photo__attention//span Cообщения в данной категории обязательно должны быть с фотографией
-              -->
-              <div class="b-desc__photo__box b-input-box">
-                <label class="download-file">
-                  <div class="b-desc__photo__box__itm b-download">
-                    <div class="b-desc__photo__box__itm__pic b-download-pic">
-                      <div class="b-download-pic__remove"><img  src="/assets/img/remove.png" class="b-download-pic__remove__ico"/><span class="b-download-pic__remove__text">Удалить</span></div>
-                    </div>
-                  </div>
-                  <input type="file" name="problem-photo" class="l-input _problem"/>
-                  <div class="b-desc__photo__box__link"><span class="b-desc__photo__box__link__itm">Загрузите фотографию</span>
-                    <div class="b-input__itm__error _right _hidden"><span>Поле не заполнено</span></div>
-                  </div>
-                </label>
-                <div class="b-desc__photo__box__size">JPG, PNG и не более 2 Mb<br/>Необязательно			</div>
+              <div class="b-attachment-file-wrapper">
+                <div class="b-attachment-file"></div>
+                <div class="b-attachment-file-message"><span>JPG, PNG, не более 2 Mb и 3 шт.</span></div>
               </div>
             </div>
             <div class="b-desc__action">
@@ -1675,6 +927,8 @@
         </div>
       </div>
       
+      
+
       
 <div class="b-attention _popUp">
         <div class="b-attention__head">
@@ -1690,13 +944,16 @@
       </div>
       
       
+
+      
 <div data-box="result-problem" class="b-popUp-result-problem _popUp">
         <div class="b-popUp-result-problem__fill">
           <div class="b-popUp-result-problem__fill__close b-svg-ico">
             <svg version="1.1" viewBox="0 0 50 50">
               <polygon clip-rule="evenodd" points="50,1.4 48.6,0 25,23.6 1.4,0 0,1.4 23.6,25 0,48.6 1.4,50 25,26.4 48.6,50 50,48.6 26.4,25"></polygon>
             </svg>
-          </div><img/>
+          </div>
+          <div class="b-slider-images-wrapper"></div>
         </div>
         <div class="b-popUp-result-problem__box">
           <div class="b-popUp-head__close b-svg-ico">
@@ -1713,8 +970,10 @@
       </div>
       
       
+
+      
 <div data-box="remove-profile" action="/api/user/remove" class="b-popUp-remove-profile _popUp">
-        <div class="b-popUp-preloader"><img  src="/assets/img/preloader.gif" class="b-popUp-preloader__i"/></div>
+        <div class="b-popUp-preloader"><img src="/assets/img/preloader.gif" class="b-popUp-preloader__i"/></div>
         <div class="b-popUp-head">
           <p class="b-popUp-head__title"><strong>Удаление</strong> профиля</p>
           <div class="b-popUp-head__close b-svg-ico">
@@ -1724,7 +983,10 @@
           </div>
         </div>
         <div class="b-popUp-remove-profile__main">
-          <p class="b-popUp-remove-profile__main__text">Вы уверены, что хотите удалить свой профиль?<br/><span>Это действие нельзя будет отменить.</span></p>
+          <p class="b-popUp-remove-profile__main__text">
+            
+            Вы уверены, что хотите удалить свой профиль?<br><span>Это действие нельзя будет отменить.</span>
+          </p>
           <div class="b-popUp-remove-profile__main__btn">
             <div class="b-popUp-remove-profile__main__btn__itm">
               <button data-event="remove_user" class="l-button _small _red _remove _action">Удалить</button>
@@ -1737,8 +999,10 @@
       </div>
       
       
+
+      
 <div data-box="legal" class="b-popUp-legal _popUp">
-        <div class="b-popUp-preloader"><img  src="/assets/img/preloader.gif" class="b-popUp-preloader__i"/></div>
+        <div class="b-popUp-preloader"><img src="/assets/img/preloader.gif" class="b-popUp-preloader__i"/></div>
         <div class="b-popUp-head">
           <p class="b-popUp-head__title"><strong>Ошибка оформления</strong></p>
           <div class="b-popUp-head__close b-svg-ico">
@@ -1748,11 +1012,13 @@
           </div>
         </div>
         <div class="b-popUp-legal__main">
-          <p class="b-popUp-legal__main__text">Лица, зарегестрированные как <span>юридическое лицо</span> не имеют права оставлять сообщения о проблеме</p>
+          <p class="b-popUp-legal__main__text">Лица, зарегестрированные как&nbsp;<span>юридическое лицо</span>&nbsp;не имеют права оставлять сообщения о проблеме</p>
           <button data-event="" class="l-button _small _green _fine">Я понял(а)</button>
         </div>
       </div>
       
+      
+
       <div data-box="popup-map" class="b-popUp-map _popUp">
         <div class="b-popUp-head__close b-svg-ico">
           <svg version="1.1" viewBox="0 0 50 50">
@@ -1786,12 +1052,281 @@
               <div class="b-map-main__popup__toggle__box"><span class="_dir"></span>/<span class="_all"></span></div>
             </div>
           </div>
+          <div class="b-map-filter">
+            <div class="b-filter-status _month js-filterMonth">
+              
+
+              <div class="b-filter-status__select"><span  data-value="2017-03-01" class="b-filter-status__select__text">Март 2017</span></div>
+              
+
+              <div class="b-filter-status__option">
+                
+
+                
+
+                <div class="b-filter-status__option__i">
+                  <div class="l-checkbox">
+                    <label class="l-checkbox__i">
+                      
+
+                      <input type="checkbox" name="month-filter" data-prev="2017-03-31" value="2017-04-01">
+                      
+
+                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Апрель 2017</span></div>
+                    </label>
+                  </div>
+                </div>
+                
+
+                <div class="b-filter-status__option__i">
+                  <div class="l-checkbox">
+                    <label class="l-checkbox__i">
+                      
+
+                      <input type="checkbox" name="month-filter" data-prev="2017-02-28" value="2017-03-01" checked="checked" disabled>
+                      
+
+                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Март 2017</span></div>
+                    </label>
+                  </div>
+                </div>
+                
+
+                <div class="b-filter-status__option__i">
+                  <div class="l-checkbox">
+                    <label class="l-checkbox__i">
+                      
+
+                      <input type="checkbox" name="month-filter" data-prev="2017-01-31" value="2017-02-01">
+                      
+
+                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Февраль 2017</span></div>
+                    </label>
+                  </div>
+                </div>
+                
+
+                <div class="b-filter-status__option__i">
+                  <div class="l-checkbox">
+                    <label class="l-checkbox__i">
+                      
+
+                      <input type="checkbox" name="month-filter" data-prev="2016-12-31" value="2017-01-01">
+                      
+
+                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Январь 2017</span></div>
+                    </label>
+                  </div>
+                </div>
+                
+
+                <div class="b-filter-status__option__i">
+                  <div class="l-checkbox">
+                    <label class="l-checkbox__i">
+                      
+
+                      <input type="checkbox" name="month-filter" data-prev="2016-11-30" value="2016-12-01">
+                      
+
+                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Декабрь 2016</span></div>
+                    </label>
+                  </div>
+                </div>
+                
+
+                <div class="b-filter-status__option__i">
+                  <div class="l-checkbox">
+                    <label class="l-checkbox__i">
+                      
+
+                      <input type="checkbox" name="month-filter" data-prev="2016-10-31" value="2016-11-01">
+                      
+
+                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Ноябрь 2016</span></div>
+                    </label>
+                  </div>
+                </div>
+                
+
+                <div class="b-filter-status__option__i">
+                  <div class="l-checkbox">
+                    <label class="l-checkbox__i">
+                      
+
+                      <input type="checkbox" name="month-filter" data-prev="2016-09-30" value="2016-10-01">
+                      
+
+                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Октябрь 2016</span></div>
+                    </label>
+                  </div>
+                </div>
+                
+
+                <div class="b-filter-status__option__i">
+                  <div class="l-checkbox">
+                    <label class="l-checkbox__i">
+                      
+
+                      <input type="checkbox" name="month-filter" data-prev="2016-08-31" value="2016-09-01">
+                      
+
+                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Сентябрь 2016</span></div>
+                    </label>
+                  </div>
+                </div>
+                
+
+                <div class="b-filter-status__option__i">
+                  <div class="l-checkbox">
+                    <label class="l-checkbox__i">
+                      
+
+                      <input type="checkbox" name="month-filter" data-prev="2016-07-31" value="2016-08-01">
+                      
+
+                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Август 2016</span></div>
+                    </label>
+                  </div>
+                </div>
+                
+
+                <div class="b-filter-status__option__i">
+                  <div class="l-checkbox">
+                    <label class="l-checkbox__i">
+                      
+
+                      <input type="checkbox" name="month-filter" data-prev="2016-06-30" value="2016-07-01">
+                      
+
+                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Июль 2016</span></div>
+                    </label>
+                  </div>
+                </div>
+                
+
+                <div class="b-filter-status__option__i">
+                  <div class="l-checkbox">
+                    <label class="l-checkbox__i">
+                      
+
+                      <input type="checkbox" name="month-filter" data-prev="2016-05-31" value="2016-06-01">
+                      
+
+                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Июнь 2016</span></div>
+                    </label>
+                  </div>
+                </div>
+                
+
+                <div class="b-filter-status__option__i">
+                  <div class="l-checkbox">
+                    <label class="l-checkbox__i">
+                      
+
+                      <input type="checkbox" name="month-filter" data-prev="2016-04-30" value="2016-05-01">
+                      
+
+                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Май 2016</span></div>
+                    </label>
+                  </div>
+                </div>
+                
+
+                <div class="b-filter-status__option__i">
+                  <div class="l-checkbox">
+                    <label class="l-checkbox__i">
+                      
+
+                      <input type="checkbox" name="month-filter" data-prev="2016-03-31" value="2016-04-01">
+                      
+
+                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Апрель 2016</span></div>
+                    </label>
+                  </div>
+                </div>
+                
+
+                <div class="b-filter-status__option__i">
+                  <div class="l-checkbox">
+                    <label class="l-checkbox__i">
+                      
+
+                      <input type="checkbox" name="month-filter" data-prev="2016-02-29" value="2016-03-01">
+                      
+
+                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Март 2016</span></div>
+                    </label>
+                  </div>
+                </div>
+                
+
+                <div class="b-filter-status__option__i">
+                  <div class="l-checkbox">
+                    <label class="l-checkbox__i">
+                      
+
+                      <input type="checkbox" name="month-filter" data-prev="2016-01-31" value="2016-02-01">
+                      
+
+                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Февраль 2016</span></div>
+                    </label>
+                  </div>
+                </div>
+                
+
+                <div class="b-filter-status__option__i">
+                  <div class="l-checkbox">
+                    <label class="l-checkbox__i">
+                      
+
+                      <input type="checkbox" name="month-filter" data-prev="2015-12-31" value="2016-01-01">
+                      
+
+                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Январь 2016</span></div>
+                    </label>
+                  </div>
+                </div>
+                
+
+                <div class="b-filter-status__option__i">
+                  <div class="l-checkbox">
+                    <label class="l-checkbox__i">
+                      
+
+                      <input type="checkbox" name="month-filter" data-prev="2015-11-30" value="2015-12-01">
+                      
+
+                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Декабрь 2015</span></div>
+                    </label>
+                  </div>
+                </div>
+                
+
+                <div class="b-filter-status__option__i">
+                  <div class="l-checkbox">
+                    <label class="l-checkbox__i">
+                      
+
+                      <input type="checkbox" name="month-filter" data-prev="2015-10-31" value="2015-11-01">
+                      
+
+                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Ноябрь 2015</span></div>
+                    </label>
+                  </div>
+                </div>
+                
+
+                
+
+              </div>
+            </div>
+          </div>
           <div class="b-map-main__copyright">Карта &copy;<a target="_blank" href="http://www.openstreetmap.org/copyright" class="b-map-main__copyright__text">OpenStreetMap</a></div>
         </div>
       </div>
       
 <div data-box="remove-problem" action="/api/user/remove" class="b-popUp-remove-problem _popUp">
-        <div class="b-popUp-preloader"><img  src="/assets/img/preloader.gif" class="b-popUp-preloader__i"/></div>
+        <div class="b-popUp-preloader"><img src="/assets/img/preloader.gif" class="b-popUp-preloader__i"/></div>
         <div class="b-popUp-head">
           <p class="b-popUp-head__title"><strong>Удаление</strong> проблемы</p>
           <div class="b-popUp-head__close b-svg-ico">
@@ -1801,7 +1336,10 @@
           </div>
         </div>
         <div class="b-popUp-remove-problem__main">
-          <p class="b-popUp-remove-problem__main__text">Вы уверены, что хотите удалить это сообщение?<br/><span>Это действие нельзя будет отменить.</span></p>
+          <p class="b-popUp-remove-problem__main__text">
+            
+            Вы уверены, что хотите удалить это сообщение?<br><span>Это действие нельзя будет отменить.</span>
+          </p>
           <div class="b-popUp-remove-problem__main__btn">
             <div class="b-popUp-remove-problem__main__btn__itm">
               <button data-event="remove_problem" class="l-button _small _red _remove _action">Удалить</button>
@@ -1813,6 +1351,8 @@
         </div>
       </div>
       
+      
+
       <div data-box="filter" class="b-popUp-filter _popUp">
         
 
@@ -1824,10 +1364,7 @@
           
 
           
-
-          
-<a  href="/map" class="b-header-navigation__i  _act ">КАРТА СООБЩЕНИЙ</a>
-
+<a href="/map" class="b-header-navigation__i  _act ">КАРТА СООБЩЕНИЙ</a>
           
 
           
@@ -1837,18 +1374,14 @@
           
 
           
-
-          
-<a  href="/results" class="b-header-navigation__i ">РЕЗУЛЬТАТЫ</a>
-
+<a href="/results" class="b-header-navigation__i ">РЕЗУЛЬТАТЫ</a>
           
 
           
 
           
-
+<a href="/about" class="b-header-navigation__i ">О ПРОЕКТЕ</a>
           
-<a  href="/about" class="b-header-navigation__i ">О ПРОЕКТЕ</a>
 
           
 
@@ -1866,36 +1399,34 @@
 
           
 
+          
+
+          
+<a href="/rating" class="b-header-navigation__i ">РЕЙТИНГ</a>
           
 
           
 
           <div data-event="problem" class="b-header-navigation__action _action"><span>Сообщить о проблеме</span></div>
-          
-
         </nav>
       </div>
       <div class="b-header__main">
         <div class="b-header-main">
-          <div class="b-header-main__box _desc"><a  href="/" class="b-company-desc"><img  src="/assets/img/logo.png" class="b-company-desc__logo"/></a></div>
+          <div class="b-header-main__box _desc"><a href="/" class="b-company-desc"><img src="/assets/img/logo.png" class="b-company-desc__logo"></a></div>
           <div class="b-header-main__box">
-            <!--.b-header-main__box._hot-line-->
-            <!--	p.b-hot-line-->
-            <!--		span.b-hot-line__tel 115-->
-            <!--		span.b-hot-line__desc Горячая <br/> линия-->
+            
+
             <div  class="b-header-main__box _sign ">
               <p class="b-login">
                 <button data-event="registr" href="#" class="b-login__reg _action">регистрация</button><span data-event="login" class="b-login__enter _login _action">вход</span>
               </p>
             </div>
             <div  class="b-header-main__box _login _hiden ">
-              <p class="b-login">
-                
-<span class="b-login__person"><span class="login__person__text">Отлично выглядите, </span><a class="b-login__person__link" href=""></a></span>
-
-                
-
-              </p>
+              <p class="b-login"><span class="b-login__person"><span class="login__person__text">Рады Вас видеть, </span>
+                  
+<a href="" class="b-login__person__link"></a>
+                  
+</span></p>
             </div>
           </div>
         </div>
@@ -1905,463 +1436,446 @@
 
     
 
-    <div class="b-map">
-      <div id="map" class="b-map-main">
-        <div class="b-map-main__popup">
-          <div class="b-map-main__popup__desc">
-            <div class="b-map-main__popup__desc__close">
-              <svg version="1.1" viewBox="0 0 7.1 7.1">
-                <polygon points="7.1,0.7 6.4,0 3.5,2.8 0.7,0 0,0.7 2.8,3.5 0,6.4 0.7,7.1 3.5,4.3 6.4,7.1 7.1,6.4 4.3,3.5"></polygon>
-              </svg>
-            </div><a href="" class="b-map-main__popup__desc__category"></a>
-            <p class="b-map-main__popup__desc__street"></p>
-            <div class="b-map-problem__main__desc__status"><span></span>
-              <div class="b-map-problem__main__desc__status__date"></div>
-            </div>
-          </div>
-          <div class="b-map-main__popup__toggle">
-            <div class="b-map-main__popup__toggle__arrow _left">
-              <svg version="1.1" viewBox="0 0 7.1 7.1">
-                <polygon points="5.3,0.7 4.7,0 2.1,2.8 2.1,2.8 1.5,3.5 2.1,4.2 2.1,4.2 4.7,7 5.3,6.3 2.8,3.5"></polygon>
-              </svg>
-            </div>
-            <div class="b-map-main__popup__toggle__arrow _right">
-              <svg version="1.1" id="Layer_1" viewBox="0 0 50 50">
-                <polygon points="29.4,24.6 11.8,44.4 16,49.3 34.3,29.6 34.3,29.6 38.6,24.6 34.3,19.7 34.3,19.7 16,0 11.8,4.9"></polygon>
-              </svg>
-            </div>
-            <div class="b-map-main__popup__toggle__box"><span class="_dir"></span>/<span class="_all"></span></div>
-          </div>
+<div class="b-map">
+  <div id="map" class="b-map-main">
+    <div class="b-map-main__popup">
+      <div class="b-map-main__popup__desc">
+        <div class="b-map-main__popup__desc__close">
+          <svg version="1.1" viewBox="0 0 7.1 7.1">
+            <polygon points="7.1,0.7 6.4,0 3.5,2.8 0.7,0 0,0.7 2.8,3.5 0,6.4 0.7,7.1 3.5,4.3 6.4,7.1 7.1,6.4 4.3,3.5"></polygon>
+          </svg>
+        </div><a href="" class="b-map-main__popup__desc__category"></a>
+        <p class="b-map-main__popup__desc__street"></p>
+        <div class="b-map-problem__main__desc__status"><span></span>
+          <div class="b-map-problem__main__desc__status__date"></div>
         </div>
-        <div class="b-map-filter">
-          <div class="b-filter-status _month js-filterMonth">
-            
-
-            <div class="b-filter-status__select"><span  data-value="2016-04-17" class="b-filter-status__select__text">
-                
-Апрель 2016
-
-                
-</span></div>
-            
-
-            <div class="b-filter-status__option">
-              
-
-              
-
-              <div class="b-filter-status__option__i">
-                <div class="l-checkbox">
-                  <label class="l-checkbox__i">
-                    
-
-                    <input type="checkbox" name="month-filter" value="2016-04-01" checked="checked" disabled>
-                    
-
-                    <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">
-                        
-Апрель 2016
-
-                        
-</span></div>
-                  </label>
-                </div>
-              </div>
-              
-
-              <div class="b-filter-status__option__i">
-                <div class="l-checkbox">
-                  <label class="l-checkbox__i">
-                    
-
-                    <input type="checkbox" name="month-filter" value="2016-03-01">
-                    
-
-                    <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">
-                        
-Март 2016
-
-                        
-</span></div>
-                  </label>
-                </div>
-              </div>
-              
-
-              <div class="b-filter-status__option__i">
-                <div class="l-checkbox">
-                  <label class="l-checkbox__i">
-                    
-
-                    <input type="checkbox" name="month-filter" value="2016-02-01">
-                    
-
-                    <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">
-                        
-Февраль 2016
-
-                        
-</span></div>
-                  </label>
-                </div>
-              </div>
-              
-
-              <div class="b-filter-status__option__i">
-                <div class="l-checkbox">
-                  <label class="l-checkbox__i">
-                    
-
-                    <input type="checkbox" name="month-filter" value="2016-01-01">
-                    
-
-                    <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">
-                        
-Январь 2016
-
-                        
-</span></div>
-                  </label>
-                </div>
-              </div>
-              
-
-              <div class="b-filter-status__option__i">
-                <div class="l-checkbox">
-                  <label class="l-checkbox__i">
-                    
-
-                    <input type="checkbox" name="month-filter" value="2015-12-01">
-                    
-
-                    <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">
-                        
-Декабрь 2015
-
-                        
-</span></div>
-                  </label>
-                </div>
-              </div>
-              
-
-              <div class="b-filter-status__option__i">
-                <div class="l-checkbox">
-                  <label class="l-checkbox__i">
-                    
-
-                    <input type="checkbox" name="month-filter" value="2015-11-01">
-                    
-
-                    <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">
-                        
-Ноябрь 2015
-
-                        
-</span></div>
-                  </label>
-                </div>
-              </div>
-              
-
-              
-
-              
-
-            </div>
-          </div>
-          <div class="b-filter-status js-filterStatus">
-            <div class="b-filter-status__select"><span class="b-filter-status__select__text">Статус</span></div>
-            <div class="b-filter-status__option">
-              
-
-              
-
-              <div class="b-filter-status__option__i">
-                <div class="l-checkbox">
-                  <label class="l-checkbox__i">
-                    <input type="checkbox" name="status" value="4">
-                    <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">
-                        
-В работе
-
-                        
-</span></div>
-                  </label>
-                </div>
-              </div>
-              
-
-              <div class="b-filter-status__option__i">
-                <div class="l-checkbox">
-                  <label class="l-checkbox__i">
-                    <input type="checkbox" name="status" value="7">
-                    <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">
-                        
-На контроле
-
-                        
-</span></div>
-                  </label>
-                </div>
-              </div>
-              
-
-              <div class="b-filter-status__option__i">
-                <div class="l-checkbox">
-                  <label class="l-checkbox__i">
-                    <input type="checkbox" name="status" value="5">
-                    <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">
-                        
-Решено
-
-                        
-</span></div>
-                  </label>
-                </div>
-              </div>
-              
-
-              
-
-              
-
-            </div>
-          </div>
-        </div>
-        <div class="b-map-main__copyright">Карта &copy;<a target="_blank" href="http://www.openstreetmap.org/copyright" class="b-map-main__copyright__text">OpenStreetMap</a></div>
       </div>
-      <div data-href="/api/problem/getlist" class="b-map-sidebar">
-        <div class="b-map-sidebar__menu">
-          <div class="b-map-sidebar__menu__carusel">
-            <div class="b-map-box _category">
-              <ul class="b-map-box__category">
+      <div class="b-map-main__popup__toggle">
+        <div class="b-map-main__popup__toggle__arrow _left">
+          <svg version="1.1" viewBox="0 0 7.1 7.1">
+            <polygon points="5.3,0.7 4.7,0 2.1,2.8 2.1,2.8 1.5,3.5 2.1,4.2 2.1,4.2 4.7,7 5.3,6.3 2.8,3.5"></polygon>
+          </svg>
+        </div>
+        <div class="b-map-main__popup__toggle__arrow _right">
+          <svg version="1.1" id="Layer_1" viewBox="0 0 50 50">
+            <polygon points="29.4,24.6 11.8,44.4 16,49.3 34.3,29.6 34.3,29.6 38.6,24.6 34.3,19.7 34.3,19.7 16,0 11.8,4.9"></polygon>
+          </svg>
+        </div>
+        <div class="b-map-main__popup__toggle__box"><span class="_dir"></span>/<span class="_all"></span></div>
+      </div>
+    </div>
+    <div class="b-map-filter">
+      <div class="b-filter-status _month js-filterMonth">
+        
+
+        <div class="b-filter-status__select"><span  data-value="2017-03-01" class="b-filter-status__select__text">Март 2017</span></div>
+        
+
+        <div class="b-filter-status__option">
+          
+
+          
+
+          <div class="b-filter-status__option__i">
+            <div class="l-checkbox">
+              <label class="l-checkbox__i">
                 
 
+                <input type="checkbox" name="month-filter" value="2017-04-01"/>
                 
 
-                <li  data-id="6" class="b-map-box__category__i"><span class="b-map-box__category__i__ico b-svg-ico">
-                    
-<svg version="1.1" viewBox="0 0 25 25"><g id="Layer_2"><g><path d="M17.2,4.6l4.3,18.5h2.1L18.5,2.8H6.9L1.4,23.1h2.1L7.8,4.6h1v13.9H6v2.8h13v-2.8h-2.8V4.6H17.2z M14.4,18.5h-3.7V4.6h3.7 V18.5z"/></g></g></svg>
-
-                    
-</span>
-                  
-<span class="b-map-box__category__i__link">Дворовые территории | Благоустройство территории</span>
-
-                  
-
-                </li>
-                
-
-                <li  data-id="7" class="b-map-box__category__i"><span class="b-map-box__category__i__ico b-svg-ico">
-                    
-<svg version="1.1" viewBox="0 0 50 50"><g><g><path d="M33.3,17.1c-4,0-7.5,3.2-9.4,6.7c1,0.2,18.3,5.3,18.4,5.3c0.2-0.7,0-1.9,0-2.6C42.2,20.4,39.2,17.1,33.3,17.1z M47.1,2.2 c-0.4-0.8-1.1-1.4-1.9-1.7l-0.5-0.2c-0.4-0.1-0.7-0.2-1.1-0.2c-1.5,0-2.8,0.9-3.3,2.3l-5.9,10.5c0,0.1,0,0.2,0,0.2 c0,0.1,0.1,0.1,0.2,0.1l0.2,0c2.3,0.1,4.8,1,6.3,2.6c0.1,0.1,0.1,0.1,0.2,0c0.1,0,0.1-0.1,0.2-0.1l5.8-10.9 C47.6,3.9,47.5,3,47.1,2.2z M21.2,26.4C17.4,32,8.7,43.4,2.9,49.6c-0.1,0.1-0.1,0.2,0,0.3C2.9,49.9,2.9,50,3,50c0,0,4.9-0.1,5,0 l13.1-10.5c0,0-7.8,10.4-7.9,10.5c0-0.1,5.3,0,5.3,0c0,0.1,7.6-7.6,7.9-7.9c-0.1,0.1-0.4,0.6,0,0c0,0-2.7,7.9-2.6,7.9h5.3 c0.1-0.1,7.9-10.5,7.9-10.5S34.3,50.1,34.3,50c0.2,0,5.2,0,5.2,0c0.3,0,2.8-18.5,2.7-18.4C42.3,31.6,21.2,26.4,21.2,26.4z"/></g></g></svg>
-
-                    
-</span>
-                  
-<span class="b-map-box__category__i__link">Дворовые территории | Санитарное состояние</span>
-
-                  
-
-                </li>
-                
-
-                <li  data-id="9" class="b-map-box__category__i"><span class="b-map-box__category__i__ico b-svg-ico">
-                    
-<svg version="1.1" viewBox="0 0 25 25"><g id="Layer_1_1_"><path d="M21.9,0h1.8v25h-1.8V0z"/><path d="M11.6,0v25h9.3V0H11.6z M14.4,23.1h-1.9v-1.9h1.9V23.1z M14.4,20.4h-1.9v-1.9h1.9V20.4z M14.4,17.6h-1.9v-1.9h1.9V17.6z M14.4,14.8h-1.9V13h1.9V14.8z M14.4,12h-1.9v-1.9h1.9V12z M14.4,9.3h-1.9V7.4h1.9V9.3z M14.4,6.5h-1.9V4.6h1.9V6.5z M14.4,3.7 h-1.9V1.9h1.9V3.7z M17.1,23.1h-1.9v-1.9h1.9V23.1z M17.1,20.4h-1.9v-1.9h1.9V20.4z M17.1,17.6h-1.9v-1.9h1.9V17.6z M17.1,14.8 h-1.9V13h1.9V14.8z M17.1,12h-1.9v-1.9h1.9V12z M17.1,9.3h-1.9V7.4h1.9V9.3z M17.1,6.5h-1.9V4.6h1.9V6.5z M17.1,3.7h-1.9V1.9h1.9 V3.7z M19.9,23.1h-1.9v-1.9h1.9V23.1z M19.9,20.4h-1.9v-1.9h1.9V20.4z M19.9,17.6h-1.9v-1.9h1.9V17.6z M19.9,14.8h-1.9V13h1.9V14.8 z M19.9,12h-1.9v-1.9h1.9V12z M19.9,9.3h-1.9V7.4h1.9V9.3z M18.1,4.6h1.9v1.9h-1.9V4.6z M19.9,3.7h-1.9V1.9h1.9V3.7z"/><path display="none" d="M9,10.7h1.2v1.2H9V10.7z"/><line fill="none" x1="12.5" y1="13.9" x2="14.4" y2="13.9"/><path d="M1.4,13v12h9.3V5.6L1.4,13z M4.2,23.1H2.3v-1.9h1.9V23.1z M4.2,20.4H2.3v-1.9h1.9V20.4z M4.2,17.6H2.3v-1.9h1.9V17.6z M6.9,23.1H5.1v-1.9h1.9V23.1z M6.9,20.4H5.1v-1.9h1.9V20.4z M6.9,17.6H5.1v-1.9h1.9V17.6z M6.9,14.8H5.1V13h1.9V14.8z M9.7,23.1 H7.9v-1.9h1.9V23.1z M9.7,20.4H7.9v-1.9h1.9V20.4z M9.7,17.6H7.9v-1.9h1.9V17.6z M9.7,14.8H7.9V13h1.9V14.8z M9.7,12H7.9v-1.9h1.9 V12z"/></g></svg>
-
-                    
-</span>
-                  
-<span class="b-map-box__category__i__link">Многоквартирные дома | Общие проблемы, неисправности, повреждения</span>
-
-                  
-
-                </li>
-                
-
-                <li  data-id="10" class="b-map-box__category__i"><span class="b-map-box__category__i__ico b-svg-ico">
-                    
-<svg version="1.1" viewBox="0 0 25 25"><g id="Layer_10"><g><path d="M18,25c-2.1,0-3.9,0.1-5.3-1c-1-0.7-0.7-2.4-0.7-5c-0.1-0.3,0-1,0-1c-2.7-0.5-4-3.1-4-6v-1l-1-1V6h2V1c0-1.1,0.9-1,1-1 c0,0,1-0.2,1,1v5h4V1c0-1.2,0.9-1,1-1c0,0,1-0.2,1,1v5h2v4l-1,1v1c0,2.6-1.9,5.2-4,6c0,0,0,0.7,0,1c0,0.5,0,1.3,0,2 c0,0.8,0.6,1.7,1,2c0.4,0.3,1.9,0.5,3,0C17.9,23.1,18,24.9,18,25z"/></g></g></svg>
-
-                    
-</span>
-                  
-<span class="b-map-box__category__i__link">Многоквартирные дома | Электроработы</span>
-
-                  
-
-                </li>
-                
-
-                <li  data-id="11" class="b-map-box__category__i"><span class="b-map-box__category__i__ico b-svg-ico">
-                    
-<svg version="1.1" viewBox="0 0 25 25" enable-background="new 0 0 25 25" xml:space="preserve"><g id="Layer_11"><g><path d="M23.4,15.6c-0.1-0.1-0.2-0.3-0.4-0.4c-0.4-0.3-0.8-0.5-1.2-0.6c0.3-4.3-2.3-8.2-6.3-9.6v4.8c-0.1,0.3-0.2,0.9-0.9,0.9 s-0.8-0.5-0.9-0.9V5.4c0-1.1-2.7-1.3-2.7,0v4.4c-0.1,0.3-0.3,0.9-0.9,0.9c-0.6,0-0.8-0.5-0.9-0.9V5c-4,1.4-6.6,5.4-6.3,9.6 C2.4,14.8,2,15,1.7,15.3c-0.1,0.1-0.3,0.2-0.4,0.4c0.2,0.1,0.1,0.2,0.1,0.4c0,0.1,0,0.3,0.1,0.4s0.2,0.3,0.3,0.4 C2,17,2.4,17.2,2.9,17.4c1.3,0.5,2.7,0.8,4.1,1c1.9,0.3,3.8,0.4,5.6,0.4s3.8-0.1,5.6-0.4c1.4-0.2,2.8-0.5,4.1-1 c0.4-0.2,0.7-0.4,1.1-0.6c0.1-0.1,0.2-0.2,0.3-0.4c0.1-0.1,0.1-0.2,0.1-0.4C23.6,15.8,23.5,15.7,23.4,15.6z"/></g></g></svg>
-
-                    
-</span>
-                  
-<span class="b-map-box__category__i__link">Многоквартирные дома | Общестроительные работы</span>
-
-                  
-
-                </li>
-                
-
-                <li  data-id="12" class="b-map-box__category__i"><span class="b-map-box__category__i__ico b-svg-ico">
-                    
-<svg version="1.1" viewBox="0 0 25 25"><g id="Layer_1_1_"><path d="M21.9,0h1.8v25h-1.8V0z"/><path d="M11.6,0v25h9.3V0H11.6z M14.4,23.1h-1.9v-1.9h1.9V23.1z M14.4,20.4h-1.9v-1.9h1.9V20.4z M14.4,17.6h-1.9v-1.9h1.9V17.6z M14.4,14.8h-1.9V13h1.9V14.8z M14.4,12h-1.9v-1.9h1.9V12z M14.4,9.3h-1.9V7.4h1.9V9.3z M14.4,6.5h-1.9V4.6h1.9V6.5z M14.4,3.7 h-1.9V1.9h1.9V3.7z M17.1,23.1h-1.9v-1.9h1.9V23.1z M17.1,20.4h-1.9v-1.9h1.9V20.4z M17.1,17.6h-1.9v-1.9h1.9V17.6z M17.1,14.8 h-1.9V13h1.9V14.8z M17.1,12h-1.9v-1.9h1.9V12z M17.1,9.3h-1.9V7.4h1.9V9.3z M17.1,6.5h-1.9V4.6h1.9V6.5z M17.1,3.7h-1.9V1.9h1.9 V3.7z M19.9,23.1h-1.9v-1.9h1.9V23.1z M19.9,20.4h-1.9v-1.9h1.9V20.4z M19.9,17.6h-1.9v-1.9h1.9V17.6z M19.9,14.8h-1.9V13h1.9V14.8 z M19.9,12h-1.9v-1.9h1.9V12z M19.9,9.3h-1.9V7.4h1.9V9.3z M18.1,4.6h1.9v1.9h-1.9V4.6z M19.9,3.7h-1.9V1.9h1.9V3.7z"/><path display="none" d="M9,10.7h1.2v1.2H9V10.7z"/><line fill="none" x1="12.5" y1="13.9" x2="14.4" y2="13.9"/><path d="M1.4,13v12h9.3V5.6L1.4,13z M4.2,23.1H2.3v-1.9h1.9V23.1z M4.2,20.4H2.3v-1.9h1.9V20.4z M4.2,17.6H2.3v-1.9h1.9V17.6z M6.9,23.1H5.1v-1.9h1.9V23.1z M6.9,20.4H5.1v-1.9h1.9V20.4z M6.9,17.6H5.1v-1.9h1.9V17.6z M6.9,14.8H5.1V13h1.9V14.8z M9.7,23.1 H7.9v-1.9h1.9V23.1z M9.7,20.4H7.9v-1.9h1.9V20.4z M9.7,17.6H7.9v-1.9h1.9V17.6z M9.7,14.8H7.9V13h1.9V14.8z M9.7,12H7.9v-1.9h1.9 V12z"/></g></svg>
-
-                    
-</span>
-                  
-<span class="b-map-box__category__i__link">Многоквартирные дома | Текущий ремонт жилфонда за счет средств плательщиков</span>
-
-                  
-
-                </li>
-                
-
-                <li  data-id="13" class="b-map-box__category__i"><span class="b-map-box__category__i__ico b-svg-ico">
-                    
-<svg version="1.1" viewBox="0 0 25 25"><g id="Layer_4"><path d="M18.3,2.6H6.5C5,2.6,3.8,3.8,3.8,5.2v17.1c0,1.5,1.2,2.6,2.7,2.6h11.9c1.5,0,2.7-1.2,2.7-2.6v-17 C20.9,3.8,19.8,2.6,18.3,2.6z M18.3,22.4H6.5V5.3h11.9V22.4z"/><path d="M11.8,5.3h1.3v17.1h-1.3V5.3z"/><path d="M9.1,0h6.6v1.3H9.1V0z"/><path d="M1.4,22.2h22.2V25H1.4V22.2z"/><path d="M22.3,10.6h1.3v2.6h-1.3V10.6z"/><path d="M22.3,14.4h1.3V17h-1.3V14.4z"/></g></svg>
-
-                    
-</span>
-                  
-<span class="b-map-box__category__i__link">Многоквартирные дома | Неисправность лифта</span>
-
-                  
-
-                </li>
-                
-
-                <li  data-id="14" class="b-map-box__category__i"><span class="b-map-box__category__i__ico b-svg-ico">
-                    
-<svg version="1.1" viewBox="0 0 25 25"><g id="Layer_13"><g><path d="M21.7,3.6h-4.7V1.2c0-0.5-0.7-1.2-1.2-1.2h-6C9.4,0,8.6,0.7,8.6,1.2v2.4H3.8c-0.4,0-1.2,0.7-1.2,1.2v2.4 c0,0.7,1.2,1.1,1.2,1.1v15.5C3.8,24.6,4.4,25,5,25h15.5c0.8,0,1.2-0.4,1.2-1.2V8.3c0,0,1.2-0.4,1.2-1.2V4 C22.9,3.6,22,3.6,21.7,3.6z M9.7,1.2h5.9v2.4H9.7V1.2z M5,5.9h15.5v1.2H5V5.9z M19.3,22.6H6.2V8.3h2.4v9.5c0,1.5,1.2,1.5,1.2,0 V8.3h2.4v9.5c0,1.4,1.2,1.4,1.2,0V8.3h2.4v9.5c0,1.2,1.2,1.2,1.2,0V8.3h2.4v14.3H19.3z"/></g></g></svg>
-
-                    
-</span>
-                  
-<span class="b-map-box__category__i__link">Многоквартирные дома | Санитарное состояние</span>
-
-                  
-
-                </li>
-                
-
-                <li  data-id="20" class="b-map-box__category__i"><span class="b-map-box__category__i__ico b-svg-ico">
-                    
-<svg version="1.1" viewBox="0 0 25 25"><g id="Layer_6"><g><path d="M13.7,3.1l0.3,4h-2.9l0.3-4H13.7z M14.1,9.5l0.3,4.7h-3.7l0.3-4.7C10.9,9.5,14.1,9.5,14.1,9.5z M14.1,16.9l1,5.3H9.8 l1-5.3H14.1z M19.4,3.1H5.6L1.4,22.2h22.2L19.4,3.1z"/></g></g></svg>
-
-                    
-</span>
-                  
-<span class="b-map-box__category__i__link">Инфраструктура города | Дороги,  тротуары</span>
-
-                  
-
-                </li>
-                
-
-                <li  data-id="21" class="b-map-box__category__i"><span class="b-map-box__category__i__ico b-svg-ico">
-                    
-<svg version="1.1" viewBox="0 0 25 25"><g id="Layer_14"><g><path d="M18.6,10.9c0.6-0.6,1.1-1.2,1.1-3.2c0-2.2-2.2-3.2-4.4-3.2c0-2.2-1.1-4.4-3.2-4.4c-2.2,0-3.3,2.1-3.3,4.4 c-2.1,0-4.4,1.1-4.4,3.2c0,1.9,0.6,2.6,1.1,3.2c-1.9,0.3-3.2,1.9-3.2,3.9c0,2.7,1.7,4.7,4.4,4.7H11V25h2.1v-5.5h4.4 c2.7,0,4.4-2,4.4-4.7C21.9,12.9,20.6,11.3,18.6,10.9z"/><path d="M8.8,22.9h6.5V25H8.8V22.9z"/></g></g></svg>
-
-                    
-</span>
-                  
-<span class="b-map-box__category__i__link">Инфраструктура города | Парки, скверы</span>
-
-                  
-
-                </li>
-                
-
-                <li  data-id="22" class="b-map-box__category__i"><span class="b-map-box__category__i__ico b-svg-ico">
-                    
-<svg version="1.1" viewBox="0 0 25 25"><g id="Layer_7"><g><path d="M23.6,15.5H1.4V2.8h22.2V15.5z M3.5,13.3h18V4.9h-18V13.3z"/><path d="M16.2,25H8.8v-2.1h2.1v-8.4h3.1v8.4h2.1V25z"/><path d="M15.2,3.9h1V6h-1V3.9z"/><path d="M8.8,3.9h1V6h-1V3.9z"/><path d="M7.7,5.9h3.1v2.1H7.8L7.7,5.9z"/><path d="M14.1,5.9h3.1v2.1h-3.1L14.1,5.9z"/></g></g></svg>
-
-                    
-</span>
-                  
-<span class="b-map-box__category__i__link">Инфраструктура города | Рекламные и информационные конструкции</span>
-
-                  
-
-                </li>
-                
-
-                <li  data-id="23" class="b-map-box__category__i"><span class="b-map-box__category__i__ico b-svg-ico">
-                    
-<svg version="1.1" viewBox="0 0 24 27"><g><path d="M22.8,7.6h-1.2V5.2c0-0.8-0.1-2-0.8-2.3c0,0-2.6-1.3-8.8-1.3c-6.2,0-8.8,1.3-8.8,1.3C2.5,3.2,2.4,4.4,2.4,5.2v2.4H1.2 C0.4,7.6,0,8,0,8.8V10c0,0.8,0.4,1.2,1.2,1.2h1.2V22c0,0.6,0.6,1,1.2,1.2l0,0c0,3.2,3.6,3.3,3.6,0l0,0h9.6l0,0c0,3.2,3.6,3.1,3.6,0 l0,0c0.6-0.2,1.2-0.6,1.2-1.2V11.2h1.2c0.8,0,1.2-0.4,1.2-1.2V8.8C24,8,23.6,7.6,22.8,7.6z M7.2,4.6C7.2,4.3,7.4,4,7.7,4h8.6 c0.3,0,0.5,0.3,0.5,0.6v1.2c0,0.3-0.2,0.6-0.5,0.6H7.7c-0.3,0-0.5-0.3-0.5-0.6V4.6z M4.8,20.8c-0.7,0-1.2-0.5-1.2-1.2 c0-0.7,0.5-1.2,1.2-1.2c0.7,0,1.2,0.5,1.2,1.2C6,20.3,5.5,20.8,4.8,20.8z M19.2,20.8c-0.7,0-1.2-0.5-1.2-1.2c0-0.7,0.5-1.2,1.2-1.2 s1.2,0.5,1.2,1.2C20.4,20.3,19.8,20.8,19.2,20.8z M20.4,14.8c0,0.9-0.2,1.2-1.2,1.2H4.8c-0.9,0-1.2-0.3-1.2-1.2v-6 c0-0.9,0.2-1.2,1.2-1.2h14.4c1,0,1.2,0.1,1.2,1.2V14.8z"/></g></svg>
-
-                    
-</span>
-                  
-<span class="b-map-box__category__i__link">Инфраструктура города | Общественный транспорт, остановки общественного транспорта</span>
-
-                  
-
-                </li>
-                
-
-                
-
-                
-
-              </ul>
-            </div>
-            <div class="b-map-box _sub-category">
-              <div class="b-map-box__sub-category">
-                <div class="b-map-box__sub-category__head">
-                  <p class="b-map-box__sub-category__head__back"><img src="../assets/img/arrow.png" class="b-map-box__sub-category__head__back__ico"><span class="b-map-box__sub-category__head__back__text">Все категории</span></p>
-                  <p class="b-map-box__sub-category__head__title"><span class="b-map-box__sub-category__head__title__ico b-svg-ico"></span><span class="b-map-box__sub-category__head__title__i">Дворовые территории</span></p>
-                </div>
-                <div class="b-map-box__sub-category__box">
-                  <ul class="b-map-box__sub-category__box__list"></ul>
-                </div>
-              </div>
+                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Апрель 2017</span></div>
+              </label>
             </div>
           </div>
+          
+
+          <div class="b-filter-status__option__i">
+            <div class="l-checkbox">
+              <label class="l-checkbox__i">
+                
+
+                <input type="checkbox" name="month-filter" value="2017-03-01" checked="checked" disabled="disabled"/>
+                
+
+                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Март 2017</span></div>
+              </label>
+            </div>
+          </div>
+          
+
+          <div class="b-filter-status__option__i">
+            <div class="l-checkbox">
+              <label class="l-checkbox__i">
+                
+
+                <input type="checkbox" name="month-filter" value="2017-02-01"/>
+                
+
+                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Февраль 2017</span></div>
+              </label>
+            </div>
+          </div>
+          
+
+          <div class="b-filter-status__option__i">
+            <div class="l-checkbox">
+              <label class="l-checkbox__i">
+                
+
+                <input type="checkbox" name="month-filter" value="2017-01-01"/>
+                
+
+                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Январь 2017</span></div>
+              </label>
+            </div>
+          </div>
+          
+
+          <div class="b-filter-status__option__i">
+            <div class="l-checkbox">
+              <label class="l-checkbox__i">
+                
+
+                <input type="checkbox" name="month-filter" value="2016-12-01"/>
+                
+
+                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Декабрь 2016</span></div>
+              </label>
+            </div>
+          </div>
+          
+
+          <div class="b-filter-status__option__i">
+            <div class="l-checkbox">
+              <label class="l-checkbox__i">
+                
+
+                <input type="checkbox" name="month-filter" value="2016-11-01"/>
+                
+
+                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Ноябрь 2016</span></div>
+              </label>
+            </div>
+          </div>
+          
+
+          <div class="b-filter-status__option__i">
+            <div class="l-checkbox">
+              <label class="l-checkbox__i">
+                
+
+                <input type="checkbox" name="month-filter" value="2016-10-01"/>
+                
+
+                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Октябрь 2016</span></div>
+              </label>
+            </div>
+          </div>
+          
+
+          <div class="b-filter-status__option__i">
+            <div class="l-checkbox">
+              <label class="l-checkbox__i">
+                
+
+                <input type="checkbox" name="month-filter" value="2016-09-01"/>
+                
+
+                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Сентябрь 2016</span></div>
+              </label>
+            </div>
+          </div>
+          
+
+          <div class="b-filter-status__option__i">
+            <div class="l-checkbox">
+              <label class="l-checkbox__i">
+                
+
+                <input type="checkbox" name="month-filter" value="2016-08-01"/>
+                
+
+                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Август 2016</span></div>
+              </label>
+            </div>
+          </div>
+          
+
+          <div class="b-filter-status__option__i">
+            <div class="l-checkbox">
+              <label class="l-checkbox__i">
+                
+
+                <input type="checkbox" name="month-filter" value="2016-07-01"/>
+                
+
+                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Июль 2016</span></div>
+              </label>
+            </div>
+          </div>
+          
+
+          <div class="b-filter-status__option__i">
+            <div class="l-checkbox">
+              <label class="l-checkbox__i">
+                
+
+                <input type="checkbox" name="month-filter" value="2016-06-01"/>
+                
+
+                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Июнь 2016</span></div>
+              </label>
+            </div>
+          </div>
+          
+
+          <div class="b-filter-status__option__i">
+            <div class="l-checkbox">
+              <label class="l-checkbox__i">
+                
+
+                <input type="checkbox" name="month-filter" value="2016-05-01"/>
+                
+
+                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Май 2016</span></div>
+              </label>
+            </div>
+          </div>
+          
+
+          <div class="b-filter-status__option__i">
+            <div class="l-checkbox">
+              <label class="l-checkbox__i">
+                
+
+                <input type="checkbox" name="month-filter" value="2016-04-01"/>
+                
+
+                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Апрель 2016</span></div>
+              </label>
+            </div>
+          </div>
+          
+
+          <div class="b-filter-status__option__i">
+            <div class="l-checkbox">
+              <label class="l-checkbox__i">
+                
+
+                <input type="checkbox" name="month-filter" value="2016-03-01"/>
+                
+
+                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Март 2016</span></div>
+              </label>
+            </div>
+          </div>
+          
+
+          <div class="b-filter-status__option__i">
+            <div class="l-checkbox">
+              <label class="l-checkbox__i">
+                
+
+                <input type="checkbox" name="month-filter" value="2016-02-01"/>
+                
+
+                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Февраль 2016</span></div>
+              </label>
+            </div>
+          </div>
+          
+
+          <div class="b-filter-status__option__i">
+            <div class="l-checkbox">
+              <label class="l-checkbox__i">
+                
+
+                <input type="checkbox" name="month-filter" value="2016-01-01"/>
+                
+
+                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Январь 2016</span></div>
+              </label>
+            </div>
+          </div>
+          
+
+          <div class="b-filter-status__option__i">
+            <div class="l-checkbox">
+              <label class="l-checkbox__i">
+                
+
+                <input type="checkbox" name="month-filter" value="2015-12-01"/>
+                
+
+                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Декабрь 2015</span></div>
+              </label>
+            </div>
+          </div>
+          
+
+          <div class="b-filter-status__option__i">
+            <div class="l-checkbox">
+              <label class="l-checkbox__i">
+                
+
+                <input type="checkbox" name="month-filter" value="2015-11-01"/>
+                
+
+                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Ноябрь 2015</span></div>
+              </label>
+            </div>
+          </div>
+          
+
+          
+
         </div>
-        <div class="b-map-sidebar__elems">
-          <div class="b-map-sidebar__elems__fill">
+      </div>
+      <div class="b-filter-status js-filterStatus">
+        <div class="b-filter-status__select"><span class="b-filter-status__select__text">Статус</span></div>
+        <div class="b-filter-status__option">
+          
+
+          
+
+          <div class="b-filter-status__option__i">
+            <div class="l-checkbox">
+              <label class="l-checkbox__i">
+                <input type="checkbox" name="status" value="4"/>
+                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">В работе</span></div>
+              </label>
+            </div>
+          </div>
+          
+
+          <div class="b-filter-status__option__i">
+            <div class="l-checkbox">
+              <label class="l-checkbox__i">
+                <input type="checkbox" name="status" value="7"/>
+                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">На контроле</span></div>
+              </label>
+            </div>
+          </div>
+          
+
+          <div class="b-filter-status__option__i">
+            <div class="l-checkbox">
+              <label class="l-checkbox__i">
+                <input type="checkbox" name="status" value="5"/>
+                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Решено</span></div>
+              </label>
+            </div>
+          </div>
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+    <div class="b-map-main__copyright">Карта &copy;<a target="_blank" href="http://www.openstreetmap.org/copyright" class="b-map-main__copyright__text">OpenStreetMap</a></div>
+  </div>
+  <div data-href="/api/problem/getlist" class="b-map-sidebar">
+    <div class="b-map-sidebar__menu">
+      <div class="b-map-sidebar__menu__carusel">
+        <div class="b-map-box _category">
+          <ul class="b-map-box__category">
             
 
-          </div>
-          <div class="b-map-sidebar__elems__empty _hiden">
-            <p class="b-map-sidebar__elems__empty__text">Проблем с выбранными условиями не найдено</p>
+            
+
+            <li  data-id="6" class="b-map-box__category__i"><span class="b-map-box__category__i__ico b-svg-ico"><svg version="1.1" viewBox="0 0 25 25"><g id="Layer_2"><g><path d="M17.2,4.6l4.3,18.5h2.1L18.5,2.8H6.9L1.4,23.1h2.1L7.8,4.6h1v13.9H6v2.8h13v-2.8h-2.8V4.6H17.2z M14.4,18.5h-3.7V4.6h3.7 V18.5z"/></g></g></svg></span><span class="b-map-box__category__i__link">Дворовые территории | Благоустройство территории</span></li>
+            
+
+            <li  data-id="7" class="b-map-box__category__i"><span class="b-map-box__category__i__ico b-svg-ico"><svg version="1.1" viewBox="0 0 50 50"><g><g><path d="M33.3,17.1c-4,0-7.5,3.2-9.4,6.7c1,0.2,18.3,5.3,18.4,5.3c0.2-0.7,0-1.9,0-2.6C42.2,20.4,39.2,17.1,33.3,17.1z M47.1,2.2 c-0.4-0.8-1.1-1.4-1.9-1.7l-0.5-0.2c-0.4-0.1-0.7-0.2-1.1-0.2c-1.5,0-2.8,0.9-3.3,2.3l-5.9,10.5c0,0.1,0,0.2,0,0.2 c0,0.1,0.1,0.1,0.2,0.1l0.2,0c2.3,0.1,4.8,1,6.3,2.6c0.1,0.1,0.1,0.1,0.2,0c0.1,0,0.1-0.1,0.2-0.1l5.8-10.9 C47.6,3.9,47.5,3,47.1,2.2z M21.2,26.4C17.4,32,8.7,43.4,2.9,49.6c-0.1,0.1-0.1,0.2,0,0.3C2.9,49.9,2.9,50,3,50c0,0,4.9-0.1,5,0 l13.1-10.5c0,0-7.8,10.4-7.9,10.5c0-0.1,5.3,0,5.3,0c0,0.1,7.6-7.6,7.9-7.9c-0.1,0.1-0.4,0.6,0,0c0,0-2.7,7.9-2.6,7.9h5.3 c0.1-0.1,7.9-10.5,7.9-10.5S34.3,50.1,34.3,50c0.2,0,5.2,0,5.2,0c0.3,0,2.8-18.5,2.7-18.4C42.3,31.6,21.2,26.4,21.2,26.4z"/></g></g></svg></span><span class="b-map-box__category__i__link">Дворовые территории | Санитарное состояние</span></li>
+            
+
+            <li  data-id="9" class="b-map-box__category__i"><span class="b-map-box__category__i__ico b-svg-ico"><svg version="1.1" viewBox="0 0 25 25"><g id="Layer_1_1_"><path d="M21.9,0h1.8v25h-1.8V0z"/><path d="M11.6,0v25h9.3V0H11.6z M14.4,23.1h-1.9v-1.9h1.9V23.1z M14.4,20.4h-1.9v-1.9h1.9V20.4z M14.4,17.6h-1.9v-1.9h1.9V17.6z M14.4,14.8h-1.9V13h1.9V14.8z M14.4,12h-1.9v-1.9h1.9V12z M14.4,9.3h-1.9V7.4h1.9V9.3z M14.4,6.5h-1.9V4.6h1.9V6.5z M14.4,3.7 h-1.9V1.9h1.9V3.7z M17.1,23.1h-1.9v-1.9h1.9V23.1z M17.1,20.4h-1.9v-1.9h1.9V20.4z M17.1,17.6h-1.9v-1.9h1.9V17.6z M17.1,14.8 h-1.9V13h1.9V14.8z M17.1,12h-1.9v-1.9h1.9V12z M17.1,9.3h-1.9V7.4h1.9V9.3z M17.1,6.5h-1.9V4.6h1.9V6.5z M17.1,3.7h-1.9V1.9h1.9 V3.7z M19.9,23.1h-1.9v-1.9h1.9V23.1z M19.9,20.4h-1.9v-1.9h1.9V20.4z M19.9,17.6h-1.9v-1.9h1.9V17.6z M19.9,14.8h-1.9V13h1.9V14.8 z M19.9,12h-1.9v-1.9h1.9V12z M19.9,9.3h-1.9V7.4h1.9V9.3z M18.1,4.6h1.9v1.9h-1.9V4.6z M19.9,3.7h-1.9V1.9h1.9V3.7z"/><path display="none" d="M9,10.7h1.2v1.2H9V10.7z"/><line fill="none" x1="12.5" y1="13.9" x2="14.4" y2="13.9"/><path d="M1.4,13v12h9.3V5.6L1.4,13z M4.2,23.1H2.3v-1.9h1.9V23.1z M4.2,20.4H2.3v-1.9h1.9V20.4z M4.2,17.6H2.3v-1.9h1.9V17.6z M6.9,23.1H5.1v-1.9h1.9V23.1z M6.9,20.4H5.1v-1.9h1.9V20.4z M6.9,17.6H5.1v-1.9h1.9V17.6z M6.9,14.8H5.1V13h1.9V14.8z M9.7,23.1 H7.9v-1.9h1.9V23.1z M9.7,20.4H7.9v-1.9h1.9V20.4z M9.7,17.6H7.9v-1.9h1.9V17.6z M9.7,14.8H7.9V13h1.9V14.8z M9.7,12H7.9v-1.9h1.9 V12z"/></g></svg></span><span class="b-map-box__category__i__link">Многоквартирные дома | Общие проблемы, неисправности, повреждения</span></li>
+            
+
+            <li  data-id="10" class="b-map-box__category__i"><span class="b-map-box__category__i__ico b-svg-ico"><svg version="1.1" viewBox="0 0 25 25"><g id="Layer_10"><g><path d="M18,25c-2.1,0-3.9,0.1-5.3-1c-1-0.7-0.7-2.4-0.7-5c-0.1-0.3,0-1,0-1c-2.7-0.5-4-3.1-4-6v-1l-1-1V6h2V1c0-1.1,0.9-1,1-1 c0,0,1-0.2,1,1v5h4V1c0-1.2,0.9-1,1-1c0,0,1-0.2,1,1v5h2v4l-1,1v1c0,2.6-1.9,5.2-4,6c0,0,0,0.7,0,1c0,0.5,0,1.3,0,2 c0,0.8,0.6,1.7,1,2c0.4,0.3,1.9,0.5,3,0C17.9,23.1,18,24.9,18,25z"/></g></g></svg></span><span class="b-map-box__category__i__link">Многоквартирные дома | Электроработы</span></li>
+            
+
+            <li  data-id="11" class="b-map-box__category__i"><span class="b-map-box__category__i__ico b-svg-ico"><svg version="1.1" viewBox="0 0 25 25" enable-background="new 0 0 25 25" xml:space="preserve"><g id="Layer_11"><g><path d="M23.4,15.6c-0.1-0.1-0.2-0.3-0.4-0.4c-0.4-0.3-0.8-0.5-1.2-0.6c0.3-4.3-2.3-8.2-6.3-9.6v4.8c-0.1,0.3-0.2,0.9-0.9,0.9 s-0.8-0.5-0.9-0.9V5.4c0-1.1-2.7-1.3-2.7,0v4.4c-0.1,0.3-0.3,0.9-0.9,0.9c-0.6,0-0.8-0.5-0.9-0.9V5c-4,1.4-6.6,5.4-6.3,9.6 C2.4,14.8,2,15,1.7,15.3c-0.1,0.1-0.3,0.2-0.4,0.4c0.2,0.1,0.1,0.2,0.1,0.4c0,0.1,0,0.3,0.1,0.4s0.2,0.3,0.3,0.4 C2,17,2.4,17.2,2.9,17.4c1.3,0.5,2.7,0.8,4.1,1c1.9,0.3,3.8,0.4,5.6,0.4s3.8-0.1,5.6-0.4c1.4-0.2,2.8-0.5,4.1-1 c0.4-0.2,0.7-0.4,1.1-0.6c0.1-0.1,0.2-0.2,0.3-0.4c0.1-0.1,0.1-0.2,0.1-0.4C23.6,15.8,23.5,15.7,23.4,15.6z"/></g></g></svg></span><span class="b-map-box__category__i__link">Многоквартирные дома | Общестроительные работы</span></li>
+            
+
+            <li  data-id="12" class="b-map-box__category__i"><span class="b-map-box__category__i__ico b-svg-ico"><svg version="1.1" viewBox="0 0 25 25"><g id="Layer_1_1_"><path d="M21.9,0h1.8v25h-1.8V0z"/><path d="M11.6,0v25h9.3V0H11.6z M14.4,23.1h-1.9v-1.9h1.9V23.1z M14.4,20.4h-1.9v-1.9h1.9V20.4z M14.4,17.6h-1.9v-1.9h1.9V17.6z M14.4,14.8h-1.9V13h1.9V14.8z M14.4,12h-1.9v-1.9h1.9V12z M14.4,9.3h-1.9V7.4h1.9V9.3z M14.4,6.5h-1.9V4.6h1.9V6.5z M14.4,3.7 h-1.9V1.9h1.9V3.7z M17.1,23.1h-1.9v-1.9h1.9V23.1z M17.1,20.4h-1.9v-1.9h1.9V20.4z M17.1,17.6h-1.9v-1.9h1.9V17.6z M17.1,14.8 h-1.9V13h1.9V14.8z M17.1,12h-1.9v-1.9h1.9V12z M17.1,9.3h-1.9V7.4h1.9V9.3z M17.1,6.5h-1.9V4.6h1.9V6.5z M17.1,3.7h-1.9V1.9h1.9 V3.7z M19.9,23.1h-1.9v-1.9h1.9V23.1z M19.9,20.4h-1.9v-1.9h1.9V20.4z M19.9,17.6h-1.9v-1.9h1.9V17.6z M19.9,14.8h-1.9V13h1.9V14.8 z M19.9,12h-1.9v-1.9h1.9V12z M19.9,9.3h-1.9V7.4h1.9V9.3z M18.1,4.6h1.9v1.9h-1.9V4.6z M19.9,3.7h-1.9V1.9h1.9V3.7z"/><path display="none" d="M9,10.7h1.2v1.2H9V10.7z"/><line fill="none" x1="12.5" y1="13.9" x2="14.4" y2="13.9"/><path d="M1.4,13v12h9.3V5.6L1.4,13z M4.2,23.1H2.3v-1.9h1.9V23.1z M4.2,20.4H2.3v-1.9h1.9V20.4z M4.2,17.6H2.3v-1.9h1.9V17.6z M6.9,23.1H5.1v-1.9h1.9V23.1z M6.9,20.4H5.1v-1.9h1.9V20.4z M6.9,17.6H5.1v-1.9h1.9V17.6z M6.9,14.8H5.1V13h1.9V14.8z M9.7,23.1 H7.9v-1.9h1.9V23.1z M9.7,20.4H7.9v-1.9h1.9V20.4z M9.7,17.6H7.9v-1.9h1.9V17.6z M9.7,14.8H7.9V13h1.9V14.8z M9.7,12H7.9v-1.9h1.9 V12z"/></g></svg></span><span class="b-map-box__category__i__link">Многоквартирные дома | Текущий ремонт жилфонда за счет средств плательщиков</span></li>
+            
+
+            <li  data-id="13" class="b-map-box__category__i"><span class="b-map-box__category__i__ico b-svg-ico"><svg version="1.1" viewBox="0 0 25 25"><g id="Layer_4"><path d="M18.3,2.6H6.5C5,2.6,3.8,3.8,3.8,5.2v17.1c0,1.5,1.2,2.6,2.7,2.6h11.9c1.5,0,2.7-1.2,2.7-2.6v-17 C20.9,3.8,19.8,2.6,18.3,2.6z M18.3,22.4H6.5V5.3h11.9V22.4z"/><path d="M11.8,5.3h1.3v17.1h-1.3V5.3z"/><path d="M9.1,0h6.6v1.3H9.1V0z"/><path d="M1.4,22.2h22.2V25H1.4V22.2z"/><path d="M22.3,10.6h1.3v2.6h-1.3V10.6z"/><path d="M22.3,14.4h1.3V17h-1.3V14.4z"/></g></svg></span><span class="b-map-box__category__i__link">Многоквартирные дома | Неисправность лифта</span></li>
+            
+
+            <li  data-id="14" class="b-map-box__category__i"><span class="b-map-box__category__i__ico b-svg-ico"><svg version="1.1" viewBox="0 0 25 25"><g id="Layer_13"><g><path d="M21.7,3.6h-4.7V1.2c0-0.5-0.7-1.2-1.2-1.2h-6C9.4,0,8.6,0.7,8.6,1.2v2.4H3.8c-0.4,0-1.2,0.7-1.2,1.2v2.4 c0,0.7,1.2,1.1,1.2,1.1v15.5C3.8,24.6,4.4,25,5,25h15.5c0.8,0,1.2-0.4,1.2-1.2V8.3c0,0,1.2-0.4,1.2-1.2V4 C22.9,3.6,22,3.6,21.7,3.6z M9.7,1.2h5.9v2.4H9.7V1.2z M5,5.9h15.5v1.2H5V5.9z M19.3,22.6H6.2V8.3h2.4v9.5c0,1.5,1.2,1.5,1.2,0 V8.3h2.4v9.5c0,1.4,1.2,1.4,1.2,0V8.3h2.4v9.5c0,1.2,1.2,1.2,1.2,0V8.3h2.4v14.3H19.3z"/></g></g></svg></span><span class="b-map-box__category__i__link">Многоквартирные дома | Санитарное состояние</span></li>
+            
+
+            <li  data-id="20" class="b-map-box__category__i"><span class="b-map-box__category__i__ico b-svg-ico"><svg version="1.1" viewBox="0 0 25 25"><g id="Layer_6"><g><path d="M13.7,3.1l0.3,4h-2.9l0.3-4H13.7z M14.1,9.5l0.3,4.7h-3.7l0.3-4.7C10.9,9.5,14.1,9.5,14.1,9.5z M14.1,16.9l1,5.3H9.8 l1-5.3H14.1z M19.4,3.1H5.6L1.4,22.2h22.2L19.4,3.1z"/></g></g></svg></span><span class="b-map-box__category__i__link">Инфраструктура города | Дороги,  тротуары</span></li>
+            
+
+            <li  data-id="21" class="b-map-box__category__i"><span class="b-map-box__category__i__ico b-svg-ico"><svg version="1.1" viewBox="0 0 25 25"><g id="Layer_14"><g><path d="M18.6,10.9c0.6-0.6,1.1-1.2,1.1-3.2c0-2.2-2.2-3.2-4.4-3.2c0-2.2-1.1-4.4-3.2-4.4c-2.2,0-3.3,2.1-3.3,4.4 c-2.1,0-4.4,1.1-4.4,3.2c0,1.9,0.6,2.6,1.1,3.2c-1.9,0.3-3.2,1.9-3.2,3.9c0,2.7,1.7,4.7,4.4,4.7H11V25h2.1v-5.5h4.4 c2.7,0,4.4-2,4.4-4.7C21.9,12.9,20.6,11.3,18.6,10.9z"/><path d="M8.8,22.9h6.5V25H8.8V22.9z"/></g></g></svg></span><span class="b-map-box__category__i__link">Инфраструктура города | Парки, скверы</span></li>
+            
+
+            <li  data-id="22" class="b-map-box__category__i"><span class="b-map-box__category__i__ico b-svg-ico"><svg version="1.1" viewBox="0 0 25 25"><g id="Layer_7"><g><path d="M23.6,15.5H1.4V2.8h22.2V15.5z M3.5,13.3h18V4.9h-18V13.3z"/><path d="M16.2,25H8.8v-2.1h2.1v-8.4h3.1v8.4h2.1V25z"/><path d="M15.2,3.9h1V6h-1V3.9z"/><path d="M8.8,3.9h1V6h-1V3.9z"/><path d="M7.7,5.9h3.1v2.1H7.8L7.7,5.9z"/><path d="M14.1,5.9h3.1v2.1h-3.1L14.1,5.9z"/></g></g></svg></span><span class="b-map-box__category__i__link">Инфраструктура города | Рекламные и информационные конструкции</span></li>
+            
+
+            <li  data-id="23" class="b-map-box__category__i"><span class="b-map-box__category__i__ico b-svg-ico"><svg version="1.1" viewBox="0 0 24 27"><g><path d="M22.8,7.6h-1.2V5.2c0-0.8-0.1-2-0.8-2.3c0,0-2.6-1.3-8.8-1.3c-6.2,0-8.8,1.3-8.8,1.3C2.5,3.2,2.4,4.4,2.4,5.2v2.4H1.2 C0.4,7.6,0,8,0,8.8V10c0,0.8,0.4,1.2,1.2,1.2h1.2V22c0,0.6,0.6,1,1.2,1.2l0,0c0,3.2,3.6,3.3,3.6,0l0,0h9.6l0,0c0,3.2,3.6,3.1,3.6,0 l0,0c0.6-0.2,1.2-0.6,1.2-1.2V11.2h1.2c0.8,0,1.2-0.4,1.2-1.2V8.8C24,8,23.6,7.6,22.8,7.6z M7.2,4.6C7.2,4.3,7.4,4,7.7,4h8.6 c0.3,0,0.5,0.3,0.5,0.6v1.2c0,0.3-0.2,0.6-0.5,0.6H7.7c-0.3,0-0.5-0.3-0.5-0.6V4.6z M4.8,20.8c-0.7,0-1.2-0.5-1.2-1.2 c0-0.7,0.5-1.2,1.2-1.2c0.7,0,1.2,0.5,1.2,1.2C6,20.3,5.5,20.8,4.8,20.8z M19.2,20.8c-0.7,0-1.2-0.5-1.2-1.2c0-0.7,0.5-1.2,1.2-1.2 s1.2,0.5,1.2,1.2C20.4,20.3,19.8,20.8,19.2,20.8z M20.4,14.8c0,0.9-0.2,1.2-1.2,1.2H4.8c-0.9,0-1.2-0.3-1.2-1.2v-6 c0-0.9,0.2-1.2,1.2-1.2h14.4c1,0,1.2,0.1,1.2,1.2V14.8z"/></g></svg></span><span class="b-map-box__category__i__link">Инфраструктура города | Общественный транспорт, остановки общественного транспорта</span></li>
+            
+
+            
+
+          </ul>
+        </div>
+        <div class="b-map-box _sub-category">
+          <div class="b-map-box__sub-category">
+            <div class="b-map-box__sub-category__head">
+              <p class="b-map-box__sub-category__head__back"><img src="/assets/img/arrow.png" class="b-map-box__sub-category__head__back__ico"/><span class="b-map-box__sub-category__head__back__text">Все категории</span></p>
+              <p class="b-map-box__sub-category__head__title"><span class="b-map-box__sub-category__head__title__ico b-svg-ico"></span><span class="b-map-box__sub-category__head__title__i">Дворовые территории</span></p>
+            </div>
+            <div class="b-map-box__sub-category__box">
+              <ul class="b-map-box__sub-category__box__list"></ul>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    
+    <div class="b-map-sidebar__elems">
+      <div class="b-map-sidebar__elems__fill"></div>
+      <div class="b-map-sidebar__elems__empty _hiden">
+        <p class="b-map-sidebar__elems__empty__text">Проблем с выбранными условиями не найдено</p>
+      </div>
+    </div>
+  </div>
+</div>
+
 
     
 
-    
+
 
     
 
-    <script  src="/assets/js/vendor/jquery-1.10.2.min.js"></script>
-    <script  src="/assets/js/vendor/jquery-ui.min.js"></script>
-    <script  src="/assets/js/vendor/datepicker-ru.js"></script>
-    <script  src="/assets/js/vendor/jquery.mousewheel.js"></script>
-    <script  src="/assets/js/vendor/jquery.form.js"></script>
-    <script  src="/assets/js/vendor/jquery.jscrollpane.min.js"></script>
-    <script  src="/assets/js/vendor/jquery.maskedinput.min.js"></script>
-    <script  src="/assets/js/fingerprint2.js"></script>
-    <script  src="http://87.252.228.252:81/js/map.js"></script>
-    <script  src="/assets/js/main.js"></script>
+    <script src="/assets/js/vendor/jquery-1.10.2.min.js"></script>
+    <script src="/assets/js/vendor/jquery-ui.min.js"></script>
+    <script src="/assets/js/vendor/datepicker-ru.js"></script>
+    <script src="/assets/js/vendor/jquery.mousewheel.js"></script>
+    <script src="/assets/js/vendor/jquery.form.js"></script>
+    <script src="/assets/js/vendor/jquery.jscrollpane.min.js"></script>
+    <script src="/assets/js/vendor/jquery.maskedinput.min.js"></script>
+    <script src="/assets/js/vendor/ofi.browser.js">// postcss-object-fit-images plugin for ie and edge</script>
+    <script src="/assets/js/fingerprint2.js"></script>
+    <script src="http://87.252.228.248/js/map.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/file-attachment.js"></script>
+    <script src="/assets/js/performance-evaluation.js"></script>
+    <script src="/assets/js/slider.js"></script>
+    <script src="/assets/js/rating-page.js"></script>
+    <script src="/assets/js/print-problem.js"></script>
     
 
     <!-- Yandex.Metrika counter-->
     <script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter33275903 = new Ya.Metrika({ id:33275903, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script>
     <noscript>
-      <div><img src="https://mc.yandex.ru/watch/33275903" style="position:absolute; left:-9999px;" alt=""/></div>
+      <div><img src="https://mc.yandex.ru/watch/33275903" style="position:absolute; left:-9999px;" alt=""></div>
     </noscript>
     <!-- /Yandex.Metrika counter-->
     <script type="text/javascript">(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q || []).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-69605926-1', 'auto');ga('send', 'pageview');</script>
