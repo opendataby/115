@@ -49,15 +49,16 @@ def get_token(content):
 
 
 if __name__ == '__main__':
-    content = get_page_contents(URL, '001-seed.txt')
+    content = get_page_contents(URL, '001-in-seed.txt')
 
     months = get_months(content)
     curmon = get_cur_month(content)
     rest = list(months)
     rest.remove(curmon)
 
-    print('current month: ' + curmon)
-    print('all months: ' + ', '.join(months))
+    with open('001-out-months.txt', 'wb') as fm:
+        fm.write('\n'.join(months))
+        print('saved %s' % fm.name)
 
     token = get_token(content)
 
