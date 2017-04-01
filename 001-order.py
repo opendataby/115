@@ -29,6 +29,12 @@ def get_page_contents(url, cachefile, force=False):
             fw.write(output)
         return output
 
+def escape2unicode(string):
+    """
+    Convert from \u043c\u0430\u0440 to unicode object to utf-8
+    """
+    return string.decode('unicode-escape').encode('utf-8')
+
 
 def get_months(content):
   remonth = re.compile('name="month-filter" value="(\d\d\d\d-\d\d-\d\d)"')
@@ -60,4 +66,4 @@ if __name__ == '__main__':
     stream = urllib.urlopen(apiurl, params)
     data = stream.read()
     with open(curmon, 'wb') as fw:
-        fw.write(data)
+        fw.write(escape2unicode(data))

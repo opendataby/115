@@ -15,7 +15,7 @@
     
 
     <div class="b-modal">
-      <input type="hidden" name="_token"  value="Txx0eWrv4D3dVTUV4WlrgBVoCUL09g6e58rze1aE">
+      <input type="hidden" name="_token"  value="XRI0IgBoLaJ2YG0c2IIYRGMoa90m0MoJuhRYYUYv">
       
 
       
@@ -1422,7 +1422,7 @@
               </p>
             </div>
             <div  class="b-header-main__box _login _hiden ">
-              <p class="b-login"><span class="b-login__person"><span class="login__person__text">Рады Вас видеть, </span>
+              <p class="b-login"><span class="b-login__person"><span class="login__person__text">Спасибо Вам, </span>
                   
 <a href="" class="b-login__person__link"></a>
                   
