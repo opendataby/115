@@ -39,12 +39,6 @@ def get_page(url, cachefile, force=False):
         rewrite(cachefile, cookie+'\n'+output)
         return output, cookie
 
-def escape2unicode(string):
-    """
-    Convert from \u043c\u0430\u0440 to unicode object to utf-8
-    """
-    return string.decode('unicode-escape').encode('utf-8')
-
 
 def get_months(content):
   remonth = re.compile('name="month-filter" value="(\d\d\d\d-\d\d-\d\d)"')
@@ -70,13 +64,3 @@ if __name__ == '__main__':
     # and list of months
     token = get_token(content)
     rewrite('002-in-creds.txt', cookie+'\n'+token+'\n'+'\n'.join(months))
-
-    apiurl = 'http://115.xn--90ais/api/problem/getlist'
-    params = 'date={}&_token={}'.format(curmon, token)
-    opener = urllib.FancyURLopener()
-    opener.addheader('Cookie', cookie)
-    stream = opener.open(apiurl, params)
-    
-    data = stream.read()
-    with open(curmon, 'wb') as fw:
-        fw.write(escape2unicode(data))
