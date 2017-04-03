@@ -1,4 +1,4 @@
-laravel_session=eyJpdiI6Im40b2x3QUNjTmJFS0xRMGx4VERMcEE9PSIsInZhbHVlIjoiejVwSE1mK3E5QklINXFzWUUyVlpDOVRXWXFJcVNkbmNJdk5YeG44QmZJTVl5QU1Ib252S0M0c3JORGcyVGFcLzBLWXJsSTlDWUdYR3hseGZKNm93cWVnPT0iLCJtYWMiOiI4NzBmNTZkNjM1ZjU2YTZjZTFhODY2ZTcxODg3YTU1YjljOWFiMzU2M2ExZGVhMjM2Y2M5Y2E1MDE3YTRkMGUyIn0%3D; expires=Sun, 02-Apr-2017 11:21:41 GMT; Max-Age=7200; path=/; httponly
+laravel_session=eyJpdiI6IkJ0N0RTUFdKNW5meXB0M0U5R2p1OWc9PSIsInZhbHVlIjoib2tUZ010VzlmUnJsNFo3TCt0dFwvbDNFVzBqUHBFQnp3UkxCd2xGczhqdE9VVk5vb2hiMis3WDdKK0VTUjVNNzd6eHUyMEUzY2RZRko1Skw0THpKcnZBPT0iLCJtYWMiOiI4ZTFmMGFlMGUwZDZhOTU1MWQ0Y2YxOTAwMzc3MzAwOTEwN2EzNzA3MzViMWJhODRjMGQzNDQ0NWYwMGM4YWUyIn0%3D; expires=Mon, 03-Apr-2017 18:21:21 GMT; Max-Age=7200; path=/; httponly
 <!DOCTYPE html>
 <html>
   <head>
@@ -16,7 +16,7 @@ laravel_session=eyJpdiI6Im40b2x3QUNjTmJFS0xRMGx4VERMcEE9PSIsInZhbHVlIjoiejVwSE1m
     
 
     <div class="b-modal">
-      <input type="hidden" name="_token"  value="unipafJ04pvMMQyDU9PvM8PGurQYEHRbHoTarT8Q">
+      <input type="hidden" name="_token"  value="Bnw3QamuM8CZ40kaNXoWiI8Us96crFWoLjRleOEc">
       
 
       
@@ -1057,7 +1057,7 @@ laravel_session=eyJpdiI6Im40b2x3QUNjTmJFS0xRMGx4VERMcEE9PSIsInZhbHVlIjoiejVwSE1m
             <div class="b-filter-status _month js-filterMonth">
               
 
-              <div class="b-filter-status__select"><span  data-value="2017-03-02" class="b-filter-status__select__text">Март 2017</span></div>
+              <div class="b-filter-status__select"><span  data-value="2017-03-03" class="b-filter-status__select__text">Март 2017</span></div>
               
 
               <div class="b-filter-status__option">
@@ -1469,7 +1469,7 @@ laravel_session=eyJpdiI6Im40b2x3QUNjTmJFS0xRMGx4VERMcEE9PSIsInZhbHVlIjoiejVwSE1m
       <div class="b-filter-status _month js-filterMonth">
         
 
-        <div class="b-filter-status__select"><span  data-value="2017-03-02" class="b-filter-status__select__text">Март 2017</span></div>
+        <div class="b-filter-status__select"><span  data-value="2017-03-03" class="b-filter-status__select__text">Март 2017</span></div>
         
 
         <div class="b-filter-status__option">
