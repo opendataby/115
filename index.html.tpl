@@ -6,7 +6,7 @@
 #files > div {
   margin: 0 10pt;
 }
-h5 > a {
+h5 a {
   color: black;
 }
 </style>
@@ -21,6 +21,7 @@ h5 > a {
   <div id="dataset">
     <h5>dataset</h5>
 {dataset}
+    <h5>{zip}</h5>
   </div>
 </div>
 </body>

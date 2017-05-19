@@ -8,6 +8,7 @@ if __name__ == '__main__':
     fields = {
       'filelist': '',
       'dataset': '',
+      'zip': '',
     }
     for f in sorted(files):
         if f == '.git':
@@ -15,6 +16,8 @@ if __name__ == '__main__':
         appendto = 'filelist'
         if f.startswith('opendata'):
             appendto = 'dataset'
+        if f.endswith('.zip'):
+            appendto = 'zip'
         fields[appendto] += '<div><a href={0}>{0}</a></div>\n'.format(f)
 
     with open('index.html.tpl', 'rb') as template:
