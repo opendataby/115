@@ -14,7 +14,7 @@ if __name__ == '__main__':
     with open('index.html.tpl', 'rb') as template:
         html = template.read()
         
-        with open('index.html.', 'wb') as out:
+        with open('index.html', 'wb') as out:
             out.write(html.format(**fields))
 
         print('saved index.html')
