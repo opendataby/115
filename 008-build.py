@@ -16,3 +16,5 @@ if __name__ == '__main__':
         
         with open('index.html.', 'wb') as out:
             out.write(html.format(**fields))
+
+        print('saved index.html')
