@@ -1,4 +1,4 @@
-laravel_session=eyJpdiI6IkJ0N0RTUFdKNW5meXB0M0U5R2p1OWc9PSIsInZhbHVlIjoib2tUZ010VzlmUnJsNFo3TCt0dFwvbDNFVzBqUHBFQnp3UkxCd2xGczhqdE9VVk5vb2hiMis3WDdKK0VTUjVNNzd6eHUyMEUzY2RZRko1Skw0THpKcnZBPT0iLCJtYWMiOiI4ZTFmMGFlMGUwZDZhOTU1MWQ0Y2YxOTAwMzc3MzAwOTEwN2EzNzA3MzViMWJhODRjMGQzNDQ0NWYwMGM4YWUyIn0%3D; expires=Mon, 03-Apr-2017 18:21:21 GMT; Max-Age=7200; path=/; httponly
+laravel_session=eyJpdiI6IjB6YnlmMlpFN2s5YmNwUmVHZjBcL2V3PT0iLCJ2YWx1ZSI6IkZiMVZ1M0JUMVV4bzAyM3FNa1AyTVhMWGtZdzZDS2VFZVNIUGV6WFJpQXRcL1lPc2NHaGR1WlM0ZnJNZ1JYOGhGTkNXQkJwZktpVno0TE95V3dxZ2k4Zz09IiwibWFjIjoiOGFkMWNlM2FmNDU0MDY2NWU4YTQyM2I4MzI2YmEyYjJiNmE1YTYxZjQzYmIxNWRhNzVmOTJjODA3ZjI1OTZlYSJ9; expires=Fri, 19-May-2017 04:58:29 GMT; Max-Age=7200; path=/; httponly
 <!DOCTYPE html>
 <html>
   <head>
@@ -16,7 +16,7 @@ laravel_session=eyJpdiI6IkJ0N0RTUFdKNW5meXB0M0U5R2p1OWc9PSIsInZhbHVlIjoib2tUZ010
     
 
     <div class="b-modal">
-      <input type="hidden" name="_token"  value="Bnw3QamuM8CZ40kaNXoWiI8Us96crFWoLjRleOEc">
+      <input type="hidden" name="_token"  value="BgOMG5mra9fUZmU77hzrkPuDAZW9cSoc1v0H13GR">
       
 
       
@@ -554,7 +554,7 @@ laravel_session=eyJpdiI6IkJ0N0RTUFdKNW5meXB0M0U5R2p1OWc9PSIsInZhbHVlIjoib2tUZ010
                     <li class="b-problem__desc__list__itm"><a href="#" data-id="98" data-icon="11" data-parent="11" class="b-problem__desc__list__itm__link">Требуется ремонт отмостки</a></li>
                     
 
-                    <li class="b-problem__desc__list__itm"><a href="#" data-id="99" data-icon="11" data-parent="11" class="b-problem__desc__list__itm__link">Повреждения лестницных ступеней</a></li>
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="99" data-icon="11" data-parent="11" class="b-problem__desc__list__itm__link">Повреждения лестничных ступеней</a></li>
                     
 
                     <li class="b-problem__desc__list__itm"><a href="#" data-id="100" data-icon="11" data-parent="11" class="b-problem__desc__list__itm__link">Повреждения входной двери в подъезд, подвал</a></li>
@@ -1057,12 +1057,26 @@ laravel_session=eyJpdiI6IkJ0N0RTUFdKNW5meXB0M0U5R2p1OWc9PSIsInZhbHVlIjoib2tUZ010
             <div class="b-filter-status _month js-filterMonth">
               
 
-              <div class="b-filter-status__select"><span  data-value="2017-03-03" class="b-filter-status__select__text">Март 2017</span></div>
+              <div class="b-filter-status__select"><span  data-value="2017-05-19" class="b-filter-status__select__text">Май 2017</span></div>
               
 
               <div class="b-filter-status__option">
                 
 
+                
+
+                <div class="b-filter-status__option__i">
+                  <div class="l-checkbox">
+                    <label class="l-checkbox__i">
+                      
+
+                      <input type="checkbox" name="month-filter" data-prev="2017-04-30" value="2017-05-01" checked="checked" disabled>
+                      
+
+                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Май 2017</span></div>
+                    </label>
+                  </div>
+                </div>
                 
 
                 <div class="b-filter-status__option__i">
@@ -1084,7 +1098,7 @@ laravel_session=eyJpdiI6IkJ0N0RTUFdKNW5meXB0M0U5R2p1OWc9PSIsInZhbHVlIjoib2tUZ010
                     <label class="l-checkbox__i">
                       
 
-                      <input type="checkbox" name="month-filter" data-prev="2017-02-28" value="2017-03-01" checked="checked" disabled>
+                      <input type="checkbox" name="month-filter" data-prev="2017-02-28" value="2017-03-01">
                       
 
                       <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Март 2017</span></div>
@@ -1423,7 +1437,7 @@ laravel_session=eyJpdiI6IkJ0N0RTUFdKNW5meXB0M0U5R2p1OWc9PSIsInZhbHVlIjoib2tUZ010
               </p>
             </div>
             <div  class="b-header-main__box _login _hiden ">
-              <p class="b-login"><span class="b-login__person"><span class="login__person__text">Спасибо Вам, </span>
+              <p class="b-login"><span class="b-login__person"><span class="login__person__text">Отлично выглядите, </span>
                   
 <a href="" class="b-login__person__link"></a>
                   
@@ -1469,12 +1483,26 @@ laravel_session=eyJpdiI6IkJ0N0RTUFdKNW5meXB0M0U5R2p1OWc9PSIsInZhbHVlIjoib2tUZ010
       <div class="b-filter-status _month js-filterMonth">
         
 
-        <div class="b-filter-status__select"><span  data-value="2017-03-03" class="b-filter-status__select__text">Март 2017</span></div>
+        <div class="b-filter-status__select"><span  data-value="2017-05-19" class="b-filter-status__select__text">Май 2017</span></div>
         
 
         <div class="b-filter-status__option">
           
 
+          
+
+          <div class="b-filter-status__option__i">
+            <div class="l-checkbox">
+              <label class="l-checkbox__i">
+                
+
+                <input type="checkbox" name="month-filter" value="2017-05-01" checked="checked" disabled="disabled"/>
+                
+
+                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Май 2017</span></div>
+              </label>
+            </div>
+          </div>
           
 
           <div class="b-filter-status__option__i">
@@ -1496,7 +1524,7 @@ laravel_session=eyJpdiI6IkJ0N0RTUFdKNW5meXB0M0U5R2p1OWc9PSIsInZhbHVlIjoib2tUZ010
               <label class="l-checkbox__i">
                 
 
-                <input type="checkbox" name="month-filter" value="2017-03-01" checked="checked" disabled="disabled"/>
+                <input type="checkbox" name="month-filter" value="2017-03-01"/>
                 
 
                 <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Март 2017</span></div>
