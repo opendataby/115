@@ -32,6 +32,7 @@ if __name__ == '__main__':
     for month in months:
         filename = '003-in-%s.json' % month
         if os.path.exists(filename):
+            print('skipping {}'.format(filename))
             continue
         with open(filename, 'wb') as fw:
             data = get_month_data(month, cookie, token)
