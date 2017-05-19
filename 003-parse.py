@@ -72,7 +72,7 @@ def json2csv(inname, outname):
         writer.writeheader()
         for issue in data['items']:
             item = data['items'][issue].copy()
-            
+
             #fields(item['category'])
             created = item['date_create'].split()[2]  # "1 апреля 0:16"
             authorid = item['user']['id'] if item['user'] else 0
@@ -93,23 +93,23 @@ def json2csv(inname, outname):
                 raise
 
             """
-             "address": "рядом с улица Максима Богдановича, 143", 
-             "crm_create_at": "2017-04-01", 
-             "crm_date_planned": "2017-04-03", 
-             "date_create": "1 апреля 0:16", 
-             "date_planned": "03.04.2017", 
-             "lat": "53.92498779", 
-             "lng": "27.57044029", 
+             "address": "рядом с улица Максима Богдановича, 143",
+             "crm_create_at": "2017-04-01",
+             "crm_date_planned": "2017-04-03",
+             "date_create": "1 апреля 0:16",
+             "date_planned": "03.04.2017",
+             "lat": "53.92498779",
+             "lng": "27.57044029",
              "photo": {
-                 "after": [], 
+                 "after": [],
                  "before": []
-             }, 
-             "rating": "0", 
-             "status": "3", 
+             },
+             "rating": "0",
+             "status": "3",
              "user": {
-                 "id": "6635", 
-                 "last_name": "Евгений", 
-                 "middle_name": "", 
+                 "id": "6635",
+                 "last_name": "Евгений",
+                 "middle_name": "",
                  "name": "Евгений"
              }
              """
@@ -124,4 +124,6 @@ if __name__ == '__main__':
         # 003-in-2017-04-01.json
         if name.startswith('003-in-') and name.endswith('.json'):
             month = name[7:-5]
-            json2csv(name, 'opendata-115-%s.csv' % month)
+            outname = 'opendata-115-%s.csv' % month
+            json2csv(name, outname)
+            print('saved %s' % outname)
