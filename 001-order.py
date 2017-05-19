@@ -10,6 +10,7 @@ https://github.com/opendataby/city-dashboard/issues/53
 
 import os
 import re
+import sys
 import urllib
 
 
@@ -27,6 +28,7 @@ def get_page(url, cachefile, force=False):
     Fetch page and cookie from URL if local cachefile does not exist
     """
     if os.path.exists(cachefile) and not force:
+        print('using cached ' + cachefile + ' (-f to force update)')
         with open(cachefile, 'rb') as fc:
             cookie = fc.readline().strip()
             return fc.read(), cookie
@@ -53,7 +55,11 @@ def get_token(content):
 
 
 if __name__ == '__main__':
-    content, cookie = get_page(URL, '001-in-seed.txt')
+    force = False
+    if '-f' in sys.argv:
+        force = True
+
+    content, cookie = get_page(URL, '001-in-seed.txt', force)
 
     months = get_months(content)
     curmon = get_cur_month(content)
