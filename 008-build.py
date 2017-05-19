@@ -9,7 +9,7 @@ if __name__ == '__main__':
       'filelist': '',
       'dataset': '',
     }
-    for f in files:
+    for f in sorted(files):
         if f == '.git':
             continue
         appendto = 'filelist'
