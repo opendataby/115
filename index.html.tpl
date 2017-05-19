@@ -1,10 +1,10 @@
 <style>
 body {
   display: flex;
-  padding: 10pt;
+  padding: 0 10pt;
 }
 body > div {
-  margin: 10pt;
+  margin: 0 10pt;
 }
 h5 > a {
   color: black;
