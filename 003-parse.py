@@ -6,33 +6,33 @@ Example:
 
     "items": {
         "68036": {
-            "address": "рядом с улица Максима Богдановича, 143", 
+            "address": "рядом с улица Максима Богдановича, 143",
             "category": {
-                "icon": "6", 
-                "id": "25", 
+                "icon": "6",
+                "id": "25",
                 "parent_id": "6"
-            }, 
-            "crm_create_at": "2017-04-01", 
-            "crm_date_planned": "2017-04-03", 
-            "date_create": "1 апреля 0:16", 
-            "date_planned": "03.04.2017", 
-            "href": "/problem/68036", 
-            "id": "68036", 
-            "lat": "53.92498779", 
-            "lng": "27.57044029", 
+            },
+            "crm_create_at": "2017-04-01",
+            "crm_date_planned": "2017-04-03",
+            "date_create": "1 апреля 0:16",
+            "date_planned": "03.04.2017",
+            "href": "/problem/68036",
+            "id": "68036",
+            "lat": "53.92498779",
+            "lng": "27.57044029",
             "photo": {
-                "after": [], 
+                "after": [],
                 "before": []
-            }, 
-            "rating": "0", 
-            "status": "3", 
+            },
+            "rating": "0",
+            "status": "3",
             "user": {
-                "id": "6635", 
-                "last_name": "Евгений", 
-                "middle_name": "", 
+                "id": "6635",
+                "last_name": "Евгений",
+                "middle_name": "",
                 "name": "Евгений"
             }
-        }, 
+        },
         "68037": {
 
 Possible status values:
@@ -67,7 +67,21 @@ def json2csv(inname, outname):
     with open(outname, 'wb') as outcsv:
         #outcsv.write('# https://github.com/opendataby/city-dashboard/issues/53\n')
         #outcsv.write('# \n')
-        names = ['id', 'category', 'author', 'name', 'address', 'status', 'opened', 'planned']
+
+        names = [
+            'id',
+            'category',
+            'author',
+            'name',
+            'address',
+            'lat',
+            'lng',
+            'status',
+            'rating',
+            'opened',
+            'planned'
+        ]
+
         writer = csv.DictWriter(outcsv, fieldnames=names)
         writer.writeheader()
         for issue in data['items']:
@@ -84,7 +98,10 @@ def json2csv(inname, outname):
                   ('author', authorid),
                   ('name', name),
                   ('address', item['address'].encode('utf-8').strip()),
+                  ('lat', item['lat']),
+                  ('lng', item['lng']),
                   ('status', item['status']),
+                  ('rating', item['rating']),
                   ('opened', item['crm_create_at']+" "+created),
                   ('planned', item['crm_date_planned']),
                 ])
