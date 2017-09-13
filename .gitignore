@@ -1,0 +1,8 @@
+*.csv
+
+*.json
+!003-data-example.json
+
+*.zip
+
+*.html
