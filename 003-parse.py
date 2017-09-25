@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
 https://github.com/opendataby/city-dashboard/issues/53
