@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """
 Build index.html with the list of files
 """

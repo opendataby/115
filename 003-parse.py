@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
 https://github.com/opendataby/city-dashboard/issues/53
@@ -142,5 +143,5 @@ if __name__ == '__main__':
         if name.startswith('003-in-') and name.endswith('.json'):
             month = name[7:-5]
             outname = 'opendata-115-%s.csv' % month
+            print('creating %s' % outname)
             json2csv(name, outname)
-            print('saved %s' % outname)
