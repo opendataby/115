@@ -44,12 +44,26 @@ def get_page(url, cachefile, force=False):
 
 
 def get_months(content):
+  """ Get (parse) list of months from content """
   remonth = re.compile('name="month-filter" value="(\d\d\d\d-\d\d-\d\d)"')
   return remonth.findall(content)
 
+def calc_months(curdate):
+  """ Calculate months up to curdate from hardcoded date """
+  hardcoded = '2015-11-01'
+  date = [int(i) for i in hardcoded.split('-')]
+  res = []
+  while date <= [int(i) for i in curdate.split('-')]:
+    res.append('{:04d}-{:02d}-{:02d}'.format(*date))
+    y, date[1] = divmod(date[1]+1, 13)
+    if y:
+      date[1] = 1
+      date[0] += 1
+  return res
+
 def get_cur_month(content):
   remonth = re.compile('name="month-filter" value="(\d\d\d\d-\d\d-\d\d)" checked="checked"')
-  return remonth.findall(content)[0]
+  return remonth.findall(content)[0]  # 2017-03-01
 
 def get_token(content):
   return re.findall('_token"\s+value="(\w+)"', content)[0]
@@ -62,12 +76,14 @@ if __name__ == '__main__':
 
     content, cookie = get_page(URL, '001-in-seed.txt', force)
 
-    months = get_months(content)
     curmon = get_cur_month(content)
-    rest = list(months)
+    #months = get_months(content)
+    months = calc_months(curmon)
+    rest = sorted(list(months))
     rest.remove(curmon)
 
     # next step is fetch, which needs token, laravel_session cookie
     # and list of months
     token = get_token(content)
+    # list of months includes current (incomplete) month
     rewrite('002-in-creds.txt', cookie+'\n'+token+'\n'+'\n'.join(months))
