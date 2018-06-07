@@ -98,3 +98,4 @@ https://opendata.by/node/372
 - Уже летом портад ЖКХ 115.бел заработает в Гродно, районах Гродненской области и Бресте
 - багфиксы?
 - делаем дэшборд: https://app.powerbi.com/view?r=eyJrIjoiYThhZDc4ZTEtY2FmMy00NzAxLTg2ODQtZGQ4OTJkODExMGVlIiwidCI6IjBhYWNjZmQ4LTM4M2ItNGU4Yy1hNmM0LTM5OTZhOGI5NzE3OCIsImMiOjl9
+- анализируем дэшборд!
