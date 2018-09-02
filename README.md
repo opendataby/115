@@ -135,3 +135,5 @@ https://opendata.by/node/372
 Октябрьский	3 134	2 038	288
 Ленинский	3 058	2 113	330
 https://minsknews.by/sotrudniki-portala-115-bel-mnogie-minchane-oshibochno-otozhdestvlyayut-nas-so-sluzhboy-prinimayushhey-zvonki-po-nomeru-115/
+
+
