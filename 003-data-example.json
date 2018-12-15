@@ -36,6 +36,7 @@
             "id": "68036", 
             "lat": "53.92498779", 
             "lng": "27.57044029", 
+            "organisation_id": "136",
             "photo": {
                 "after": [], 
                 "before": []
@@ -64,6 +65,7 @@
             "id": "68038", 
             "lat": "53.84909439", 
             "lng": "27.46698761", 
+            "organisation_id": "136",
             "photo": {
                 "after": [], 
                 "before": []
@@ -92,6 +94,7 @@
             "id": "68198", 
             "lat": "53.84877777", 
             "lng": "27.56421471", 
+            "organisation_id": "136",            
             "photo": {
                 "after": [], 
                 "before": [
