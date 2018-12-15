@@ -21,6 +21,7 @@ Example:
             "id": "68036",
             "lat": "53.92498779",
             "lng": "27.57044029",
+            "organisation_id": "136",
             "photo": {
                 "after": [],
                 "before": []
@@ -105,6 +106,7 @@ def json2csv(inname, outname):
                   ('rating', item['rating']),
                   ('opened', item['crm_create_at']+" "+created),
                   ('planned', item['crm_date_planned']),
+                  ('organisation_id', item['organisation_id']),
                 ])
             except TypeError:
                 print('Error: file {}, issue {}'.format(inname, item['id']))
