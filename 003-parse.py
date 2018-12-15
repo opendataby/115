@@ -82,7 +82,7 @@ def json2csv(inname, outname):
             'rating',
             'opened',
             'planned',
-            'organisation_id
+            'organisation_id'
         ]
 
         writer = csv.DictWriter(outcsv, fieldnames=names)
