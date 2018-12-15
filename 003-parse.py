@@ -81,7 +81,8 @@ def json2csv(inname, outname):
             'status',
             'rating',
             'opened',
-            'planned'
+            'planned',
+            'organisation_id
         ]
 
         writer = csv.DictWriter(outcsv, fieldnames=names)
@@ -108,7 +109,7 @@ def json2csv(inname, outname):
                   ('planned', item['crm_date_planned']),
                   ('organisation_id', item['organisation_id']),
                 ])
-            except (TypeError, ValueError):
+            except TypeError:
                 print('Error: file {}, issue {}'.format(inname, item['id']))
                 raise
 
