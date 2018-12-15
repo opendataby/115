@@ -108,7 +108,7 @@ def json2csv(inname, outname):
                   ('planned', item['crm_date_planned']),
                   ('organisation_id', item['organisation_id']),
                 ])
-            except TypeError:
+            except (TypeError, ValueError):
                 print('Error: file {}, issue {}'.format(inname, item['id']))
                 raise
 
