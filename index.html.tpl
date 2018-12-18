@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<meta charset="utf-8"/>
 <style>
 body > h5 {
   margin: 0 20pt;
@@ -13,7 +15,6 @@ h5 a {
 }
 </style>
 
-<body>
 <h5>open data <a href='http://115.бел/'>115.бел</a></h5>
 <div id="files">
   <div id="source">
@@ -26,4 +27,4 @@ h5 a {
     <h5>{zip}</h5>
   </div>
 </div>
-</body>
+
