@@ -1,4 +1,4 @@
-laravel_session=eyJpdiI6Ik53NU9JYjV3T2hMeXpIaWx6aE5kamc9PSIsInZhbHVlIjoieWZUZERXeWllWHhGeG8xSncza216ZnNqRnNGeEFIT3J5U1VCSlR1OHVxWE4zanAyXC9vK1ZvNkg5Z3JjeG9NbGJvUmpYeFNWZmNWMlh6NlY2QUlJVEVBPT0iLCJtYWMiOiJmNTJmNGE2NzYzZDRkMjQ3YzBkMDY3MDEzZDk3YTI5NzRmN2Q1NjU1MWIyNTRjNGQyMGY0NTQyMmViYjdmNmFlIn0%3D; expires=Mon, 25-Sep-2017 12:43:42 GMT; Max-Age=7200; path=/; httponly
+laravel_session=eyJpdiI6IjlUOFwvdE5JZDhHb1FqbG40d0JzWTd3PT0iLCJ2YWx1ZSI6IkE0c0Z2Mm5ZK3ZuazhjbzRlaXBKdEVuZ3VESm1MNDhmTkFDM3RydTBzYndxRWNDdkpCM0FHME1QVVFySlowMTdOVjhOeXVRU1NqMlFYUGJzeDdWS0FBPT0iLCJtYWMiOiJlOTEyNjlhODc0MThmM2NlNTY4NGNlZjk5NTI2YzM1NjVjNjEzMGVmMDc3NmFhZThjZjQwMjczZjdjNGVlZDUwIn0%3D; expires=Tue, 18-Dec-2018 04:38:35 GMT; Max-Age=7200; path=/; httponly
 <!DOCTYPE html>
 <html>
   <head>
@@ -17,7 +17,7 @@ laravel_session=eyJpdiI6Ik53NU9JYjV3T2hMeXpIaWx6aE5kamc9PSIsInZhbHVlIjoieWZUZERX
     
 
     <div class="b-modal">
-      <input type="hidden" name="_token"  value="vmGHi7eWdO83rEIAO6TY65tk1ygUjOX5CFi2mImm">
+      <input type="hidden" name="_token"  value="Kat4XLd7Fwsb7t2KfohzyFIz6j7QP2EcsvWWHuzr">
       
 
       
@@ -364,6 +364,9 @@ laravel_session=eyJpdiI6Ik53NU9JYjV3T2hMeXpIaWx6aE5kamc9PSIsInZhbHVlIjoieWZUZERX
                 <div class="b-problem__itm"><span data-icon="6" data-id="6" class="b-problem__itm__text"><span class="b-problem__itm__text__ico b-svg-ico"><svg version="1.1" viewBox="0 0 25 25"><g id="Layer_2"><g><path d="M17.2,4.6l4.3,18.5h2.1L18.5,2.8H6.9L1.4,23.1h2.1L7.8,4.6h1v13.9H6v2.8h13v-2.8h-2.8V4.6H17.2z M14.4,18.5h-3.7V4.6h3.7 V18.5z"/></g></g></svg></span>Дворовые территории | Благоустройство территории</span></div>
                 <div class="b-problem__desc">
                   <ul class="b-problem__desc__list">
+                    
+
+                    <li class="b-problem__desc__list__itm"><a href="#" data-id="372" data-icon="6" data-parent="6" class="b-problem__desc__list__itm__link">Просадка люка/незакрытый люк</a></li>
                     
 
                     <li class="b-problem__desc__list__itm"><a href="#" data-id="25" data-icon="6" data-parent="6" class="b-problem__desc__list__itm__link">Брошенные автомобили</a></li>
@@ -1058,7 +1061,7 @@ laravel_session=eyJpdiI6Ik53NU9JYjV3T2hMeXpIaWx6aE5kamc9PSIsInZhbHVlIjoieWZUZERX
             <div class="b-filter-status _month js-filterMonth">
               
 
-              <div class="b-filter-status__select"><span  data-value="2017-09-25" class="b-filter-status__select__text">Сентябрь 2017</span></div>
+              <div class="b-filter-status__select"><span  data-value="2018-12-18" class="b-filter-status__select__text">Декабрь 2018</span></div>
               
 
               <div class="b-filter-status__option">
@@ -1071,10 +1074,10 @@ laravel_session=eyJpdiI6Ik53NU9JYjV3T2hMeXpIaWx6aE5kamc9PSIsInZhbHVlIjoieWZUZERX
                     <label class="l-checkbox__i">
                       
 
-                      <input type="checkbox" name="month-filter" data-prev="2017-08-31" value="2017-09-01" checked="checked" disabled>
+                      <input type="checkbox" name="month-filter" data-prev="2018-11-30" value="2018-12-01" checked="checked" disabled>
                       
 
-                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Сентябрь 2017</span></div>
+                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Декабрь 2018</span></div>
                     </label>
                   </div>
                 </div>
@@ -1085,10 +1088,10 @@ laravel_session=eyJpdiI6Ik53NU9JYjV3T2hMeXpIaWx6aE5kamc9PSIsInZhbHVlIjoieWZUZERX
                     <label class="l-checkbox__i">
                       
 
-                      <input type="checkbox" name="month-filter" data-prev="2017-07-31" value="2017-08-01">
+                      <input type="checkbox" name="month-filter" data-prev="2018-10-31" value="2018-11-01">
                       
 
-                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Август 2017</span></div>
+                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Ноябрь 2018</span></div>
                     </label>
                   </div>
                 </div>
@@ -1099,10 +1102,10 @@ laravel_session=eyJpdiI6Ik53NU9JYjV3T2hMeXpIaWx6aE5kamc9PSIsInZhbHVlIjoieWZUZERX
                     <label class="l-checkbox__i">
                       
 
-                      <input type="checkbox" name="month-filter" data-prev="2017-06-30" value="2017-07-01">
+                      <input type="checkbox" name="month-filter" data-prev="2018-09-30" value="2018-10-01">
                       
 
-                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Июль 2017</span></div>
+                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Октябрь 2018</span></div>
                     </label>
                   </div>
                 </div>
@@ -1113,10 +1116,10 @@ laravel_session=eyJpdiI6Ik53NU9JYjV3T2hMeXpIaWx6aE5kamc9PSIsInZhbHVlIjoieWZUZERX
                     <label class="l-checkbox__i">
                       
 
-                      <input type="checkbox" name="month-filter" data-prev="2017-05-31" value="2017-06-01">
+                      <input type="checkbox" name="month-filter" data-prev="2018-08-31" value="2018-09-01">
                       
 
-                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Июнь 2017</span></div>
+                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Сентябрь 2018</span></div>
                     </label>
                   </div>
                 </div>
@@ -1127,10 +1130,10 @@ laravel_session=eyJpdiI6Ik53NU9JYjV3T2hMeXpIaWx6aE5kamc9PSIsInZhbHVlIjoieWZUZERX
                     <label class="l-checkbox__i">
                       
 
-                      <input type="checkbox" name="month-filter" data-prev="2017-04-30" value="2017-05-01">
+                      <input type="checkbox" name="month-filter" data-prev="2018-07-31" value="2018-08-01">
                       
 
-                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Май 2017</span></div>
+                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Август 2018</span></div>
                     </label>
                   </div>
                 </div>
@@ -1141,10 +1144,10 @@ laravel_session=eyJpdiI6Ik53NU9JYjV3T2hMeXpIaWx6aE5kamc9PSIsInZhbHVlIjoieWZUZERX
                     <label class="l-checkbox__i">
                       
 
-                      <input type="checkbox" name="month-filter" data-prev="2017-03-31" value="2017-04-01">
+                      <input type="checkbox" name="month-filter" data-prev="2018-06-30" value="2018-07-01">
                       
 
-                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Апрель 2017</span></div>
+                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Июль 2018</span></div>
                     </label>
                   </div>
                 </div>
@@ -1155,10 +1158,10 @@ laravel_session=eyJpdiI6Ik53NU9JYjV3T2hMeXpIaWx6aE5kamc9PSIsInZhbHVlIjoieWZUZERX
                     <label class="l-checkbox__i">
                       
 
-                      <input type="checkbox" name="month-filter" data-prev="2017-02-28" value="2017-03-01">
+                      <input type="checkbox" name="month-filter" data-prev="2018-05-31" value="2018-06-01">
                       
 
-                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Март 2017</span></div>
+                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Июнь 2018</span></div>
                     </label>
                   </div>
                 </div>
@@ -1169,10 +1172,10 @@ laravel_session=eyJpdiI6Ik53NU9JYjV3T2hMeXpIaWx6aE5kamc9PSIsInZhbHVlIjoieWZUZERX
                     <label class="l-checkbox__i">
                       
 
-                      <input type="checkbox" name="month-filter" data-prev="2017-01-31" value="2017-02-01">
+                      <input type="checkbox" name="month-filter" data-prev="2018-04-30" value="2018-05-01">
                       
 
-                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Февраль 2017</span></div>
+                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Май 2018</span></div>
                     </label>
                   </div>
                 </div>
@@ -1183,10 +1186,10 @@ laravel_session=eyJpdiI6Ik53NU9JYjV3T2hMeXpIaWx6aE5kamc9PSIsInZhbHVlIjoieWZUZERX
                     <label class="l-checkbox__i">
                       
 
-                      <input type="checkbox" name="month-filter" data-prev="2016-12-31" value="2017-01-01">
+                      <input type="checkbox" name="month-filter" data-prev="2018-03-31" value="2018-04-01">
                       
 
-                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Январь 2017</span></div>
+                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Апрель 2018</span></div>
                     </label>
                   </div>
                 </div>
@@ -1197,10 +1200,10 @@ laravel_session=eyJpdiI6Ik53NU9JYjV3T2hMeXpIaWx6aE5kamc9PSIsInZhbHVlIjoieWZUZERX
                     <label class="l-checkbox__i">
                       
 
-                      <input type="checkbox" name="month-filter" data-prev="2016-11-30" value="2016-12-01">
+                      <input type="checkbox" name="month-filter" data-prev="2018-02-28" value="2018-03-01">
                       
 
-                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Декабрь 2016</span></div>
+                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Март 2018</span></div>
                     </label>
                   </div>
                 </div>
@@ -1211,10 +1214,10 @@ laravel_session=eyJpdiI6Ik53NU9JYjV3T2hMeXpIaWx6aE5kamc9PSIsInZhbHVlIjoieWZUZERX
                     <label class="l-checkbox__i">
                       
 
-                      <input type="checkbox" name="month-filter" data-prev="2016-10-31" value="2016-11-01">
+                      <input type="checkbox" name="month-filter" data-prev="2018-01-31" value="2018-02-01">
                       
 
-                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Ноябрь 2016</span></div>
+                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Февраль 2018</span></div>
                     </label>
                   </div>
                 </div>
@@ -1225,10 +1228,10 @@ laravel_session=eyJpdiI6Ik53NU9JYjV3T2hMeXpIaWx6aE5kamc9PSIsInZhbHVlIjoieWZUZERX
                     <label class="l-checkbox__i">
                       
 
-                      <input type="checkbox" name="month-filter" data-prev="2016-09-30" value="2016-10-01">
+                      <input type="checkbox" name="month-filter" data-prev="2017-12-31" value="2018-01-01">
                       
 
-                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Октябрь 2016</span></div>
+                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Январь 2018</span></div>
                     </label>
                   </div>
                 </div>
@@ -1239,10 +1242,10 @@ laravel_session=eyJpdiI6Ik53NU9JYjV3T2hMeXpIaWx6aE5kamc9PSIsInZhbHVlIjoieWZUZERX
                     <label class="l-checkbox__i">
                       
 
-                      <input type="checkbox" name="month-filter" data-prev="2016-08-31" value="2016-09-01">
+                      <input type="checkbox" name="month-filter" data-prev="2017-11-30" value="2017-12-01">
                       
 
-                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Сентябрь 2016</span></div>
+                      <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Декабрь 2017</span></div>
                     </label>
                   </div>
                 </div>
@@ -1294,8 +1297,107 @@ laravel_session=eyJpdiI6Ik53NU9JYjV3T2hMeXpIaWx6aE5kamc9PSIsInZhbHVlIjoieWZUZERX
       <div class="b-header__nav">
         <nav class="b-header-navigation">          <div class="b-header-city-select">
             <select>
+                            <option  value="80">Барановичи</option>
+                            <option  value="81">Белыничи</option>
+                            <option  value="67">Берёза</option>
+                            <option  value="101">Березино</option>
+                            <option  value="6">Берестовица</option>
+                            <option  value="94">Бешенковичи</option>
+                            <option  value="20">Бобруйск</option>
+                            <option  value="114">Борисов</option>
+                            <option  value="95">Браслав</option>
+                            <option  value="43">Брест</option>
+                            <option  value="50">Быхов</option>
+                            <option  value="96">Верхнедвинск</option>
+                            <option  value="93">Ветка</option>
+                            <option  value="52">Вилейка</option>
                             <option  value="2">Витебск</option>
+                            <option  value="10">Волковыск</option>
+                            <option  value="99">Воложин</option>
+                            <option  value="7">Вороново</option>
+                            <option  value="89">Ганцевичи</option>
+                            <option  value="97">Глубокое</option>
+                            <option  value="42">Глуск</option>
+                            <option  value="18">Гомель</option>
+                            <option  value="75">Горки</option>
+                            <option  value="98">Городок</option>
+                            <option  value="24">Гродно</option>
+                            <option  value="85">Дзержинск</option>
+                            <option  value="91">Добруш</option>
+                            <option  value="102">Докшицы</option>
+                            <option  value="76">Дрибин</option>
+                            <option  value="65">Дрогичин</option>
+                            <option  value="103">Дубровно</option>
+                            <option  value="16">Дятлово</option>
+                            <option  value="62">Жабинка</option>
+                            <option  value="14">Жлобин</option>
+                            <option  value="51">Жодино</option>
+                            <option  value="8">Зельва</option>
+                            <option  value="66">Иваново</option>
+                            <option  value="86">Ивацевичи</option>
+                            <option  value="25">Ивье</option>
+                            <option  value="39">Калинковичи</option>
+                            <option  value="61">Каменец</option>
+                            <option  value="49">Кировск</option>
+                            <option  value="72">Клецк</option>
+                            <option  value="35">Климовичи</option>
+                            <option  value="26">Кличев</option>
+                            <option  value="64">Кобрин</option>
+                            <option  value="70">Копыль</option>
+                            <option  value="5">Кореличи</option>
+                            <option  value="92">Корма</option>
+                            <option  value="33">Костюковичи</option>
+                            <option  value="37">Краснополье</option>
+                            <option  value="3">Кричев</option>
+                            <option  value="82">Круглое</option>
+                            <option  value="54">Крупки</option>
+                            <option  value="22">Лида</option>
+                            <option  value="105">Лиозно</option>
+                            <option  value="55">Логойск</option>
+                            <option  value="83">Лунинец</option>
+                            <option  value="69">Любань</option>
+                            <option  value="88">Ляховичи</option>
+                            <option  value="63">Малорита</option>
+                            <option  value="57">Марьина Горка</option>
                             <option  selected=selected  value="1">Минск</option>
+                            <option  value="106">Миоры</option>
+                            <option  value="44">Молодечно</option>
+                            <option  value="19">Мосты</option>
+                            <option  value="45">Мстиславль</option>
+                            <option  value="53">Мядель</option>
+                            <option  value="40">Наровля</option>
+                            <option  value="71">Несвиж</option>
+                            <option  value="17">Новогрудок</option>
+                            <option  value="110">Новополоцк</option>
+                            <option  value="107">Орша</option>
+                            <option  value="78">Осиповичи</option>
+                            <option  value="23">Островец</option>
+                            <option  value="12">Ошмяны</option>
+                            <option  value="79">Пинск</option>
+                            <option  value="108">Полоцк</option>
+                            <option  value="109">Поставы</option>
+                            <option  value="59">Пружаны</option>
+                            <option  value="56">Пуховичи</option>
+                            <option  value="15">Рогачев</option>
+                            <option  value="21">Свислочь</option>
+                            <option  value="48">Славгород</option>
+                            <option  value="13">Слоним</option>
+                            <option  value="34">Слуцк</option>
+                            <option  value="58">Смолевичи</option>
+                            <option  value="11">Сморгонь</option>
+                            <option  value="4">Солигорск</option>
+                            <option  value="68">Старые Дороги</option>
+                            <option  value="73">Столбцы</option>
+                            <option  value="84">Столин</option>
+                            <option  value="74">Узда</option>
+                            <option  value="41">Хойники</option>
+                            <option  value="38">Хотимск</option>
+                            <option  value="46">Чаусы</option>
+                            <option  value="100">Червень</option>
+                            <option  value="47">Чериков</option>
+                            <option  value="90">Чечерск</option>
+                            <option  value="77">Шклов</option>
+                            <option  value="9">Щучин</option>
                           </select>
           </div>          
 
@@ -1364,7 +1466,7 @@ laravel_session=eyJpdiI6Ik53NU9JYjV3T2hMeXpIaWx6aE5kamc9PSIsInZhbHVlIjoieWZUZERX
               </p>
             </div>
             <div  class="b-header-main__box _login _hiden ">
-              <p class="b-login"><span class="b-login__person"><span class="login__person__text">Рады Вас видеть, </span>
+              <p class="b-login"><span class="b-login__person"><span class="login__person__text">Спасибо Вам, </span>
                   
 <a href="" class="b-login__person__link"></a>
                   
@@ -1410,7 +1512,7 @@ laravel_session=eyJpdiI6Ik53NU9JYjV3T2hMeXpIaWx6aE5kamc9PSIsInZhbHVlIjoieWZUZERX
       <div class="b-filter-status _month js-filterMonth">
         
 
-        <div class="b-filter-status__select"><span  data-value="2017-09-25" class="b-filter-status__select__text">Сентябрь 2017</span></div>
+        <div class="b-filter-status__select"><span  data-value="2018-12-18" class="b-filter-status__select__text">Декабрь 2018</span></div>
         
 
         <div class="b-filter-status__option">
@@ -1423,10 +1525,10 @@ laravel_session=eyJpdiI6Ik53NU9JYjV3T2hMeXpIaWx6aE5kamc9PSIsInZhbHVlIjoieWZUZERX
               <label class="l-checkbox__i">
                 
 
-                <input type="checkbox" name="month-filter" value="2017-09-01" checked="checked" disabled="disabled"/>
+                <input type="checkbox" name="month-filter" value="2018-12-01" checked="checked" disabled="disabled"/>
                 
 
-                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Сентябрь 2017</span></div>
+                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Декабрь 2018</span></div>
               </label>
             </div>
           </div>
@@ -1437,10 +1539,10 @@ laravel_session=eyJpdiI6Ik53NU9JYjV3T2hMeXpIaWx6aE5kamc9PSIsInZhbHVlIjoieWZUZERX
               <label class="l-checkbox__i">
                 
 
-                <input type="checkbox" name="month-filter" value="2017-08-01"/>
+                <input type="checkbox" name="month-filter" value="2018-11-01"/>
                 
 
-                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Август 2017</span></div>
+                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Ноябрь 2018</span></div>
               </label>
             </div>
           </div>
@@ -1451,10 +1553,10 @@ laravel_session=eyJpdiI6Ik53NU9JYjV3T2hMeXpIaWx6aE5kamc9PSIsInZhbHVlIjoieWZUZERX
               <label class="l-checkbox__i">
                 
 
-                <input type="checkbox" name="month-filter" value="2017-07-01"/>
+                <input type="checkbox" name="month-filter" value="2018-10-01"/>
                 
 
-                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Июль 2017</span></div>
+                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Октябрь 2018</span></div>
               </label>
             </div>
           </div>
@@ -1465,10 +1567,10 @@ laravel_session=eyJpdiI6Ik53NU9JYjV3T2hMeXpIaWx6aE5kamc9PSIsInZhbHVlIjoieWZUZERX
               <label class="l-checkbox__i">
                 
 
-                <input type="checkbox" name="month-filter" value="2017-06-01"/>
+                <input type="checkbox" name="month-filter" value="2018-09-01"/>
                 
 
-                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Июнь 2017</span></div>
+                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Сентябрь 2018</span></div>
               </label>
             </div>
           </div>
@@ -1479,10 +1581,10 @@ laravel_session=eyJpdiI6Ik53NU9JYjV3T2hMeXpIaWx6aE5kamc9PSIsInZhbHVlIjoieWZUZERX
               <label class="l-checkbox__i">
                 
 
-                <input type="checkbox" name="month-filter" value="2017-05-01"/>
+                <input type="checkbox" name="month-filter" value="2018-08-01"/>
                 
 
-                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Май 2017</span></div>
+                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Август 2018</span></div>
               </label>
             </div>
           </div>
@@ -1493,10 +1595,10 @@ laravel_session=eyJpdiI6Ik53NU9JYjV3T2hMeXpIaWx6aE5kamc9PSIsInZhbHVlIjoieWZUZERX
               <label class="l-checkbox__i">
                 
 
-                <input type="checkbox" name="month-filter" value="2017-04-01"/>
+                <input type="checkbox" name="month-filter" value="2018-07-01"/>
                 
 
-                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Апрель 2017</span></div>
+                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Июль 2018</span></div>
               </label>
             </div>
           </div>
@@ -1507,10 +1609,10 @@ laravel_session=eyJpdiI6Ik53NU9JYjV3T2hMeXpIaWx6aE5kamc9PSIsInZhbHVlIjoieWZUZERX
               <label class="l-checkbox__i">
                 
 
-                <input type="checkbox" name="month-filter" value="2017-03-01"/>
+                <input type="checkbox" name="month-filter" value="2018-06-01"/>
                 
 
-                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Март 2017</span></div>
+                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Июнь 2018</span></div>
               </label>
             </div>
           </div>
@@ -1521,10 +1623,10 @@ laravel_session=eyJpdiI6Ik53NU9JYjV3T2hMeXpIaWx6aE5kamc9PSIsInZhbHVlIjoieWZUZERX
               <label class="l-checkbox__i">
                 
 
-                <input type="checkbox" name="month-filter" value="2017-02-01"/>
+                <input type="checkbox" name="month-filter" value="2018-05-01"/>
                 
 
-                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Февраль 2017</span></div>
+                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Май 2018</span></div>
               </label>
             </div>
           </div>
@@ -1535,10 +1637,10 @@ laravel_session=eyJpdiI6Ik53NU9JYjV3T2hMeXpIaWx6aE5kamc9PSIsInZhbHVlIjoieWZUZERX
               <label class="l-checkbox__i">
                 
 
-                <input type="checkbox" name="month-filter" value="2017-01-01"/>
+                <input type="checkbox" name="month-filter" value="2018-04-01"/>
                 
 
-                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Январь 2017</span></div>
+                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Апрель 2018</span></div>
               </label>
             </div>
           </div>
@@ -1549,10 +1651,10 @@ laravel_session=eyJpdiI6Ik53NU9JYjV3T2hMeXpIaWx6aE5kamc9PSIsInZhbHVlIjoieWZUZERX
               <label class="l-checkbox__i">
                 
 
-                <input type="checkbox" name="month-filter" value="2016-12-01"/>
+                <input type="checkbox" name="month-filter" value="2018-03-01"/>
                 
 
-                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Декабрь 2016</span></div>
+                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Март 2018</span></div>
               </label>
             </div>
           </div>
@@ -1563,10 +1665,10 @@ laravel_session=eyJpdiI6Ik53NU9JYjV3T2hMeXpIaWx6aE5kamc9PSIsInZhbHVlIjoieWZUZERX
               <label class="l-checkbox__i">
                 
 
-                <input type="checkbox" name="month-filter" value="2016-11-01"/>
+                <input type="checkbox" name="month-filter" value="2018-02-01"/>
                 
 
-                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Ноябрь 2016</span></div>
+                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Февраль 2018</span></div>
               </label>
             </div>
           </div>
@@ -1577,10 +1679,10 @@ laravel_session=eyJpdiI6Ik53NU9JYjV3T2hMeXpIaWx6aE5kamc9PSIsInZhbHVlIjoieWZUZERX
               <label class="l-checkbox__i">
                 
 
-                <input type="checkbox" name="month-filter" value="2016-10-01"/>
+                <input type="checkbox" name="month-filter" value="2018-01-01"/>
                 
 
-                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Октябрь 2016</span></div>
+                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Январь 2018</span></div>
               </label>
             </div>
           </div>
@@ -1591,10 +1693,10 @@ laravel_session=eyJpdiI6Ik53NU9JYjV3T2hMeXpIaWx6aE5kamc9PSIsInZhbHVlIjoieWZUZERX
               <label class="l-checkbox__i">
                 
 
-                <input type="checkbox" name="month-filter" value="2016-09-01"/>
+                <input type="checkbox" name="month-filter" value="2017-12-01"/>
                 
 
-                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Сентябрь 2016</span></div>
+                <div class="l-checkbox__i__main"><span class="l-checkbox__i__main__checked"></span><span class="l-checkbox__i__main__text">Декабрь 2017</span></div>
               </label>
             </div>
           </div>
