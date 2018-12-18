@@ -1,12 +1,13 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import os
+
 
 def build_all_csv():
     """ Build one file with all data """
     alldataname = 'opendata-115-all.csv'
     with open(alldataname, 'wb') as acf:
-        head = False  # write CSV header from the first file processed
+        head = False  # if CSV header from the first file is written
         for f in sorted(os.listdir('.')):
             if f.endswith('.csv') and f.startswith('opendata-115-2'):
                 with open(f, 'rb') as scf:
@@ -20,6 +21,6 @@ def build_all_csv():
                         acf.write(line)
     print('saved {}'.format(alldataname))
 
+
 if __name__ == '__main__':
     build_all_csv()
-
