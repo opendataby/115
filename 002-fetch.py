@@ -41,9 +41,9 @@ if __name__ == '__main__':
         if os.path.exists(filename):
             print('skipping {}'.format(filename))
             continue
+        print('saving %s' % filename, flush=True)
         with open(filename, 'w', encoding='utf-8') as fw:
             data = get_month_data(month, cookie, token)
             # parse, ident json data and save to string
             data = indent(data)
             fw.write(data)
-            print('saved %s' % filename)
