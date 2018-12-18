@@ -27,7 +27,7 @@ def get_month_data(month, cookie, token):
     opener = FancyURLopener()
     opener.addheader('Cookie', cookie)
     stream = opener.open(APIURL, params)
-    return stream.read()
+    return stream.read().decode('utf-8')
 
 
 if __name__ == '__main__':
