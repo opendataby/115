@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """
 Build index.html with the list of files
 """
@@ -21,12 +21,12 @@ if __name__ == '__main__':
             appendto = 'zip'
         fields[appendto] += '<div><a href={0}>{0}</a></div>\n'.format(f)
 
-    with open('index.html.tpl', 'rb') as template:
+    with open('index.html.tpl', encoding='utf-8') as template:
         html = template.read()
         for field in fields.keys():
             html = html.replace('{'+field+'}', fields[field])
-        
-        with open('index.html', 'wb') as out:
+
+        with open('index.html', 'w', encoding='utf-8') as out:
             out.write(html)
 
         print('saved index.html')
