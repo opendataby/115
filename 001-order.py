@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Инструментарий по скрейпингу/парсингу на примере 115.бел
@@ -12,7 +12,7 @@ https://github.com/opendataby/city-dashboard/issues/53
 import os
 import re
 import sys
-import urllib
+from urllib.request import urlopen
 
 
 # http://115.бел/map
@@ -20,9 +20,10 @@ URL = 'http://115.xn--90ais/map'
 
 
 def rewrite(filename, content):
-    with open(filename, 'wb') as fd:
+    with open(filename, 'w', encoding='utf-8') as fd:
         fd.write(content)
         print('saved %s' % fd.name)
+
 
 def get_page(url, cachefile, force=False):
     """
@@ -30,15 +31,15 @@ def get_page(url, cachefile, force=False):
     """
     if os.path.exists(cachefile) and not force:
         print('using cached ' + cachefile + ' (-f to force update)')
-        with open(cachefile, 'rb') as fc:
+        with open(cachefile, encoding='utf-8') as fc:
             cookie = fc.readline().strip()
             return fc.read(), cookie
     else:
-        req = urllib.urlopen(url)
+        req = urlopen(url)
         for line in str(req.headers).splitlines():
             if line.startswith('Set-Cookie'):
                 cookie = line.split(': ', 1)[1]
-        output = req.read()
+        output = req.read().decode('utf-8')
         rewrite(cachefile, cookie+'\n'+output)
         return output, cookie
 

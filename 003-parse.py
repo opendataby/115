@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 https://github.com/opendataby/city-dashboard/issues/53
@@ -39,7 +39,8 @@ Example:
 
 Possible status values:
 
-    > findstr "status" *.json | cut -d":" -f 2,3,4 | "C:\Program Files\Dev\Git\usr\bin\sort.exe" -u
+    > findstr "status" *.json | cut -d":" -f 2,3,4 | "C:\\Program \
+Files\\Dev\\Git\\usr\\bin\\sort.exe" -u
 
         "status": "1",
         "status": "3",
@@ -65,8 +66,8 @@ def fields(ob):
 
 
 def json2csv(inname, outname):
-    data = json.load(open(inname, 'r'))
-    with open(outname, 'wb') as outcsv:
+    data = json.load(open(inname, encoding='utf-8'))
+    with open(outname, 'w', encoding='utf-8') as outcsv:
         #outcsv.write('# https://github.com/opendataby/city-dashboard/issues/53\n')
         #outcsv.write('# \n')
 
@@ -93,14 +94,14 @@ def json2csv(inname, outname):
             #fields(item['category'])
             created = item['date_create'].split()[2]  # "1 апреля 0:16"
             authorid = item['user']['id'] if item['user'] else 0
-            name = item['user']['name'].encode('utf-8').strip() if item['user'] else ''
+            name = item['user']['name'].strip() if item['user'] else ''
             try:
                 entry = odict([
                   ('id', item['id']),
                   ('category', '{parent_id}.{id}'.format(**item['category'])),
                   ('author', authorid),
                   ('name', name),
-                  ('address', item['address'].encode('utf-8').strip()),
+                  ('address', item['address'].strip()),
                   ('lat', item['lat']),
                   ('lng', item['lng']),
                   ('status', item['status']),
