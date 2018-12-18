@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Читаем сессию, токен, список месяцев, и тащим страницы
@@ -7,7 +7,7 @@
 
 import json
 import os
-import urllib
+from urllib.request import FancyURLopener
 
 APIURL = 'http://115.xn--90ais/api/problem/getlist'
 
@@ -21,16 +21,17 @@ def indent(jsondata):
         raise
     return json.dumps(data, indent=4, sort_keys=True, ensure_ascii=False)
 
+
 def get_month_data(month, cookie, token):
     params = 'date={}&_token={}'.format(month, token)
-    opener = urllib.FancyURLopener()
+    opener = FancyURLopener()
     opener.addheader('Cookie', cookie)
     stream = opener.open(APIURL, params)
     return stream.read()
 
 
 if __name__ == '__main__':
-    with open('002-in-creds.txt', 'rb') as fd:
+    with open('002-in-creds.txt', encoding='utf-8') as fd:
         cookie = fd.readline().strip()
         token = fd.readline().strip()
         months = fd.read().strip().split('\n')
@@ -40,9 +41,9 @@ if __name__ == '__main__':
         if os.path.exists(filename):
             print('skipping {}'.format(filename))
             continue
-        with open(filename, 'wb') as fw:
+        with open(filename, 'w', encoding='utf-8') as fw:
             data = get_month_data(month, cookie, token)
             # parse, ident json data and save to string
             data = indent(data)
-            fw.write(data.encode('utf-8'))
+            fw.write(data)
             print('saved %s' % filename)
