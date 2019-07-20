@@ -1,9 +1,10 @@
-Софт для получения открытых данных из проекта
-http://115.бел от граждан для граждан. Присоединиться:
+Открытые данные и парсер проекта http://115.бел
 
 * telegram: https://t.me/Minsk_115
 
-Софт является [общественным достоянием](https://github.com/opendataby/115/blob/gh-pages/UNLICENSE).
+Public domain.
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b8c6ae59-80d1-40b0-8eae-ec91e82068af/deploy-status)](https://app.netlify.com/sites/115/deploys)
 
 ### Данные
 
