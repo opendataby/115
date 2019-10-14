@@ -1,3 +1,8 @@
+#!/bin/bash
+
+set -e  # fail on error
+set -x  # print commands that are executed
+
 python3 001-order.py -f
 python3 002-fetch.py
 python3 003-parse.py
