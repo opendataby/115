@@ -15,8 +15,8 @@ import sys
 from urllib.request import urlopen
 
 
-# http://115.бел/map
-URL = 'http://115.xn--90ais/map'
+# https://115.бел/map
+URL = 'https://115.xn--90ais/map'
 
 
 def rewrite(filename, content):
